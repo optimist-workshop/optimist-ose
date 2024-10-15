@@ -17,7 +17,7 @@ In the first meeting, we address standard APIs and interoperability issues for t
 | 11:35 | **Invited Talk:**  Aurelien Vasselle, <span style="color:#011673;font-weight:bold;">Open API for Trace Data Format</span> |
 | 11:45 | Discussion and Next Steps |
 
- ## Meeting Location
+## Meeting Location
 Optimist Hours will all occur online.
 Zoom Link: TBA
 
