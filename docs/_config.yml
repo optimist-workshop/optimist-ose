@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Minimal theme
-logo: /assets/img/logo.png
+logo: /assets/img/Logo_NSF_Before.jpeg
 nsflogo: /assets/img/nsf.png
 description: Minimal is a theme for GitHub Pages.
 show_downloads: true
