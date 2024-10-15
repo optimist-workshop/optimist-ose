@@ -21,8 +21,10 @@ In the first meeting, we address standard APIs and interoperability issues for t
 Optimist Hours will all occur online.
 Zoom Link: TBA
 
+## Web Resource
+We recommend joining the [Optimist OSE web resource](https://discourse.optimist-ose.org) to keep up to date with the Optimist OSE. Here we will post announcements as well as additional materials like indexes of open source projects that we believe will be helpfull to the community. 
 
-## Future Meetings
+## Scheduled Meetings
 
 * October 24, 11 AM EST (3 PM GMT) – Topic: Trace Data Formats
 * January 25, 11 AM EST (3 PM GMT) – Topic: Capture Interface for Side-channel Leakage
