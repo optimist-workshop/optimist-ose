@@ -11,18 +11,18 @@ In the first meeting, we address standard APIs and interoperability issues for t
 | Time (EST)|     |
 | ---   | :---: |
 | 11:00  | Introduction on Objectives |
-| 11:05  | Dev Mehta, <span style="color:#011673;font-weight:bold;">Challenges with using open source SCL databases</span> |
-| 11:15 | **Invited Talk:** Riscure, <span style="color:#011673;font-weight:bold;">Standard API for Trace Data Formats</span> |
-| 11:25 | **Invited Talk:** Vincent Immler, <span style="color:#011673;font-weight:bold;">Efficient Trace Storage</span> |
-| 11:35 | **Invited Talk:**  Aurelien Vasselle, <span style="color:#011673;font-weight:bold;">Open API for Trace Data Format</span> |
+| 11:05  | Dev Mehta (WPI), <span style="color:#011673;font-weight:bold;">Challenges with using open source SCL databases</span> |
+| 11:15 | **Invited Talk:** Marc Witteman (Riscure), <span style="color:#011673;font-weight:bold;">Standard API for Trace Data Formats</span> |
+| 11:25 | **Invited Talk:** Vincent Immler (OSU), <span style="color:#011673;font-weight:bold;">Efficient Trace Storage</span> |
+| 11:35 | **Invited Talk:**  Aurelien Vasselle (eShard), <span style="color:#011673;font-weight:bold;">Open API for Trace Data Format</span> |
 | 11:45 | Discussion and Next Steps |
 
 ## Meeting Location
 Optimist Hours will all occur online.
 Zoom Link: TBA
 
-## Web Resource
-We recommend joining the [Optimist OSE web resource](https://discourse.optimist-ose.org) to keep up to date with the Optimist OSE. Here we will post announcements as well as additional materials like indexes of open source projects that we believe will be helpfull to the community. 
+## Web Resource (Discourse)
+We recommend joining the [Optimist OSE Discourse](https://discourse.optimist-ose.org) to keep up to date with the Optimist OSE. Here we will post announcements as well as additional materials like indexes of open source projects that we believe will be helpfull to the community. 
 
 ## Scheduled Meetings
 
