@@ -14,7 +14,7 @@ In the first meeting, we address standard APIs and interoperability issues for t
 | 11:05  | Dev Mehta (WPI), <span style="color:#011673;font-weight:bold;">Challenges with using open source SCL databases</span> [[Slides](challenges_dataset.pdf)] |
 | 11:15 | **Invited Talk:** Marc Witteman (Riscure), <span style="color:#011673;font-weight:bold;">Standard API for Trace Data Formats</span> [[Slides](marc_witteman_riscure_slides_optimist_hour_1.pdf)] |
 | 11:25 | **Invited Talk:** Vincent Immler (OSU), <span style="color:#011673;font-weight:bold;">Efficient Trace Storage</span> [[Slides](optimist_hour1_10min_slides_vincent_immler.pdf)] |
-| 11:35 | **Invited Talk:**  Aurelien Vasselle (eShard), <span style="color:#011673;font-weight:bold;">Open API for Trace Data Format</span> |
+| 11:35 | **Invited Talk:**  Aurelien Vasselle (eShard), <span style="color:#011673;font-weight:bold;">Open API for Trace Data Format</span> [[Slides](aurelien_vaselle_eshard_slides_optimist_hour_1.pdf)] | 
 | 11:45 | Discussion and Next Steps |
 
 ## Meeting Location
