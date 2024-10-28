@@ -19,7 +19,7 @@ In the first meeting, we address standard APIs and interoperability issues for t
 
 ## Meeting Location
 Optimist Hours will all occur online.
-Zoom Link: https://wpi.zoom.us/j/93838099391
+Zoom Link: [https://wpi.zoom.us/j/93838099391](https://wpi.zoom.us/j/93838099391)
 
 ## Web Resource (Discourse)
 We recommend joining the [Optimist OSE Discourse](https://discourse.optimist-ose.org) to keep up to date with the Optimist OSE. Here we will post announcements as well as additional materials like indexes of open source projects that we believe will be helpfull to the community. 
