@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Working Group
+permalink: /working-group/
 ---
 
 ## OPTIMIST HOUR: File Working Group
