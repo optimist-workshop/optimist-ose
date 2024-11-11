@@ -1,39 +1,24 @@
 ---
 layout: default
+title: Working Group
+permalink: /working-group/
 ---
 
-## OPTIMIST HOUR October 24: Trace Data Formats
+## OPTIMIST HOUR: File Working Group
 
-In the first meeting, we address standard APIs and interoperability issues for trace data formats of side-channel data and other real-time measurements of implementation security. We will host several invited speakers and have a discussion session. Our objective for this hour is to gather the community input and interest in the definition of a common API for Trace Data Formats. 
+The Optimist Hour: File Working Group meetings will be a place where citizens will be able to discuss, share, and debate on ideas to address standard APIs and interoperability issues for trace data formats of side-channel data and other real-time measurements of implementation security. These meetings will be chaired by a member of the Optimist Team and the primary discussion points will be compiled and shared within the Optimist OSE.
 
-## Tentative Program
+These meetings will address three main points brought up during the previous Optimist Hour meeting including, trace format requirements, keywords, and common apis. Over the course of three meeting the goal will be to produce a document that compiles requirements, common keywords and potential api solutions for trace data formats. 
 
-| Time (EST)|     |
-| ---   | :---: |
-| 11:00  | Introduction on Objectives |
-| 11:05  | Dev Mehta (WPI), <span style="color:#011673;font-weight:bold;">Challenges with using open source SCL databases</span> [[Slides](challenges_dataset.pdf)] |
-| 11:15 | **Invited Talk:** Marc Witteman (Riscure), <span style="color:#011673;font-weight:bold;">Standard API for Trace Data Formats</span> [[Slides](marc_witteman_riscure_slides_optimist_hour_1.pdf)] |
-| 11:25 | **Invited Talk:** Vincent Immler (OSU), <span style="color:#011673;font-weight:bold;">Efficient Trace Storage</span> [[Slides](optimist_hour1_10min_slides_vincent_immler.pdf)] |
-| 11:35 | **Invited Talk:**  Aurelien Vasselle (eShard), <span style="color:#011673;font-weight:bold;">Open API for Trace Data Format</span> [[Slides](aurelien_vaselle_eshard_slides_optimist_hour_1.pdf)] | 
-| 11:45 | Discussion and Next Steps |
+## Tentative Meeting Times
+
+* Thursday November 14th, 2024  @11am (3 PM GMT)
+* Wednesday November 27th, 2024 @11am (3 PM GMT)
+* Thursday December 19th, 2024 @11am (3 PM GMT)
+
+## How To Join
+
+To participate, first join the [Optimist OSE Discourse](https://discourse.optimist-ose.org). Then either DM Trey_Marcantonio on Discourse or email Trey at tmmarcantonio@wpi.edu with an expression of your interest and your avaliability, it is perferable to be able to attend all meetings, however, it is not a requirement. While we hope everyone interested can participate, the Optimist team may need to limit the number of participants to help foster effective communication.
 
 ## Meeting Location
-Optimist Hours will all occur online.
-Zoom Link: [https://wpi.zoom.us/j/93838099391](https://wpi.zoom.us/j/93838099391)
-
-## Web Resource (Discourse)
-We recommend joining the [Optimist OSE Discourse](https://discourse.optimist-ose.org) to keep up to date with the Optimist OSE. Here we will post announcements as well as additional materials like indexes of open source projects that we believe will be helpfull to the community. 
-
-## Scheduled Meetings
-
-* October 24, 11 AM EST (3 PM GMT) – Topic: Trace Data Formats
-* January 25, 11 AM EST (3 PM GMT) – Topic: Capture Interface for Side-channel Leakage
-* April 25, 11 AM EST (3 PM GMT) – Topic: Firmware Interface for Target Control
-
-## Organizers
-
-* Aydin Aysu, North Carolina State University
-* Fatemeh Ganji, Worcester Polytechnic Institute
-* Patrick Schaumont, Worcester Polytechnic Institute
-* Trey Marcantonio, Worcester Polytechnic Institute
-
+Optimist Hours will all occur online. The zoom link will be distributed to participants before the meeting. 
