@@ -10,9 +10,9 @@ These meetings will address three main points brought up during the previous Opt
 
 ## Tentative Meeting Times
 
-* Thursday November 14th, 2024  @11am (3 PM GMT)
-* Wednesday November 27th, 2024 @11am (3 PM GMT)
-* Thursday December 19th, 2024 @11am (3 PM GMT)
+* Thursday November 14th, 2024 (3 PM GMT)
+* Wednesday November 27th, 2024 (3 PM GMT)
+* Thursday December 19th, 2024 (3 PM GMT)
 
 ## How To Join
 
