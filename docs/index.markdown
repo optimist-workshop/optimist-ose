@@ -20,3 +20,4 @@ To participate, first join the [Optimist OSE Discourse](https://discourse.optimi
 
 ## Meeting Location
 Optimist Hours will all occur online. The zoom link will be distributed to participants before the meeting. 
+Zoom Link: [https://wpi.zoom.us/j/6723323497?omn=92853739225](https://wpi.zoom.us/j/6723323497?omn=92853739225)
