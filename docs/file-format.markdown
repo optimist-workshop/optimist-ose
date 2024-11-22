@@ -37,6 +37,7 @@ Below is a list of frameworks that currently exist and the underlying file forma
 
 **Relevant Papers/Resources**
 Below is a list of papers published across varying mediums alongside varying resources that may be of some interest to those trying to develop or standardize a file format/framework for future use. If you know of a relevant paper please add it to the list below. File formats or frameworks should be added to their relevant lists as opposed to this one.
+
 | Paper Title/Resource                                                                                       | Link                                                            | Relevance                                                                                                                                                           |
 |------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Optimization of Pearson correlation coefficient calculation for DPA and comparison of different approaches | https://ieeexplore.ieee.org/document/7934563?signout=success    | Reviews optimisation methods for metrics/attacks and how they can relate to memory.                                                                                 |
