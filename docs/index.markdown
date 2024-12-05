@@ -21,5 +21,5 @@ These meetings will address three main points brought up during the previous Opt
 To participate, first join the [Optimist OSE Discourse](https://discourse.optimist-ose.org). Then either DM Trey_Marcantonio on Discourse or email Trey at tmmarcantonio@wpi.edu with an expression of your interest and your avaliability, it is perferable to be able to attend all meetings, however, it is not a requirement. While we hope everyone interested can participate, the Optimist team may need to limit the number of participants to help foster effective communication.
 
 ## Meeting Location
-Optimist Hours will all occur online. The zoom link will be distributed to participants before the meeting. 
+Optimist Hours will all occur online.
 Zoom Link: [https://wpi.zoom.us/j/6723323497?omn=92853739225](https://wpi.zoom.us/j/6723323497?omn=92853739225)
