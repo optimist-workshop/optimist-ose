@@ -10,7 +10,7 @@ These meetings will address three main points brought up during the previous Opt
 
 ## Tentative Meeting Times
 
-* Thursday October 24th, 2024 (Original Meeting) [[Slides](trace-data-format-1.pdf)]
+* Thursday October 24th, 2024 (General Meeting) [[Slides](trace-data-format-1.pdf)]
 * Thursday November 14th, 2024 (3 PM GMT) [[Slides](trace-data-format-2.pdf)]
 * Thursday December 5th, 2024 (3 PM GMT) [[Slides](trace-data-format-3.pdf)]
 * **Thursday December 19th, 2024 (3 PM GMT)**
