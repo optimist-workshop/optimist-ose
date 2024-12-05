@@ -3,7 +3,6 @@ layout: default
 ---
 
 ## OPTIMIST HOUR: File Working Group
-**Please Note, the Wednesday November 27th meeting has been changed to Thursday December 5th.**
 
 The Optimist Hour: File Working Group meetings will be a place where citizens will be able to discuss, share, and debate on ideas to address standard APIs and interoperability issues for trace data formats of side-channel data and other real-time measurements of implementation security. These meetings will be chaired by a member of the Optimist Team and the primary discussion points will be compiled and shared within the Optimist OSE.
 
@@ -11,9 +10,11 @@ These meetings will address three main points brought up during the previous Opt
 
 ## Tentative Meeting Times
 
-* Thursday November 14th, 2024 (3 PM GMT)
-* **Thursday December 5th, 2024 (3 PM GMT)**
-* Thursday December 19th, 2024 (3 PM GMT)
+* Thursday October 24th, 2024 (Original Meeting) [[Slides](trace-data-format-1.pdf)]
+* Thursday November 14th, 2024 (3 PM GMT) [[Slides](trace-data-format-2.pdf)]
+* Thursday December 5th, 2024 (3 PM GMT) [[Slides](trace-data-format-3.pdf)]
+* **Thursday December 19th, 2024 (3 PM GMT)**
+
 
 ## How To Join
 
