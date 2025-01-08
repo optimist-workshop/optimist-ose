@@ -27,7 +27,7 @@ We recommend joining the [Optimist OSE Discourse](https://discourse.optimist-ose
 ## Scheduled Meetings
 
 * October 24, 11 AM EST (3 PM GMT) – Topic: Trace Data Formats
-* January 25, 11 AM EST (3 PM GMT) – Topic: Capture Interface for Side-channel Leakage
+* January 23, 11 AM EST (3 PM GMT) – Topic: Capture Interface for Side-channel Leakage
 * April 25, 11 AM EST (3 PM GMT) – Topic: Firmware Interface for Target Control
 
 ## Organizers
