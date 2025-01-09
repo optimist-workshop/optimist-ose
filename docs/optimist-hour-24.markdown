@@ -6,7 +6,7 @@ layout: default
 
 We address standard APIs and interoperability issues for trace data formats of side-channel data and other real-time measurements of implementation security. We will host several invited speakers and have a discussion session. Our objective for this hour is to gather the community input and interest in the definition of a common API for Trace Data Formats. 
 
-**Current version: [[File Format for Traces v0.5 (1/9/2025)](ffft05.pdf)]**
+**Current version: [[File Format for Traces v0.5 (1/6/2025)](ffft05.pdf)]**
 
 ## Tentative Program
 
