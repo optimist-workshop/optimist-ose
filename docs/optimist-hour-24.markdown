@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## File Format for Traces
+# File Format for Traces
 
 We address standard APIs and interoperability issues for trace data formats of side-channel data and other real-time measurements of implementation security. We will host several invited speakers and have a discussion session. Our objective for this hour is to gather the community input and interest in the definition of a common API for Trace Data Formats. 
 

@@ -3,6 +3,8 @@ layout: default
 title: File Format
 ---
 
+# File Format Index
+
 **Existing File Formats**
 
 Below is a list of file formats relevant to trace storage. Numpy, TRS, SQLite, HDF5 and Zarr have been utilized in the community previously while Avro, Apache ORC and Parquet are all used in big data, but applications to SCA have not been explored.

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## OPTIMIST HOUR
+# OPTIMIST HOUR
 
 The Optimist Hour meetings will be a place where citizens will be able
 to discuss, share, and debate on ideas to address standard APIs and
