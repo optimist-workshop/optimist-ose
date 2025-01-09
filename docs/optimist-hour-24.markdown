@@ -2,9 +2,11 @@
 layout: default
 ---
 
-## OPTIMIST HOUR October 24: File Format for Traces
+## File Format for Traces
 
-In the first meeting, we address standard APIs and interoperability issues for trace data formats of side-channel data and other real-time measurements of implementation security. We will host several invited speakers and have a discussion session. Our objective for this hour is to gather the community input and interest in the definition of a common API for Trace Data Formats. 
+We address standard APIs and interoperability issues for trace data formats of side-channel data and other real-time measurements of implementation security. We will host several invited speakers and have a discussion session. Our objective for this hour is to gather the community input and interest in the definition of a common API for Trace Data Formats. 
+
+**Current version: [[File Format for Trace v0.5 (1/9/2025)](ffft05.pdf)]**
 
 ## Tentative Program
 
@@ -24,7 +26,7 @@ Zoom Link: [https://wpi.zoom.us/j/93838099391](https://wpi.zoom.us/j/93838099391
 ## Web Resource (Discourse)
 We recommend joining the [Optimist OSE Discourse](https://discourse.optimist-ose.org) to keep up to date with the Optimist OSE. Here we will post announcements as well as additional materials like indexes of open source projects that we believe will be helpfull to the community. 
 
-## Tentative Meeting Times for follow up meetings
+## Follow up meetings
 
 * Thursday November 14th, 2024  (3 PM GMT) [[Slides](trace-data-format-1.pdf)]
 * Thursday December 5th, 2024 (3 PM GMT) [[Slides](trace-data-format-2.pdf)]
