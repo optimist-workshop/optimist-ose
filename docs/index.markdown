@@ -14,7 +14,7 @@ Optimist OSE.
 
 The optimist hour meetings are scheduled as follows.
 
-* October 24, 11 AM EST (3 PM GMT) – [Topic: Trace Data Formats](https://optimist-ose.org/working-group)
+* October 24, 11 AM EST (3 PM GMT) – [Topic: Trace Data Formats](https://optimist-ose.org/optimist-hour-24)
 * January 23, 10 AM EST (3 PM GMT) – Topic: Capture Interface for Side-channel Leakage
 * April 25, 11 AM EST (3 PM GMT) – Topic: Firmware Interface for Target Control
 
