@@ -14,7 +14,12 @@ Optimist OSE.
 
 ## Next Meeting: Thursday 23 January 3PM GMT
 
-**3PM GMT = 7AM PST = 10AM EST = 11AM AST = 4PM CET = 830PM IST = 11PM SGT**
+| 3:00 PM GMT | 7AM Pacific Standard Time |
+|             | 10AM Eastern Standard Time |
+|             | 11AM Atlantic Standard Time|
+|             | 4PM Central European Time |
+|             | 830PM India Standard Time  |
+|             | 11PM Singapore Standard Time |
 
 ### Topic: Capture Interface for Side-Channel Leakage
 
@@ -23,10 +28,10 @@ Optimist OSE.
 
 | Time (EST)|     |
 | ---   | :---: |
-| 11:00  | Introduction on Objectives |
-| 11:05  | Jean-Pierre Thibault (NewAE), <span style="color:#011673;font-weight:bold;">Capture Interfaces in Chipwhisperer Family</span>  |
-| 11:15 | Arpan Jati (NTU), <span style="color:#011673;font-weight:bold;">EFFLUX-F2: A High-Performance Hardware Security Evaluation Board</span>  |
-| 11:25 | Discussion and Next Steps |
+| 10:00  | Introduction on Objectives |
+| 10:05  | Jean-Pierre Thibault (NewAE), <span style="color:#011673;font-weight:bold;">Capture Interfaces in Chipwhisperer Family</span>  |
+| 10:15 | Arpan Jati (NTU), <span style="color:#011673;font-weight:bold;">EFFLUX-F2: A High-Performance Hardware Security Evaluation Board</span>  |
+| 10:25 | Discussion and Next Steps |
 
 ### How To Join
 
