@@ -13,10 +13,11 @@ primary discussion points will be compiled and shared within the
 Optimist OSE.
 
 ## Next Meeting: 25 Januari 3PM GMT
-## Capture Interface for Side-Channel Leakage
+
+### Topic: Capture Interface for Side-Channel Leakage
 
 
-## Tentative Program
+### Tentative Program
 
 | Time (EST)|     |
 | ---   | :---: |
@@ -25,7 +26,7 @@ Optimist OSE.
 | 11:15 | Arpan Jati (NTU), <span style="color:#011673;font-weight:bold;">EFFLUX-F2: A High-Performance Hardware Security Evaluation Board</span>  |
 | 11:25 | Discussion and Next Steps |
 
-## How To Join
+### How To Join
 
 Optimist Hours will all occur online.
 Zoom Link: TBD
