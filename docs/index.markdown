@@ -14,6 +14,8 @@ Optimist OSE.
 
 ## Next Meeting: Thursday 23 January 3PM GMT
 
+**3PM GMT = 7AM PST = 10AM EST = 11AM AST = 4PM CET = 830PM IST = 11PM SGT**
+
 ### Topic: Capture Interface for Side-Channel Leakage
 
 
