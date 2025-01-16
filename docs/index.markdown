@@ -12,6 +12,26 @@ meetings will be chaired by a member of the Optimist Team and the
 primary discussion points will be compiled and shared within the
 Optimist OSE.
 
+## Next Meeting: 25 Januari 3PM GMT
+## Capture Interface for Side-Channel Leakage
+
+
+## Tentative Program
+
+| Time (EST)|     |
+| ---   | :---: |
+| 11:00  | Introduction on Objectives |
+| 11:05  | Jean-Pierre Thibault (NewAE), <span style="color:#011673;font-weight:bold;">Capture Interfaces in Chipwhisperer Family</span>  |
+| 11:15 | Arpan Jati (NTU), <span style="color:#011673;font-weight:bold;">EFFLUX-F2: A High-Performance Hardware Security Evaluation Board</span>  |
+| 11:25 | Discussion and Next Steps |
+
+## How To Join
+
+Optimist Hours will all occur online.
+Zoom Link: TBD
+
+## OPTIMIST Meeting Series
+
 The optimist hour meetings are scheduled as follows.
 
 * October 24, 11 AM EST (3 PM GMT) – [Topic: File Format for Traces](https://optimist-ose.org/optimist-hour-24)
@@ -24,7 +44,3 @@ keywords, and common apis. Over the course of three meeting the goal
 will be to produce a document that compiles requirements, common
 keywords and potential api solutions for trace data formats.
 
-## How To Join
-
-Optimist Hours will all occur online.
-Zoom Link: TBD
