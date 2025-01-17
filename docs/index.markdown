@@ -29,7 +29,7 @@ Optimist OSE.
 ### How To Join
 
 Optimist Hours will all occur online.
-Zoom Link: TBD
+Zoom Link: https://wpi.zoom.us/j/93224376263
 
 | 15:00 GMT is  | 7:00 Pacific Standard Time |
 |               | 10:00 Eastern Standard Time |
