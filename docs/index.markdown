@@ -22,8 +22,8 @@ Optimist OSE.
 | Time (GMT)|     |
 | ---   | :---: |
 | 15:00  | Introduction on Objectives |
-| 15:05  | Jean-Pierre Thibault (NewAE), <span style="color:#011673;font-weight:bold;">Capture Interfaces in Chipwhisperer Family</span>  |
-| 15:15 | Arpan Jati (NTU), <span style="color:#011673;font-weight:bold;">EFFLUX-F2: A High-Performance Hardware Security Evaluation Board</span>  |
+| 15:05  | Jean-Pierre Thibault (NewAE), <span style="color:#011673;font-weight:bold;">Capture Interfaces in Chipwhisperer Family</span> [[Slides](thibault_cwinterfaces.pdf)] |
+| 15:15 | Arpan Jati (NTU), <span style="color:#011673;font-weight:bold;">EFFLUX-F2: A High-Performance Hardware Security Evaluation Board</span> [[Slides](jati_eflux.pdf)] |
 | 15:25 | Discussion and Next Steps |
 
 ### How To Join
