@@ -12,13 +12,11 @@ meetings will be chaired by a member of the Optimist Team and the
 primary discussion points will be compiled and shared within the
 Optimist OSE.
 
-## Next Meeting: Thursday 6 February 3PM GMT
+## Next Meeting: <span style="color:#011673;font-weight:bold;">Thursday 6 February 3PM GMT</span>
 
 ### Topic: Capture Interface for Side-Channel Leakage
 
 ### How To Join
-
-Optimist Hours will all occur online.
 
 | :---: |
 | Zoom Link: **https://wpi.zoom.us/j/93224376263** |
