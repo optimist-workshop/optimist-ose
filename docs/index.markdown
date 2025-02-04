@@ -12,19 +12,9 @@ meetings will be chaired by a member of the Optimist Team and the
 primary discussion points will be compiled and shared within the
 Optimist OSE.
 
-## Next Meeting: Thursday 23 January 3PM GMT
+## Next Meeting: Thursday 6 February 3PM GMT
 
 ### Topic: Capture Interface for Side-Channel Leakage
-
-
-### Tentative Program
-
-| Time (GMT)|     |
-| ---   | :---: |
-| 15:00  | Introduction on Objectives |
-| 15:05  | Jean-Pierre Thibault (NewAE), <span style="color:#011673;font-weight:bold;">Capture Interfaces in Chipwhisperer Family</span> [[Slides](thibault_cwinterfaces.pdf)] |
-| 15:15 | Arpan Jati (NTU), <span style="color:#011673;font-weight:bold;">EFFLUX-F2: A High-Performance Hardware Security Evaluation Board</span> [[Slides](jati_eflux.pdf)] |
-| 15:25 | Discussion and Next Steps |
 
 ### How To Join
 
@@ -39,6 +29,11 @@ Optimist Hours will all occur online.
 |               | 16:00 Central European Time |
 |               | 20:30 India Standard Time  |
 |               | 23:00 Singapore Standard Time |
+
+### Slides and Docments on Capture Interface for Side Channel Leakage
+
+* Jean-Pierre Thibault (NewAE), <span style="color:#011673;font-weight:bold;">Capture Interfaces in Chipwhisperer Family</span> [[Slides](thibault_cwinterfaces.pdf)]
+* Arpan Jati (NTU), <span style="color:#011673;font-weight:bold;">EFFLUX-F2: A High-Performance Hardware Security Evaluation Board</span> [[Slides](jati_eflux.pdf)]
 
 ## OPTIMIST Meeting Series
 
