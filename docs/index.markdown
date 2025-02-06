@@ -19,7 +19,9 @@ Optimist OSE.
 ### How To Join
 
 | :---: |
-| Zoom Link: **https://wpi.zoom.us/j/93224376263** |
+| Zoom Link: **https://wpi.zoom.us/j/99011157985** |
+
+
 
 | 15:00 GMT is  | 7:00 Pacific Standard Time |
 |               | 10:00 Eastern Standard Time |
