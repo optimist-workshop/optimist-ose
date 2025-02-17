@@ -12,7 +12,7 @@ meetings will be chaired by a member of the Optimist Team and the
 primary discussion points will be compiled and shared within the
 Optimist OSE.
 
-## Next Meeting: <span style="color:#011673;font-weight:bold;">Thursday 6 February 3PM GMT</span>
+## Next Meeting: <span style="color:#011673;font-weight:bold;">Thursday 20 February 3PM GMT</span>
 
 ### Topic: Capture Interface for Side-Channel Leakage
 
