@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Minimal theme
+title: OPTIMIST
 logo: /assets/img/Logo_NSF_Before.jpeg
 nsflogo: /assets/img/nsf.png
-description: Minimal is a theme for GitHub Pages.
+description: Open Tools, Interfaces and Metrics for Implementation Security Testing.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
