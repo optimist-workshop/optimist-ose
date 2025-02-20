@@ -19,7 +19,7 @@ Optimist OSE.
 ### How To Join
 
 | :---: |
-| Zoom Link: **https://wpi.zoom.us/j/99011157985** |
+| Zoom Link: [**https://wpi.zoom.us/j/99011157985**](https://wpi.zoom.us/j/99011157985) |
 
 
 
