@@ -5,14 +5,14 @@ layout: default
 # OPTIMIST HOUR
 
 The Optimist Hour meetings will be a place where citizens will be able
-to discuss, share, and debate on ideas to address standard APIs and
+to discuss, share, and debate ideas to address standard APIs and
 interoperability issues for trace data formats of side-channel data
 and other real-time measurements of implementation security. These
 meetings will be chaired by a member of the Optimist Team and the
 primary discussion points will be compiled and shared within the
 Optimist OSE.
 
-## Next Meeting: <span style="color:#011673;font-weight:bold;">Thursday 20 February 3PM GMT</span>
+## Next Meeting: <span style="color:#011673;font-weight:bold;"> Thursday, March 6, at 3 PM GMT</span>
 
 ### Topic: Capture Interface for Side-Channel Leakage
 
@@ -30,7 +30,7 @@ Optimist OSE.
 |               | 20:30 India Standard Time  |
 |               | 23:00 Singapore Standard Time |
 
-### Slides and Docments on Capture Interface for Side Channel Leakage
+### Slides and Documents on Capture Interface for Side Channel Leakage
 
 * Jean-Pierre Thibault (NewAE), <span style="color:#011673;font-weight:bold;">Capture Interfaces in Chipwhisperer Family</span> [[Slides](thibault_cwinterfaces.pdf)]
 * Arpan Jati (NTU), <span style="color:#011673;font-weight:bold;">EFFLUX-F2: A High-Performance Hardware Security Evaluation Board</span> [[Slides](jati_eflux.pdf)]
@@ -44,8 +44,8 @@ The optimist hour meetings are scheduled as follows.
 * April 25, 11 AM EST (3 PM GMT) – Topic: Firmware Interface for Target Control
 
 These meetings will address three main points brought up during the
-previous Optimist Hour meeting including, trace format requirements,
-keywords, and common apis. Over the course of three meeting the goal
+previous Optimist Hour meeting, including, trace format requirements,
+keywords, and common APIs. Over the course of three meeting the goal
 will be to produce a document that compiles requirements, common
-keywords and potential api solutions for trace data formats.
+keywords and potential API solutions for trace data formats.
 
