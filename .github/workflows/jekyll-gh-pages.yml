@@ -36,6 +36,8 @@ jobs:
       
       - name: Update sass dependency
         run: bundle update sass
+        working-directory: ./docs
+
       
       - name: Check for Gemfile
         run: |
