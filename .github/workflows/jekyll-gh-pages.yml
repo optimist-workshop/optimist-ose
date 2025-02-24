@@ -33,7 +33,10 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
-          
+      
+      - name: Update sass dependency
+        run: bundle update sass
+      
       - name: Check for Gemfile
         run: |
           if [ ! -f Gemfile ]; then
@@ -45,7 +48,7 @@ jobs:
       - name: Install dependencies
         run: bundle install
         working-directory: ./docs
-
+  
         
       - name: Setup Pages
         uses: actions/configure-pages@v5
