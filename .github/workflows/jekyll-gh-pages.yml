@@ -33,9 +33,19 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '2.7'
-
+          
+      - name: Check for Gemfile
+        run: |
+          if [ ! -f Gemfile ]; then
+            echo "Error: Gemfile not found!"
+            exit 1
+          fi
+        working-directory: ./docs
+          
       - name: Install dependencies
         run: bundle install
+        working-directory: ./docs
+
         
       - name: Setup Pages
         uses: actions/configure-pages@v5
