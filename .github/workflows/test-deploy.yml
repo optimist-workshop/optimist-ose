@@ -1,0 +1,61 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          working-directory: ./website
+
+      - name: Install Dependencies
+        run: npm install
+        working-directory: ./website
+
+      - name: Build Project
+        run: npm run build
+        working-directory: ./website
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          working-directory: ./website
+
+      - name: Install Dependencies
+        run: npm install
+        working-directory: ./website
+
+      - name: Run Tests
+        run: npm test
+        working-directory: ./website
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Deploy Application
+        run: npm run deploy
+        working-directory: ./website
