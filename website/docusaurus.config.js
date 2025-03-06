@@ -83,12 +83,17 @@ const config = {
         },
         items: [
           {
+            to: "/",
+            label: "Home",
+            position: "right",
+          },
+          {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'right',
             label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'right'},
+          // {to: '/blog', label: 'Blog', position: 'right'},
           {
             label: "Workshops", // The main menu item
             position: "right",   // Adjust position in the navbar
