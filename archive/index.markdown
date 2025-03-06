@@ -30,10 +30,7 @@ Optimist OSE.
 |               | 20:30 India Standard Time  |
 |               | 23:00 Singapore Standard Time |
 
-### Slides and Documents on Capture Interface for Side Channel Leakage
 
-* Jean-Pierre Thibault (NewAE), <span style="color:#011673;font-weight:bold;">Capture Interfaces in Chipwhisperer Family</span> [[Slides](thibault_cwinterfaces.pdf)]
-* Arpan Jati (NTU), <span style="color:#011673;font-weight:bold;">EFFLUX-F2: A High-Performance Hardware Security Evaluation Board</span> [[Slides](jati_eflux.pdf)]
 
 ## OPTIMIST Meeting Series
 

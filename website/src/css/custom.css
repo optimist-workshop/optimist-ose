@@ -1,0 +1,85 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #092470;
+  --ifm-color-primary-dark: #1fe076;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #426be3;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  height: auto; /* Allow the navbar to adjust its height */
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Push logo to the left and items to the right */
+}
+
+.navbar__logo {
+  width: 200px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+
+}
+.navbar__items {
+  margin-left: auto; /* Push the items to the right */
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer__links > div {
+  margin: 0 20px; /* Add spacing between columns */
+}
+
+
+/* Highlight the "Join" button in the navbar */
+.navbar-button {
+  background-color: #002aff; /* Change to any color you like */
+  color: white !important;
+  padding: 5px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-button:hover {
+  background-color: #2500cc; /* Darker shade on hover */
+  color: white !important;
+}
+
+
+.award-link {
+  color: var(--ifm-color-primary-lightest);
+  text-decoration: none;
+}
+
+.award-link:hover {
+  color: var(--ifm-color-primary-light);
+  text-decoration: underline;
+}
