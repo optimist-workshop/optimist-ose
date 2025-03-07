@@ -29,6 +29,15 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* Adjust logo size and navbar height only on desktop view */
+@media (min-width: 997px) { /* Adjust this breakpoint as needed */
+  .navbar__logo {
+    width: 220px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+
 .navbar {
   height: auto; /* Allow the navbar to adjust its height */
   display: flex;
