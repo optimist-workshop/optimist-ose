@@ -75,11 +75,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.jpeg',
       navbar: {
         title: '',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'OPTIMIST Logo',
           src: 'img/logo.jpeg',
         },
         items: [
