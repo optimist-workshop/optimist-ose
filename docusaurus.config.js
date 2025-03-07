@@ -83,10 +83,17 @@ const config = {
           src: 'img/logo.jpeg',
         },
         items: [
+          // {
+          //   to: "/",
+          //   label: "Home",
+          //   position: "right",
+          // },
           {
-            to: "/",
-            label: "Home",
-            position: "right",
+            label: "About", // The main menu item
+            position: "right",   // Adjust position in the navbar
+            items: [
+              { label: "Organization", to: "/organization" },  // Page 1
+            ],
           },
           {
             type: 'docSidebar',

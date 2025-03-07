@@ -7,6 +7,7 @@ tags: [optimist]
 # Welcome to *The OPTIMIST Hour* 🚀
 
 *The OPTIMIST Hour* is a new interactive discussion space where security experts, engineers, and researchers collaborate to address interoperability challenges in implementation security. 
+<!-- truncate -->
 
 These sessions will focus on **standardizing APIs** and **improving trace data formats** for side-channel and real-time security measurements. Moderated by an **OPTIMIST Team** member, each meeting will highlight key takeaways, which will be shared within the **OPTIMIST Open Security Ecosystem (OSE).**
 

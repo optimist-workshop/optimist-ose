@@ -23,26 +23,53 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_meeting_dunc.svg').default,
     description: (
       <>
-      <strong>Testing Post-Quantum Cryptography Implementation Security</strong>
+        <strong>Testing Post-Quantum Cryptography Implementation Security</strong><br />
+        Plenary Meeting <br />
+        🗓️ Thursday, 27 March, at 3 PM GMT
 
-        <p>🗓️Thursday, 27 March, at 3 PM GMT  </p>
-        
+  
         <TimeZoneConverter />
-
-        {/* <h3>Zoom Link:</h3> */}
-        <p><strong>Zoom Link:</strong></p> <a href="https://wpi.zoom.us/j/99011157985">https://wpi.zoom.us/j/99011157985</a>  
+        <strong>Zoom link:</strong><br />
+        {/* Zoom Link Box */}
+        <div
+  style={{
+    padding: '12px',
+    border: '1px solid #ccc',
+    borderRadius: '8px',
+    backgroundColor: '#f8f9fa',
+    boxShadow: '2px 2px 10px rgba(0, 0, 0, 0.1)',
+    maxWidth: '300px',
+    margin: '10px auto', // Centers the box horizontally
+    textAlign: 'center', // Ensures content inside is centered
+    display: 'block',
+  }}
+>
+  <a
+    href="https://wpi.zoom.us/j/99011157985"
+    style={{
+      color: '#007bff',
+      textDecoration: 'none',
+      wordBreak: 'break-all',
+      fontWeight: 'bold',
+    }}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    https://wpi.zoom.us/j/99011157985
+  </a>
+</div>
 
       </>
     ),
-}
+  }
+  
+  
 ,
 {
   title: 'Timeline',
   Svg: require('@site/static/img/undraw_calendar_76t8.svg').default,
   description: (
     <>
-      <p>The OPTIMIST Hour meetings are scheduled as follows:</p>
- 
       <h3> <a href="/docs/File Format/file-format" rel="noopener noreferrer">
         File Format for Traces
       </a></h3>
@@ -77,6 +104,20 @@ const FeatureList = [
           <li><strong>15 May</strong> - Working Group Meeting</li>
           <li><strong>29 May</strong> - Working Group Meeting</li> */}
       </ul>
+
+      <a href="/timeline" style={{ textDecoration: "none" }}>
+        <button style={{ 
+            backgroundColor: "#007bff", 
+            color: "white", 
+            border: "none", 
+            padding: "10px 20px", 
+            fontSize: "16px", 
+            cursor: "pointer", 
+            borderRadius: "5px" 
+        }}>
+          Click to see the full timeline
+        </button>
+      </a>
 
 
     </>
