@@ -36,19 +36,23 @@
   justify-content: space-between; /* Push logo to the left and items to the right */
 }
 
+/* Default desktop view */
 .navbar__logo {
-  width: 200px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: contain; /* Prevent the logo from stretching */
-}
-/* Responsive fix for mobile screens */
-@media (max-width: 768px) {
-  .navbar__logo {
-    width: auto; /* Allows the logo to resize dynamically */
-    max-width: 150px; /* Set a reasonable max width for smaller screens */
-  }
+  width: 200px; /* Explicit width */
+  height: auto; /* Auto height to maintain aspect ratio */
+  object-fit: contain; /* Ensures the image is not stretched */
+  display: block;
+  max-height: 58px; /* Prevents excessive stretching */
 }
 
+/* Mobile view (below 996px for Docusaurus) */
+@media screen and (max-width: 996px) {
+  .navbar__logo {
+    width: 150px; /* Adjust width for smaller screens */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 58px; /* Ensures no distortion */
+  }
+}
 .navbar__items {
   margin-left: auto; /* Push the items to the right */
   display: flex;
