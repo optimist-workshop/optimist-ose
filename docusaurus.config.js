@@ -47,7 +47,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/optimist-workshop/optimist-ose/tree/main/website/',
+            'https://github.com/optimist-workshop/optimist-ose/tree/dev/',
         },
         blog: {
           showReadingTime: true,
