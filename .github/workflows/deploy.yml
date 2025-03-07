@@ -25,19 +25,18 @@ jobs:
       - name: Set Yarn to the correct version
         run: corepack prepare yarn@4.7.0 --activate
 
-      - name: Setup Yarn Cache
-        run: yarn config set cache-folder .yarn-cache
-
       - name: Restore Yarn Cache
         uses: actions/cache@v3
         with:
-          path: .yarn-cache
+          path: |
+            .yarn/cache
+            .yarn/unplugged
           key: yarn-cache-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             yarn-cache-${{ runner.os }}-
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --immutable
 
       - name: Build website
         run: yarn build
