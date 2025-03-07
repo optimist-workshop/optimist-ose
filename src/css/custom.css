@@ -35,6 +35,16 @@
     width: 220px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
   }
+  .footer__links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .footer__links > div {
+    margin: 0 20px; /* Add spacing between columns */
+  }
+ 
 }
 
 
@@ -51,15 +61,6 @@
   align-items: center; /* Center items vertically */
 }
 
-.footer__links {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.footer__links > div {
-  margin: 0 20px; /* Add spacing between columns */
-}
 
 
 /* Highlight the "Join" button in the navbar */
