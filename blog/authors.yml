@@ -7,7 +7,7 @@ aysu:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/aydin-aysu'
   socials:
-    email: aaysu@ncsu.edu
+    email: "mailto:aaysu@ncsu.edu"
     linkedin: aydinaysu
 
 ganji:
@@ -19,7 +19,7 @@ ganji:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/saba-ganji'
   socials:
-    email: fganji@wpi.edu
+    email: "mailto:fganji@wpi.edu"
     linkedin: fatemeh-saba-ganji-335a68b4
 
 schaoumont:
@@ -31,7 +31,7 @@ schaoumont:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/patrick-schaumont'
   socials:
-    email: pschaumont@wpi.edu
+    email: "mailto:pschaumont@wpi.edu"
     linkedin: patrick-schaumont-90a12215
 
 tol:
@@ -43,7 +43,7 @@ tol:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/caner-tol'
   socials:
-    email: mtol@wpi.edu
+    email: "mailto:mtol@wpi.edu"
     linkedin: canertol
 
   
