@@ -19,19 +19,16 @@ jobs:
         with:
           node-version: 18
           cache: yarn
-          working-directory: ./website
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-        working-directory: ./website
       - name: Build website
         run: yarn build
-        working-directory: ./website
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./website/build
+          path: build
 
   deploy:
     name: Deploy to GitHub Pages
