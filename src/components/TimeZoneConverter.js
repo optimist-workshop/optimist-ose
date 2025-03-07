@@ -2,10 +2,11 @@ import React, { useState } from "react";
 
 const TimeZoneConverter = () => {
   const timeZones = {
-    PST: "America/Los_Angeles",
-    EST: "America/New_York",
-    AST: "America/Halifax",
+    PDT: "America/Los_Angeles",
+    EDT: "America/New_York",
+    ADT: "America/Halifax",
     CET: "Europe/Berlin",
+    GMT: "Europe/London",
     IST: "Asia/Kolkata",
     SGT: "Asia/Singapore",
   };
@@ -19,8 +20,8 @@ const TimeZoneConverter = () => {
       return;
     }
 
-    const gmtTime = new Date();
-    gmtTime.setUTCHours(15, 0, 0, 0); // Set 3 PM GMT
+    const gmtTime = new Date(Date.UTC(2025, 2, 27, 15, 0, 0));
+    // gmtTime.setUTCHours(15, 0, 0, 0); // Set 3 PM GMT
 
     const converted = gmtTime.toLocaleTimeString([], {
       hour: "2-digit",
@@ -34,9 +35,9 @@ const TimeZoneConverter = () => {
 
   return (
     <div>
-      <h4></h4>
+      <h4>Time Zone Converter</h4>
       <select onChange={convertTimeZone}>
-        <option value="">-- Select Time Zone --</option>
+        <option value="">-- Select Your Time Zone --</option>
         {Object.entries(timeZones).map(([key, value]) => (
           <option key={key} value={key}>
             {key} - {value.replace(/_/g, " ")}
