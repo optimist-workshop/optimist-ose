@@ -12,17 +12,39 @@ We address standard APIs and interoperability issues for trace data formats of s
 
 ## Talks
 
+- Dev Mehta (WPI) — **Challenges with using open source SCL databases** [[Slides](/pdf/challenges_dataset.pdf)]
+- Marc Witteman (Riscure) — **Standard API for Trace Data Formats** [[Slides](/pdf/marc_witteman_riscure_slides_optimist_hour_1.pdf)]
+- Vincent Immler (OSU) — **Efficient Trace Storage** [[Slides](/pdf/optimist_hour1_10min_slides_vincent_immler.pdf)]
+- Aurelien Vasselle (eShard) — **Open API for Trace Data Format** [[Slides](/pdf/aurelien_vaselle_eshard_slides_optimist_hour_1.pdf)]
 
-### **Challenges with using open source SCL databases** [[Slides](/pdf/challenges_dataset.pdf)]
-Dev Mehta (WPI)
+## References
 
-###  **Standard API for Trace Data Formats** [[Slides](/pdf/marc_witteman_riscure_slides_optimist_hour_1.pdf)]
- by Marc Witteman (Riscure)
-### **Efficient Trace Storage** [[Slides](/pdf/optimist_hour1_10min_slides_vincent_immler.pdf)]
- by Vincent Immler (OSU)
+1. Tobias Schneider, Amir Moradi: *Leakage Assessment Methodology - a Clear Roadmap for Side-channel Evaluations.* IACR Cryptol. ePrint Arch. 2015: 207 (2015).  
+2. Kostas Papagiannopoulos, Ognjen Glamocanin, Melissa Azouaoui, Dorian Ros, Francesco Regazzoni, Mirjana Stojilovic: *The Side-channel Metrics Cheat Sheet.* ACM Comput. Surv. 55(10): 216:1-216:38 (2023).  
+3. Jonah Bosland, Stefan Ene, Peter Baumgartner, Vincent Immler: *High-Performance Design Patterns and File Formats for Side-Channel Analysis.* IACR Trans. Cryptogr. Hardw. Embed. Syst. 2024(2): 769-794 (2024).  
+4. eShard. *"eSTRACES: Open-source Set of Traces for Side-channel Analysis."* Accessed [11/14/24]. [https://eshard.gitlab.io/estraces/index.html](https://eshard.gitlab.io/estraces/index.html).  
+5. Riscure Security Solutions. *"TRSFile documentation."* Accessed [11/24/24]. [https://trsfile.readthedocs.io/en/latest/index.html](https://trsfile.readthedocs.io/en/latest/index.html).  
+6. Metadata explained for research data. Accessed [1/6/25].  
+   [https://zenodo.org/records/10222165](https://zenodo.org/records/10222165).  
+7. Open Data & Metadata Quality. Accessed [1/6/25].  
+   [https://data.europa.eu/sites/default/files/d2.1.2_training_module_2.2_open_data_quality_en_edp.pdf](https://data.europa.eu/sites/default/files/d2.1.2_training_module_2.2_open_data_quality_en_edp.pdf).  
+8. NewAE. *“File Formats”* Accessed [01/08/2025]. [http://wiki.newae.com/File_Formats](http://wiki.newae.com/File_Formats).  
 
-###  **Open API for Trace Data Format** [[Slides](/pdf/aurelien_vaselle_eshard_slides_optimist_hour_1.pdf)]
- by Aurelien Vasselle (eShard)
+
+## Relevant Papers/Resources
+Below is a list of papers published across varying mediums alongside varying resources that may be of some interest to those trying to develop or standardize a file format/framework for future use. If you know of a relevant paper please add it to the list below. File formats or frameworks should be added to their relevant lists as opposed to this one.
+
+| Paper Title/Resource                                                                                       | Link                                                            | 
+|------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Optimization of Pearson correlation coefficient calculation for DPA and comparison of different approaches | [[Link]](https://ieeexplore.ieee.org/document/7934563?signout=success)    |
+| N5 Github                                                                                                  | [[Link]](https://github.com/saalfeldlab/n5)                               | 
+| Fast Leakage Assessment                                                                                    | [[Link]](https://eprint.iacr.org/2017/624)                                | 
+| LZ4                                                                                                        | [[Link]](https://lz4.org/)                                                | 
+| SCABench                                                                                                   | [[Link]](https://github.com/cassiersg/SCABench)                           | 
+| Benchmarking eSHARD SCA Solution                                                                           | [[Link]](https://eshard.com/posts/benchmarking-side-channel-solutions)    | 
+| FOBOS 3: An Open-Source Platform for Side-Channel Analysis and Benchmarking                                | [[Link]](https://dl.acm.org/doi/pdf/10.1145/3605769.3623987)              | 
+| High-Performance Design Patterns and File Formats for Side-Channel Analysis                                | [[Link]](https://tches.iacr.org/index.php/TCHES/article/view/11446/10951) |
+| A Comparison of HDF5, Zarr, and netCDF4 in Performing Common I/O Operations                                | [[Link]](https://arxiv.org/pdf/2207.09503)     |                           
 
 <!-- ## Tentative Program
 

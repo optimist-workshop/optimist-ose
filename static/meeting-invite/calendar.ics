@@ -1,0 +1,301 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+X-WR-CALNAME:OPTIMIST POSE
+BEGIN:VTIMEZONE
+TZID:Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DESCRIPTION:Patrick Schaumont is inviting you to a scheduled Zoom meeting.\
+ n\nIf Patrick Schaumont intends to use transcription and AI summary tools 
+ and/or record this meeting\, you will receive a notification from Zoom dur
+ ing the meeting. If enabled\, Zoom AI Companion may transcribe and summari
+ ze the meeting. Please let the meeting host know if you prefer these funct
+ ionalities to be turned off or require more information on how the summary
+  and/or recording will be used by Patrick Schaumont. WPI is committed to r
+ especting the privacy of information and data that may be used to identify
+  you during Zoom meetings. View <a target="_blank" href="https://www.wpi.e
+ du/about/policies/privacy-notice">WPI’s Global Privacy Notice</a> which 
+ describes our practices regarding the most common ways the Institution\, w
+ hich includes WPI Zoom Meeting hosts\, may collect\, use\, or otherwise pr
+ ocess your personal information.\n\nLearn more about how <a target="_blank
+ " href="https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB
+ 0057861">Zoom uses data to provide Zoom AI Companion features</a>.\n\nMEET
+ ING INFO\n\nJoin Zoom Meeting\nhttps://wpi.zoom.us/j/91072710391\n\nMeetin
+ g ID: 910 7271 0391\n\n---\n\nOne tap mobile\n+16469313860\,\,91072710391#
+  US\n+13017158592\,\,91072710391# US (Washington DC)\n\n---\n\nDial by you
+ r location\n• +1 646 931 3860 US\n• +1 301 715 8592 US (Washington DC)
+ \n• +1 305 224 1968 US\n• +1 309 205 3325 US\n• +1 312 626 6799 US (
+ Chicago)\n• +1 646 876 9923 US (New York)\n• +1 669 900 6833 US (San J
+ ose)\n• +1 689 278 1000 US\n• +1 719 359 4580 US\n• +1 253 205 0468 
+ US\n• +1 253 215 8782 US (Tacoma)\n• +1 346 248 7799 US (Houston)\n•
+  +1 360 209 5623 US\n• +1 386 347 5053 US\n• +1 507 473 4847 US\n• +
+ 1 564 217 2000 US\n• +1 669 444 9171 US\n\nMeeting ID: 910 7271 0391\n\n
+ Find your local number: https://wpi.zoom.us/u/adAidiJ8Nc\n\n---\n\nJoin by
+  SIP\n• 91072710391@zoomcrc.com\n\n---\n\nJoin by H.323\n• 144.195.19.
+ 161 (US West)\n• 206.247.11.121 (US East)\n• 159.124.15.191 (Amsterdam
+  Netherlands)\n• 159.124.47.249 (Germany)\n• 159.124.104.213 (Australi
+ a Sydney)\n• 159.124.74.212 (Australia Melbourne)\n• 159.124.168.213 (
+ Canada Toronto)\n• 159.124.196.25 (Canada Vancouver)\n• 170.114.194.16
+ 3 (Japan Tokyo)\n• 147.124.100.25 (Japan Osaka)\n\nMeeting ID: 910 7271 
+ 0391\n
+UID:20250311T174555Z-91072710391@fe80:0:0:0:b424:f1ff:fe8f:41c0eth0
+SUMMARY:OPTIMIST Plenary Meeting - Testing PQC Implementation Security
+DTSTART;TZID=Eastern Standard Time:20250327T110000
+DTEND;TZID=Eastern Standard Time:20250327T120000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250311T181156Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:https://wpi.zoom.us/j/91072710391
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Patrick Schaumont is inviting you to a scheduled Zoom meeting.\
+ n\nIf Patrick Schaumont intends to use transcription and AI summary tools 
+ and/or record this meeting\, you will receive a notification from Zoom dur
+ ing the meeting. If enabled\, Zoom AI Companion may transcribe and summari
+ ze the meeting. Please let the meeting host know if you prefer these funct
+ ionalities to be turned off or require more information on how the summary
+  and/or recording will be used by Patrick Schaumont. WPI is committed to r
+ especting the privacy of information and data that may be used to identify
+  you during Zoom meetings. View <a target="_blank" href="https://www.wpi.e
+ du/about/policies/privacy-notice">WPI’s Global Privacy Notice</a> which 
+ describes our practices regarding the most common ways the Institution\, w
+ hich includes WPI Zoom Meeting hosts\, may collect\, use\, or otherwise pr
+ ocess your personal information.\n\nLearn more about how <a target="_blank
+ " href="https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB
+ 0057861">Zoom uses data to provide Zoom AI Companion features</a>.\n\nMEET
+ ING INFO\n\nJoin Zoom Meeting\nhttps://wpi.zoom.us/j/91072710391\n\nMeetin
+ g ID: 910 7271 0391\n\n---\n\nOne tap mobile\n+16469313860\,\,91072710391#
+  US\n+13017158592\,\,91072710391# US (Washington DC)\n\n---\n\nDial by you
+ r location\n• +1 646 931 3860 US\n• +1 301 715 8592 US (Washington DC)
+ \n• +1 305 224 1968 US\n• +1 309 205 3325 US\n• +1 312 626 6799 US (
+ Chicago)\n• +1 646 876 9923 US (New York)\n• +1 669 900 6833 US (San J
+ ose)\n• +1 689 278 1000 US\n• +1 719 359 4580 US\n• +1 253 205 0468 
+ US\n• +1 253 215 8782 US (Tacoma)\n• +1 346 248 7799 US (Houston)\n•
+  +1 360 209 5623 US\n• +1 386 347 5053 US\n• +1 507 473 4847 US\n• +
+ 1 564 217 2000 US\n• +1 669 444 9171 US\n\nMeeting ID: 910 7271 0391\n\n
+ Find your local number: https://wpi.zoom.us/u/adAidiJ8Nc\n\n---\n\nJoin by
+  SIP\n• 91072710391@zoomcrc.com\n\n---\n\nJoin by H.323\n• 144.195.19.
+ 161 (US West)\n• 206.247.11.121 (US East)\n• 159.124.15.191 (Amsterdam
+  Netherlands)\n• 159.124.47.249 (Germany)\n• 159.124.104.213 (Australi
+ a Sydney)\n• 159.124.74.212 (Australia Melbourne)\n• 159.124.168.213 (
+ Canada Toronto)\n• 159.124.196.25 (Canada Vancouver)\n• 170.114.194.16
+ 3 (Japan Tokyo)\n• 147.124.100.25 (Japan Osaka)\n\nMeeting ID: 910 7271 
+ 0391\n\n__________________________________________________________________
+ ______________\nMicrosoft Teams Need help?<https://aka.ms/JoinTeamsMeeting
+ ?omkt=en-US>\nJoin the meeting now<https://teams.microsoft.com/l/meetup-jo
+ in/19%3ameeting_YWY0MzRmNTgtZGJkZS00YTg0LTllMzctODdkYTM4Y2Q3N2U0%40thread.
+ v2/0?context=%7b%22Tid%22%3a%22589c76f5-ca15-41f9-884b-55ec15a0672a%22%2c%
+ 22Oid%22%3a%2220c79ced-bbd1-4173-ba98-91923a062e40%22%7d>\nMeeting ID: 222
+  591 267 205\nPasscode: JH2ts6rm\n________________________________\nDial i
+ n by phone\n+1 978-710-8947\,\,380386865#<tel:+19787108947\,\,380386865#> 
+ United States\, Lowell\nFind a local number<https://dialin.teams.microsoft
+ .com/3ce4da94-f5f2-468a-8337-56c1042e76d2?id=380386865>\nPhone conference 
+ ID: 380 386 865#\nFor organizers: Meeting options<https://teams.microsoft.
+ com/meetingOptions/?organizerId=20c79ced-bbd1-4173-ba98-91923a062e40&tenan
+ tId=589c76f5-ca15-41f9-884b-55ec15a0672a&threadId=19_meeting_YWY0MzRmNTgtZ
+ GJkZS00YTg0LTllMzctODdkYTM4Y2Q3N2U0@thread.v2&messageId=0&language=en-US> 
+ | Reset dial-in PIN<https://dialin.teams.microsoft.com/usp/pstnconferencin
+ g>\n______________________________________________________________________
+ __________\n
+RRULE:FREQ=WEEKLY;UNTIL=20250508T150000Z;INTERVAL=2;BYDAY=TH;WKST=SU
+UID:040000008200E00074C5B7101A82E0080000000008057C7BB092DB01000000000000000
+ 0100000005B22D7F304D939408FBFC7FA4420674E
+SUMMARY:OPTIMIST Working Group Meeting - Testing PQC Implementation Securit
+ y
+DTSTART;TZID=Eastern Standard Time:20250410T110000
+DTEND;TZID=Eastern Standard Time:20250410T120000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250311T181156Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:https://wpi.zoom.us/j/91072710391
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Patrick Schaumont is inviting you to a scheduled Zoom meeting.\
+ n\nIf Patrick Schaumont intends to use transcription and AI summary tools 
+ and/or record this meeting\, you will receive a notification from Zoom dur
+ ing the meeting. If enabled\, Zoom AI Companion may transcribe and summari
+ ze the meeting. Please let the meeting host know if you prefer these funct
+ ionalities to be turned off or require more information on how the summary
+  and/or recording will be used by Patrick Schaumont. WPI is committed to r
+ especting the privacy of information and data that may be used to identify
+  you during Zoom meetings. View <a target="_blank" href="https://www.wpi.e
+ du/about/policies/privacy-notice">WPI’s Global Privacy Notice</a> which 
+ describes our practices regarding the most common ways the Institution\, w
+ hich includes WPI Zoom Meeting hosts\, may collect\, use\, or otherwise pr
+ ocess your personal information.\n\nLearn more about how <a target="_blank
+ " href="https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB
+ 0057861">Zoom uses data to provide Zoom AI Companion features</a>.\n\nMEET
+ ING INFO\n\nJoin Zoom Meeting\nhttps://wpi.zoom.us/j/91072710391\n\nMeetin
+ g ID: 910 7271 0391\n\n---\n\nOne tap mobile\n+16469313860\,\,91072710391#
+  US\n+13017158592\,\,91072710391# US (Washington DC)\n\n---\n\nDial by you
+ r location\n• +1 646 931 3860 US\n• +1 301 715 8592 US (Washington DC)
+ \n• +1 305 224 1968 US\n• +1 309 205 3325 US\n• +1 312 626 6799 US (
+ Chicago)\n• +1 646 876 9923 US (New York)\n• +1 669 900 6833 US (San J
+ ose)\n• +1 689 278 1000 US\n• +1 719 359 4580 US\n• +1 253 205 0468 
+ US\n• +1 253 215 8782 US (Tacoma)\n• +1 346 248 7799 US (Houston)\n•
+  +1 360 209 5623 US\n• +1 386 347 5053 US\n• +1 507 473 4847 US\n• +
+ 1 564 217 2000 US\n• +1 669 444 9171 US\n\nMeeting ID: 910 7271 0391\n\n
+ Find your local number: https://wpi.zoom.us/u/adAidiJ8Nc\n\n---\n\nJoin by
+  SIP\n• 91072710391@zoomcrc.com\n\n---\n\nJoin by H.323\n• 144.195.19.
+ 161 (US West)\n• 206.247.11.121 (US East)\n• 159.124.15.191 (Amsterdam
+  Netherlands)\n• 159.124.47.249 (Germany)\n• 159.124.104.213 (Australi
+ a Sydney)\n• 159.124.74.212 (Australia Melbourne)\n• 159.124.168.213 (
+ Canada Toronto)\n• 159.124.196.25 (Canada Vancouver)\n• 170.114.194.16
+ 3 (Japan Tokyo)\n• 147.124.100.25 (Japan Osaka)\n\nMeeting ID: 910 7271 
+ 0391\n\n__________________________________________________________________
+ ______________\nMicrosoft Teams Need help?<https://aka.ms/JoinTeamsMeeting
+ ?omkt=en-US>\nJoin the meeting now<https://teams.microsoft.com/l/meetup-jo
+ in/19%3ameeting_OTgyNWRkM2MtMDlmMS00OTdhLWIwM2YtOWM3Mjk5YjM5NjZj%40thread.
+ v2/0?context=%7b%22Tid%22%3a%22589c76f5-ca15-41f9-884b-55ec15a0672a%22%2c%
+ 22Oid%22%3a%2220c79ced-bbd1-4173-ba98-91923a062e40%22%7d>\nMeeting ID: 257
+  218 081 732\nPasscode: 9nV32BE6\n________________________________\nDial i
+ n by phone\n+1 978-710-8947\,\,794762954#<tel:+19787108947\,\,794762954#> 
+ United States\, Lowell\nFind a local number<https://dialin.teams.microsoft
+ .com/3ce4da94-f5f2-468a-8337-56c1042e76d2?id=794762954>\nPhone conference 
+ ID: 794 762 954#\nFor organizers: Meeting options<https://teams.microsoft.
+ com/meetingOptions/?organizerId=20c79ced-bbd1-4173-ba98-91923a062e40&tenan
+ tId=589c76f5-ca15-41f9-884b-55ec15a0672a&threadId=19_meeting_OTgyNWRkM2MtM
+ DlmMS00OTdhLWIwM2YtOWM3Mjk5YjM5NjZj@thread.v2&messageId=0&language=en-US> 
+ | Reset dial-in PIN<https://dialin.teams.microsoft.com/usp/pstnconferencin
+ g>\n______________________________________________________________________
+ __________\n
+UID:040000008200E00074C5B7101A82E0080000000018CF2EAFB092DB01000000000000000
+ 01000000052E62EA423DC5A4BBEBC974F2EC37822
+SUMMARY:OPTIMIST Plenary Meeting - Acceleration of AI for Implementation Se
+ curity Testing
+DTSTART;TZID=Eastern Standard Time:20250417T110000
+DTEND;TZID=Eastern Standard Time:20250417T120000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250311T181156Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:https://wpi.zoom.us/j/91072710391
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Patrick Schaumont is inviting you to a scheduled Zoom meeting.\
+ n\nIf Patrick Schaumont intends to use transcription and AI summary tools 
+ and/or record this meeting\, you will receive a notification from Zoom dur
+ ing the meeting. If enabled\, Zoom AI Companion may transcribe and summari
+ ze the meeting. Please let the meeting host know if you prefer these funct
+ ionalities to be turned off or require more information on how the summary
+  and/or recording will be used by Patrick Schaumont. WPI is committed to r
+ especting the privacy of information and data that may be used to identify
+  you during Zoom meetings. View <a target="_blank" href="https://www.wpi.e
+ du/about/policies/privacy-notice">WPI’s Global Privacy Notice</a> which 
+ describes our practices regarding the most common ways the Institution\, w
+ hich includes WPI Zoom Meeting hosts\, may collect\, use\, or otherwise pr
+ ocess your personal information.\n\nLearn more about how <a target="_blank
+ " href="https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB
+ 0057861">Zoom uses data to provide Zoom AI Companion features</a>.\n\nMEET
+ ING INFO\n\nJoin Zoom Meeting\nhttps://wpi.zoom.us/j/91072710391\n\nMeetin
+ g ID: 910 7271 0391\n\n---\n\nOne tap mobile\n+16469313860\,\,91072710391#
+  US\n+13017158592\,\,91072710391# US (Washington DC)\n\n---\n\nDial by you
+ r location\n• +1 646 931 3860 US\n• +1 301 715 8592 US (Washington DC)
+ \n• +1 305 224 1968 US\n• +1 309 205 3325 US\n• +1 312 626 6799 US (
+ Chicago)\n• +1 646 876 9923 US (New York)\n• +1 669 900 6833 US (San J
+ ose)\n• +1 689 278 1000 US\n• +1 719 359 4580 US\n• +1 253 205 0468 
+ US\n• +1 253 215 8782 US (Tacoma)\n• +1 346 248 7799 US (Houston)\n•
+  +1 360 209 5623 US\n• +1 386 347 5053 US\n• +1 507 473 4847 US\n• +
+ 1 564 217 2000 US\n• +1 669 444 9171 US\n\nMeeting ID: 910 7271 0391\n\n
+ Find your local number: https://wpi.zoom.us/u/adAidiJ8Nc\n\n---\n\nJoin by
+  SIP\n• 91072710391@zoomcrc.com\n\n---\n\nJoin by H.323\n• 144.195.19.
+ 161 (US West)\n• 206.247.11.121 (US East)\n• 159.124.15.191 (Amsterdam
+  Netherlands)\n• 159.124.47.249 (Germany)\n• 159.124.104.213 (Australi
+ a Sydney)\n• 159.124.74.212 (Australia Melbourne)\n• 159.124.168.213 (
+ Canada Toronto)\n• 159.124.196.25 (Canada Vancouver)\n• 170.114.194.16
+ 3 (Japan Tokyo)\n• 147.124.100.25 (Japan Osaka)\n\nMeeting ID: 910 7271 
+ 0391\n\n__________________________________________________________________
+ ______________\nMicrosoft Teams Need help?<https://aka.ms/JoinTeamsMeeting
+ ?omkt=en-US>\nJoin the meeting now<https://teams.microsoft.com/l/meetup-jo
+ in/19%3ameeting_OTgyNWRkM2MtMDlmMS00OTdhLWIwM2YtOWM3Mjk5YjM5NjZj%40thread.
+ v2/0?context=%7b%22Tid%22%3a%22589c76f5-ca15-41f9-884b-55ec15a0672a%22%2c%
+ 22Oid%22%3a%2220c79ced-bbd1-4173-ba98-91923a062e40%22%7d>\nMeeting ID: 257
+  218 081 732\nPasscode: 9nV32BE6\n________________________________\nDial i
+ n by phone\n+1 978-710-8947\,\,794762954#<tel:+19787108947\,\,794762954#> 
+ United States\, Lowell\nFind a local number<https://dialin.teams.microsoft
+ .com/3ce4da94-f5f2-468a-8337-56c1042e76d2?id=794762954>\nPhone conference 
+ ID: 794 762 954#\nFor organizers: Meeting options<https://teams.microsoft.
+ com/meetingOptions/?organizerId=20c79ced-bbd1-4173-ba98-91923a062e40&tenan
+ tId=589c76f5-ca15-41f9-884b-55ec15a0672a&threadId=19_meeting_OTgyNWRkM2MtM
+ DlmMS00OTdhLWIwM2YtOWM3Mjk5YjM5NjZj@thread.v2&messageId=0&language=en-US> 
+ | Reset dial-in PIN<https://dialin.teams.microsoft.com/usp/pstnconferencin
+ g>\n______________________________________________________________________
+ __________\n
+RRULE:FREQ=WEEKLY;UNTIL=20250529T150000Z;INTERVAL=2;BYDAY=TH;WKST=SU
+UID:040000008200E00074C5B7101A82E0080000000043D821CBB092DB01000000000000000
+ 0100000008FD5FE5DE96BEF428DA6E230C3B111D2
+SUMMARY:OPTIMIST Working Group Meeting - Acceleration of AI for Implementat
+ ion Security Testing
+DTSTART;TZID=Eastern Standard Time:20250501T110000
+DTEND;TZID=Eastern Standard Time:20250501T120000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250311T181156Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:https://wpi.zoom.us/j/91072710391
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+END:VEVENT
+END:VCALENDAR

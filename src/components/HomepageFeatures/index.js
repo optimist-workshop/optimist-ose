@@ -26,38 +26,52 @@ const FeatureList = [
         <strong>Testing Post-Quantum Cryptography Implementation Security</strong><br />
         Plenary Meeting <br />
         🗓️ Thursday, 27 March, at 3 PM GMT
-
-  
+        <a href="/meeting-invite/calendar.ics" style={{ textDecoration: "none" }}>
+        <button style={{ 
+            backgroundColor: "#007bff", 
+            color: "white", 
+            border: "none", 
+            padding: "10px 20px", 
+            fontSize: "16px", 
+            cursor: "pointer", 
+            borderRadius: "5px" 
+        }}>
+          Add to Calendar
+        </button>
+      </a>
         <TimeZoneConverter />
         <strong>Zoom link:</strong><br />
         {/* Zoom Link Box */}
         <div
-  style={{
-    padding: '12px',
-    border: '1px solid #ccc',
-    borderRadius: '8px',
-    backgroundColor: '#f8f9fa',
-    boxShadow: '2px 2px 10px rgba(0, 0, 0, 0.1)',
-    maxWidth: '300px',
-    margin: '10px auto', // Centers the box horizontally
-    textAlign: 'center', // Ensures content inside is centered
-    display: 'block',
-  }}
->
-  <a
-    href="https://wpi.zoom.us/j/99011157985"
-    style={{
-      color: '#007bff',
-      textDecoration: 'none',
-      wordBreak: 'break-all',
-      fontWeight: 'bold',
-    }}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    https://wpi.zoom.us/j/99011157985
-  </a>
-</div>
+          style={{
+            padding: '12px',
+            border: '1px solid #ccc',
+            borderRadius: '8px',
+            backgroundColor: '#f8f9fa',
+            boxShadow: '2px 2px 10px rgba(0, 0, 0, 0.1)',
+            maxWidth: '300px',
+            margin: '10px auto', // Centers the box horizontally
+            textAlign: 'center', // Ensures content inside is centered
+            display: 'block',
+          }}
+        >
+          <a
+            href="https://wpi.zoom.us/j/91072710391"
+            style={{
+              color: '#007bff',
+              textDecoration: 'none',
+              wordBreak: 'break-all',
+              fontWeight: 'bold',
+            }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://wpi.zoom.us/j/91072710391
+          </a>
+        </div>
+        {/* line */}
+      
+
 
       </>
     ),
@@ -70,14 +84,14 @@ const FeatureList = [
   Svg: require('@site/static/img/undraw_calendar_76t8.svg').default,
   description: (
     <>
-      <h3> <a href="/docs/File Format/file-format" rel="noopener noreferrer">
+      <h3> <a href="/docs/file-format/intro" rel="noopener noreferrer">
         File Format for Traces
       </a></h3>
       <ul>
       ✅October 24, 11 AM EST (3 PM GMT)
       </ul>
 
-      <h3> <a href="/docs/Capture Interface/capture-interface" rel="noopener noreferrer">
+      <h3> <a href="/docs/capture-interface/intro" rel="noopener noreferrer">
         Capture Interface
         </a></h3>
       <ul>
