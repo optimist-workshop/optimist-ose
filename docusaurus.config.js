@@ -37,6 +37,34 @@ const config = {
     locales: ['en'],
   },
 
+  // Add the plugin for client redirects here:
+  plugins: [
+    [
+      require.resolve('@docusaurus/plugin-client-redirects'),
+      {
+        redirects: [
+          {
+            from: '/docs/file-format',  // When someone visits /docs/file-format
+            to: '/docs/file-format/intro', // redirect them to /docs/file-format/intro
+          },
+          {
+            from: '/docs/capture-interface',  // When someone visits /docs/capture-interface
+            to: '/docs/capture-interface/intro', // redirect them to /docs/capture-interface/intro
+          },
+          {
+            from: '/docs/pqc',  // When someone visits /docs/pqc
+            to: '/docs/pqc/intro', // redirect them to /docs/pqc/intro
+          },
+          {
+            from: '/docs/ai',  // When someone visits /docs/ai
+            to: '/docs/ai/intro', // redirect them to /docs/ai/intro
+          },
+
+        ],
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',

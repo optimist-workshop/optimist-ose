@@ -29,6 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@docusaurus/core", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/module-type-aliases", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
+          ["@docusaurus/plugin-client-redirects", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/preset-classic", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/types", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@mdx-js/react", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.1.0"],\
@@ -3751,10 +3752,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0", {\
-        "packageLocation": "./.yarn/__virtual__/@docusaurus-core-virtual-bd3cef048b/6/home/caner/.yarn/berry/cache/@docusaurus-core-npm-3.7.0-64e9676bfa-10c0.zip/node_modules/@docusaurus/core/",\
+      ["virtual:f2889f82cc8a8bb5b4e64f9f3652e3321db97f1e3b39a42653ba6b2df93b1b5ec8da7f19d2be4d1fb62a425a1d1a02d76189ac812efdd15619d6d1536cbdae20#npm:3.7.0", {\
+        "packageLocation": "./.yarn/__virtual__/@docusaurus-core-virtual-fe8014d58a/6/home/caner/.yarn/berry/cache/@docusaurus-core-npm-3.7.0-64e9676bfa-10c0.zip/node_modules/@docusaurus/core/",\
         "packageDependencies": [\
-          ["@docusaurus/core", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
+          ["@docusaurus/core", "virtual:f2889f82cc8a8bb5b4e64f9f3652e3321db97f1e3b39a42653ba6b2df93b1b5ec8da7f19d2be4d1fb62a425a1d1a02d76189ac812efdd15619d6d1536cbdae20#npm:3.7.0"],\
           ["@docusaurus/babel", "npm:3.7.0"],\
           ["@docusaurus/bundler", "virtual:f1f9904647d9609f7c67da04d42852c45d85b4152aed3ace45ca50836e4958aec7bcb07b596cca5eb4dac95d77c419126f2c48936051ee7da65851d7308c03a6#npm:3.7.0"],\
           ["@docusaurus/logger", "npm:3.7.0"],\
@@ -3973,6 +3974,41 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@docusaurus/plugin-client-redirects", [\
+      ["npm:3.7.0", {\
+        "packageLocation": "../../../../../home/caner/.yarn/berry/cache/@docusaurus-plugin-client-redirects-npm-3.7.0-7d68ae0dd5-10c0.zip/node_modules/@docusaurus/plugin-client-redirects/",\
+        "packageDependencies": [\
+          ["@docusaurus/plugin-client-redirects", "npm:3.7.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0", {\
+        "packageLocation": "./.yarn/__virtual__/@docusaurus-plugin-client-redirects-virtual-f2889f82cc/6/home/caner/.yarn/berry/cache/@docusaurus-plugin-client-redirects-npm-3.7.0-7d68ae0dd5-10c0.zip/node_modules/@docusaurus/plugin-client-redirects/",\
+        "packageDependencies": [\
+          ["@docusaurus/plugin-client-redirects", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
+          ["@docusaurus/core", "virtual:f2889f82cc8a8bb5b4e64f9f3652e3321db97f1e3b39a42653ba6b2df93b1b5ec8da7f19d2be4d1fb62a425a1d1a02d76189ac812efdd15619d6d1536cbdae20#npm:3.7.0"],\
+          ["@docusaurus/logger", "npm:3.7.0"],\
+          ["@docusaurus/utils", "npm:3.7.0"],\
+          ["@docusaurus/utils-common", "npm:3.7.0"],\
+          ["@docusaurus/utils-validation", "npm:3.7.0"],\
+          ["@types/react", null],\
+          ["@types/react-dom", null],\
+          ["eta", "npm:2.2.0"],\
+          ["fs-extra", "npm:11.3.0"],\
+          ["lodash", "npm:4.17.21"],\
+          ["react", "npm:19.0.0"],\
+          ["react-dom", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:19.0.0"],\
+          ["tslib", "npm:2.8.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@docusaurus/plugin-content-blog", [\
       ["npm:3.7.0", {\
         "packageLocation": "../../../../../home/caner/.yarn/berry/cache/@docusaurus-plugin-content-blog-npm-3.7.0-b0d789112e-10c0.zip/node_modules/@docusaurus/plugin-content-blog/",\
@@ -3985,7 +4021,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@docusaurus-plugin-content-blog-virtual-5b0972421b/6/home/caner/.yarn/berry/cache/@docusaurus-plugin-content-blog-npm-3.7.0-b0d789112e-10c0.zip/node_modules/@docusaurus/plugin-content-blog/",\
         "packageDependencies": [\
           ["@docusaurus/plugin-content-blog", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
-          ["@docusaurus/core", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
+          ["@docusaurus/core", "virtual:f2889f82cc8a8bb5b4e64f9f3652e3321db97f1e3b39a42653ba6b2df93b1b5ec8da7f19d2be4d1fb62a425a1d1a02d76189ac812efdd15619d6d1536cbdae20#npm:3.7.0"],\
           ["@docusaurus/logger", "npm:3.7.0"],\
           ["@docusaurus/mdx-loader", "virtual:f1f9904647d9609f7c67da04d42852c45d85b4152aed3ace45ca50836e4958aec7bcb07b596cca5eb4dac95d77c419126f2c48936051ee7da65851d7308c03a6#npm:3.7.0"],\
           ["@docusaurus/plugin-content-docs", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
@@ -4033,7 +4069,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@docusaurus-plugin-content-docs-virtual-133d395a70/6/home/caner/.yarn/berry/cache/@docusaurus-plugin-content-docs-npm-3.7.0-b3bae395c0-10c0.zip/node_modules/@docusaurus/plugin-content-docs/",\
         "packageDependencies": [\
           ["@docusaurus/plugin-content-docs", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
-          ["@docusaurus/core", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
+          ["@docusaurus/core", "virtual:f2889f82cc8a8bb5b4e64f9f3652e3321db97f1e3b39a42653ba6b2df93b1b5ec8da7f19d2be4d1fb62a425a1d1a02d76189ac812efdd15619d6d1536cbdae20#npm:3.7.0"],\
           ["@docusaurus/logger", "npm:3.7.0"],\
           ["@docusaurus/mdx-loader", "virtual:f1f9904647d9609f7c67da04d42852c45d85b4152aed3ace45ca50836e4958aec7bcb07b596cca5eb4dac95d77c419126f2c48936051ee7da65851d7308c03a6#npm:3.7.0"],\
           ["@docusaurus/module-type-aliases", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
@@ -4076,7 +4112,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@docusaurus-plugin-content-pages-virtual-7afb41b8b2/6/home/caner/.yarn/berry/cache/@docusaurus-plugin-content-pages-npm-3.7.0-ae390e8bf1-10c0.zip/node_modules/@docusaurus/plugin-content-pages/",\
         "packageDependencies": [\
           ["@docusaurus/plugin-content-pages", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
-          ["@docusaurus/core", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
+          ["@docusaurus/core", "virtual:f2889f82cc8a8bb5b4e64f9f3652e3321db97f1e3b39a42653ba6b2df93b1b5ec8da7f19d2be4d1fb62a425a1d1a02d76189ac812efdd15619d6d1536cbdae20#npm:3.7.0"],\
           ["@docusaurus/mdx-loader", "virtual:f1f9904647d9609f7c67da04d42852c45d85b4152aed3ace45ca50836e4958aec7bcb07b596cca5eb4dac95d77c419126f2c48936051ee7da65851d7308c03a6#npm:3.7.0"],\
           ["@docusaurus/types", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/utils", "npm:3.7.0"],\
@@ -4110,7 +4146,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@docusaurus-plugin-debug-virtual-fec697ce34/6/home/caner/.yarn/berry/cache/@docusaurus-plugin-debug-npm-3.7.0-1604e6491e-10c0.zip/node_modules/@docusaurus/plugin-debug/",\
         "packageDependencies": [\
           ["@docusaurus/plugin-debug", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
-          ["@docusaurus/core", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
+          ["@docusaurus/core", "virtual:f2889f82cc8a8bb5b4e64f9f3652e3321db97f1e3b39a42653ba6b2df93b1b5ec8da7f19d2be4d1fb62a425a1d1a02d76189ac812efdd15619d6d1536cbdae20#npm:3.7.0"],\
           ["@docusaurus/types", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/utils", "npm:3.7.0"],\
           ["@types/react", null],\
@@ -4142,7 +4178,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@docusaurus-plugin-google-analytics-virtual-45bc467ba9/6/home/caner/.yarn/berry/cache/@docusaurus-plugin-google-analytics-npm-3.7.0-4b3d428e35-10c0.zip/node_modules/@docusaurus/plugin-google-analytics/",\
         "packageDependencies": [\
           ["@docusaurus/plugin-google-analytics", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
-          ["@docusaurus/core", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
+          ["@docusaurus/core", "virtual:f2889f82cc8a8bb5b4e64f9f3652e3321db97f1e3b39a42653ba6b2df93b1b5ec8da7f19d2be4d1fb62a425a1d1a02d76189ac812efdd15619d6d1536cbdae20#npm:3.7.0"],\
           ["@docusaurus/types", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/utils-validation", "npm:3.7.0"],\
           ["@types/react", null],\
@@ -4172,7 +4208,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@docusaurus-plugin-google-gtag-virtual-30a2f146f7/6/home/caner/.yarn/berry/cache/@docusaurus-plugin-google-gtag-npm-3.7.0-6d7eff0c45-10c0.zip/node_modules/@docusaurus/plugin-google-gtag/",\
         "packageDependencies": [\
           ["@docusaurus/plugin-google-gtag", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
-          ["@docusaurus/core", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
+          ["@docusaurus/core", "virtual:f2889f82cc8a8bb5b4e64f9f3652e3321db97f1e3b39a42653ba6b2df93b1b5ec8da7f19d2be4d1fb62a425a1d1a02d76189ac812efdd15619d6d1536cbdae20#npm:3.7.0"],\
           ["@docusaurus/types", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/utils-validation", "npm:3.7.0"],\
           ["@types/gtag.js", "npm:0.0.12"],\
@@ -4203,7 +4239,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@docusaurus-plugin-google-tag-manager-virtual-094c6bac96/6/home/caner/.yarn/berry/cache/@docusaurus-plugin-google-tag-manager-npm-3.7.0-a05452fbeb-10c0.zip/node_modules/@docusaurus/plugin-google-tag-manager/",\
         "packageDependencies": [\
           ["@docusaurus/plugin-google-tag-manager", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
-          ["@docusaurus/core", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
+          ["@docusaurus/core", "virtual:f2889f82cc8a8bb5b4e64f9f3652e3321db97f1e3b39a42653ba6b2df93b1b5ec8da7f19d2be4d1fb62a425a1d1a02d76189ac812efdd15619d6d1536cbdae20#npm:3.7.0"],\
           ["@docusaurus/types", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/utils-validation", "npm:3.7.0"],\
           ["@types/react", null],\
@@ -4233,7 +4269,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@docusaurus-plugin-sitemap-virtual-47c07b6ec5/6/home/caner/.yarn/berry/cache/@docusaurus-plugin-sitemap-npm-3.7.0-b115eef73c-10c0.zip/node_modules/@docusaurus/plugin-sitemap/",\
         "packageDependencies": [\
           ["@docusaurus/plugin-sitemap", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
-          ["@docusaurus/core", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
+          ["@docusaurus/core", "virtual:f2889f82cc8a8bb5b4e64f9f3652e3321db97f1e3b39a42653ba6b2df93b1b5ec8da7f19d2be4d1fb62a425a1d1a02d76189ac812efdd15619d6d1536cbdae20#npm:3.7.0"],\
           ["@docusaurus/logger", "npm:3.7.0"],\
           ["@docusaurus/types", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/utils", "npm:3.7.0"],\
@@ -4268,7 +4304,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@docusaurus-plugin-svgr-virtual-62ea00196a/6/home/caner/.yarn/berry/cache/@docusaurus-plugin-svgr-npm-3.7.0-b5c9ce0c2b-10c0.zip/node_modules/@docusaurus/plugin-svgr/",\
         "packageDependencies": [\
           ["@docusaurus/plugin-svgr", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
-          ["@docusaurus/core", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
+          ["@docusaurus/core", "virtual:f2889f82cc8a8bb5b4e64f9f3652e3321db97f1e3b39a42653ba6b2df93b1b5ec8da7f19d2be4d1fb62a425a1d1a02d76189ac812efdd15619d6d1536cbdae20#npm:3.7.0"],\
           ["@docusaurus/types", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/utils", "npm:3.7.0"],\
           ["@docusaurus/utils-validation", "npm:3.7.0"],\
@@ -4302,7 +4338,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@docusaurus-preset-classic-virtual-e4d530bceb/6/home/caner/.yarn/berry/cache/@docusaurus-preset-classic-npm-3.7.0-12f152677d-10c0.zip/node_modules/@docusaurus/preset-classic/",\
         "packageDependencies": [\
           ["@docusaurus/preset-classic", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
-          ["@docusaurus/core", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
+          ["@docusaurus/core", "virtual:f2889f82cc8a8bb5b4e64f9f3652e3321db97f1e3b39a42653ba6b2df93b1b5ec8da7f19d2be4d1fb62a425a1d1a02d76189ac812efdd15619d6d1536cbdae20#npm:3.7.0"],\
           ["@docusaurus/plugin-content-blog", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
           ["@docusaurus/plugin-content-docs", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
           ["@docusaurus/plugin-content-pages", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
@@ -4456,7 +4492,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@docusaurus/theme-search-algolia", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
           ["@docsearch/react", "virtual:bec56ca1215cace2639304b557aa6474ac0d58e2ce92016940f37672d585c4930c9f1ce79f9cd4f6b4b7a47536e477a6e7c9dc646fe2ff2c0be3fd1eafd6e1d0#npm:3.9.0"],\
-          ["@docusaurus/core", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
+          ["@docusaurus/core", "virtual:f2889f82cc8a8bb5b4e64f9f3652e3321db97f1e3b39a42653ba6b2df93b1b5ec8da7f19d2be4d1fb62a425a1d1a02d76189ac812efdd15619d6d1536cbdae20#npm:3.7.0"],\
           ["@docusaurus/logger", "npm:3.7.0"],\
           ["@docusaurus/plugin-content-docs", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
           ["@docusaurus/theme-common", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
@@ -17058,6 +17094,7 @@ const RAW_RUNTIME_STATE =
           ["website", "workspace:."],\
           ["@docusaurus/core", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/module-type-aliases", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
+          ["@docusaurus/plugin-client-redirects", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/preset-classic", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/types", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@mdx-js/react", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.1.0"],\
