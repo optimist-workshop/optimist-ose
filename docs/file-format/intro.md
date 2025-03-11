@@ -7,6 +7,24 @@ sidebar_position: 1
 We address standard APIs and interoperability issues for trace data formats of side-channel data and other real-time measurements of implementation security. We will host several invited speakers and have a discussion session. Our objective for this hour is to gather the community input and interest in the definition of a common API for Trace Data Formats.
 
 ## **Latest version: [File Format for Traces v0.5 (1/6/2025)](/pdf/ffft05.pdf)**
+<details>
+  <summary>Click to view BibTeX</summary>
+
+  ```bibtex
+  @misc{optimist2025,
+    author = {Aydin Aysu and Gaetan Cassiers and Fatemeh Ganji and Vincent Immler and Jens-Peter Kaps and Trey Marcantonio and Jean-Michel Picod and Patrick Schaumont and Aurelien Vasselle},
+    title = {Open Tools, Interfaces and Metrics for Implementation Security Testing: File Format for Traces - Requirements and Glossary},
+    year = {2025},
+    month = {January},
+    day = {6},
+    version = {0.5},
+    note = {Working Document},
+    url = {https://optimist-ose.org/assets/files/ffft05-6bdf28fdf1636f01130d612f86ddd887.pdf},
+    institution = {Optimist OSE},
+    howpublished = {Online},
+  }
+  ```
+</details>
 
 ---
 
