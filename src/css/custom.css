@@ -31,28 +31,26 @@
 
 @media (min-width: 997px) { /* Adjust this breakpoint as needed */
   
-  @supports not (-webkit-touch-callout: none) { 
-    /* This block will be ignored by Safari */
-    
-    .navbar__logo {
-      max-width: 220px; /* Ensures it doesn't grow too large */
-      height: auto; /* Keeps aspect ratio */
-      max-height: 80px; /* Limits logo size */
-      object-fit: contain; /* Ensures image doesn't get distorted */
-      display: block; /* Prevents inline spacing issues */
-    }
-    
-    .footer__links {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-    }
-    
-    .footer__links > div {
-      margin: 0 20px; /* Add spacing between columns */
-    }
-
+  .navbar__logo {
+    max-width: 220px; /* Constrain width */
+    width: auto; /* Ensures no forced stretching */
+    height: auto; /* Ensures proper scaling */
+    max-height: 80px;
+    object-fit: contain;
+    display: block;
   }
+  
+  
+  .footer__links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .footer__links > div {
+    margin: 0 20px; /* Add spacing between columns */
+  }
+
 }
 
 
