@@ -32,13 +32,14 @@
 @media (min-width: 997px) { /* Adjust this breakpoint as needed */
   
   .navbar__logo {
-    max-width: 220px; /* Constrain width */
-    width: auto; /* Ensures no forced stretching */
-    height: auto; /* Ensures proper scaling */
+    max-width: 220px;
+    height: auto; /* Keeps aspect ratio */
     max-height: 80px;
+    flex-shrink: 0; /* Prevents stretching in flex containers */
     object-fit: contain;
     display: block;
   }
+  
   
   
   .footer__links {
