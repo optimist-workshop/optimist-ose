@@ -33,12 +33,14 @@
   
   .navbar__logo {
     max-width: 220px;
-    height: auto; /* Keeps aspect ratio */
+    height: auto;
     max-height: 80px;
-    flex-shrink: 0; /* Prevents stretching in flex containers */
+    flex-shrink: 0; /* Prevents Flexbox from squeezing/stretching */
     object-fit: contain;
+    aspect-ratio: 220 / 80; /* Ensures correct width-to-height ratio */
     display: block;
   }
+  
   
   
   
