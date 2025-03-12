@@ -32,9 +32,12 @@
 /* Adjust logo size and navbar height only on desktop view */
 @media (min-width: 997px) { /* Adjust this breakpoint as needed */
   .navbar__logo {
-    width: 220px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 220px;
+    height: auto;
+    max-height: 100px;
+    object-fit: contain;
   }
+  
   .footer__links {
     display: flex;
     justify-content: center;
