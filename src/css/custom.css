@@ -30,20 +30,7 @@
 }
 
 @media (min-width: 997px) { /* Adjust this breakpoint as needed */
-  
-  .navbar__logo {
-    max-width: 220px;
-    height: auto;
-    max-height: 80px;
-    flex-shrink: 0; /* Prevents Flexbox from squeezing/stretching */
-    object-fit: contain;
-    aspect-ratio: 220 / 80; /* Ensures correct width-to-height ratio */
-    display: block;
-  }
-  
-  
-  
-  
+ 
   .footer__links {
     display: flex;
     justify-content: center;
@@ -56,22 +43,31 @@
 
 }
 
-
-
 .navbar {
-  height: auto; /* Allow the navbar to adjust its height */
-  display: flex;
-  align-items: center; /* Center items vertically */
-  justify-content: space-between; /* Push logo to the left and items to the right */
+  border-bottom: var(--ifm-global-border-width) solid
+    var(--ifm-color-emphasis-200);
 }
 
-.navbar__items {
-  margin-left: auto; /* Push the items to the right */
-  display: flex;
-  align-items: center; /* Center items vertically */
+.navbar__brand {
+  align-self: flex-start;
+  margin: calc(-1 * var(--ifm-navbar-padding-vertical)) 0
+    calc(-1 * var(--ifm-navbar-padding-vertical))
+    calc(-1 * var(--ifm-navbar-padding-horizontal));
 }
 
+.navbar__logo {
+  height: calc(var(--ifm-navbar-height) - var(--ifm-global-border-width));
+}
 
+/* Effectively center the logo in the navbar */
+@media (max-width: 996px) {
+  .navbar__brand {
+    margin-left: auto;
+    margin-right: auto;
+    /* Because of absolutely placed search icon */
+    padding-right: 28px;
+  }
+}
 
 /* Highlight the "Join" button in the navbar */
 .navbar-button {
