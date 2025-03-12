@@ -142,6 +142,7 @@ const config = {
             label: "Join",
             position: "right",
             className: "navbar-button", // Apply custom class
+            target: "_self", // Ensures it opens in the same tab
           },
           
           {
