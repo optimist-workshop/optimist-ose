@@ -204,7 +204,7 @@ export default function WorkshopPage() {
     <Layout title="OPTIMIST Workshop 2024">
       <div className="container">
         <h1>
-          OPTIMIST Workshop <br />
+          OPTIMIST Workshop '24<br />
           4 September, 2024 Halifax, Canada
         </h1>
         <p>

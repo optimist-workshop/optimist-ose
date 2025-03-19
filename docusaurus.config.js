@@ -134,7 +134,8 @@ const config = {
             label: "Workshops", // The main menu item
             position: "right",   // Adjust position in the navbar
             items: [
-              { label: "CHES 2024", to: "/ches24" },  // Page 1
+              { label: "CHES 2025", to: "/ches25" },  // Page 1
+              { label: "CHES 2024", to: "/ches24" },  // Page 2
             ],
           },
           {
