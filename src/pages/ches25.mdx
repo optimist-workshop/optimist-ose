@@ -1,6 +1,7 @@
 ---
 title : "OPTIMIST Workshop 2025"
 ---
+import HoverCaptionImage from '@site/src/components/HoverCaptionImage';
 
 # OPTIMIST Workshop '25
 ## September 14, 2025 Kuala Lumpur, Malaysia
@@ -138,13 +139,21 @@ TBA
     [Venue](https://ches.iacr.org/2025/travel.php#venue) — 
     [Getting There](https://ches.iacr.org/2025/travel.php#getting_there)
   </div>
-  <div style={{ marginLeft: '20px', maxWidth: '100%', minWidth: '200px' }}>
-      <img 
-        src="https://ches.iacr.org/2025/images/KLCC.jpg" 
-        alt="KLCC" 
-        style={{ width: '100%', maxWidth: '400px', height: 'auto' }} 
-      />
-  </div>
+
+    <HoverCaptionImage 
+    imageUrl="https://ches.iacr.org/2025/images/KLCC.jpg" 
+    alt="KLCC" 
+    caption={
+        <>
+        Photo courtesy of <a href="https://commons.wikimedia.org/wiki/File:Kuala_Lumpur_Convention_Centre_(street_entrance),_Kuala_Lumpur.jpg" target="_blank" rel="noopener noreferrer" style={{ color: '#90cfff', textDecoration: 'underline' }}>Two hundred percent/Wikimedia Commons</a> under <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer" style={{ color: '#90cfff', textDecoration: 'underline' }}>CC BY-SA 3.0</a>.
+        </>
+    }
+    
+    
+    />
+
+
+
 </div>
 
 ---
