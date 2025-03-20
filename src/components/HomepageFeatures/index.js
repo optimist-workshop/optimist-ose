@@ -23,7 +23,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_meeting_dunc.svg').default,
     description: (
       <>
-        <strong>Testing Post-Quantum Cryptography Implementation Security</strong><br />
+        <a href="/docs/pqc/intro"><strong>Testing Post-Quantum Cryptography Implementation Security</strong></a><br />
         Plenary Meeting <br />
         🗓️ Thursday, 27 March, at 3 PM GMT
         <a href="/meeting-invite/calendar.ics" style={{ textDecoration: "none" }}>
