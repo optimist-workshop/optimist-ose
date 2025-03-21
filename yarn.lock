@@ -2300,7 +2300,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/plugin-google-analytics@npm:3.7.0":
+"@docusaurus/plugin-google-analytics@npm:3.7.0, @docusaurus/plugin-google-analytics@npm:^3.7.0":
   version: 3.7.0
   resolution: "@docusaurus/plugin-google-analytics@npm:3.7.0"
   dependencies:
@@ -12503,6 +12503,7 @@ __metadata:
     "@docusaurus/core": "npm:3.7.0"
     "@docusaurus/module-type-aliases": "npm:3.7.0"
     "@docusaurus/plugin-client-redirects": "npm:^3.7.0"
+    "@docusaurus/plugin-google-analytics": "npm:^3.7.0"
     "@docusaurus/preset-classic": "npm:3.7.0"
     "@docusaurus/types": "npm:3.7.0"
     "@mdx-js/react": "npm:^3.0.0"

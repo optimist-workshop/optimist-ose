@@ -63,6 +63,13 @@ const config = {
         ],
       },
     ],
+    [      
+      require.resolve('@docusaurus/plugin-google-analytics'),
+      {
+        trackingID: 'G-4M5R7RKYZF',
+        anonymizeIP: true,
+      },
+    ]
   ],
 
   presets: [

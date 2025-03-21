@@ -30,6 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@docusaurus/core", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/module-type-aliases", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/plugin-client-redirects", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
+          ["@docusaurus/plugin-google-analytics", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/preset-classic", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/types", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@mdx-js/react", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.1.0"],\
@@ -4175,10 +4176,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0", {\
-        "packageLocation": "./.yarn/__virtual__/@docusaurus-plugin-google-analytics-virtual-45bc467ba9/6/home/caner/.yarn/berry/cache/@docusaurus-plugin-google-analytics-npm-3.7.0-4b3d428e35-10c0.zip/node_modules/@docusaurus/plugin-google-analytics/",\
+      ["virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0", {\
+        "packageLocation": "./.yarn/__virtual__/@docusaurus-plugin-google-analytics-virtual-8a8b7f2003/6/home/caner/.yarn/berry/cache/@docusaurus-plugin-google-analytics-npm-3.7.0-4b3d428e35-10c0.zip/node_modules/@docusaurus/plugin-google-analytics/",\
         "packageDependencies": [\
-          ["@docusaurus/plugin-google-analytics", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
+          ["@docusaurus/plugin-google-analytics", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/core", "virtual:f2889f82cc8a8bb5b4e64f9f3652e3321db97f1e3b39a42653ba6b2df93b1b5ec8da7f19d2be4d1fb62a425a1d1a02d76189ac812efdd15619d6d1536cbdae20#npm:3.7.0"],\
           ["@docusaurus/types", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/utils-validation", "npm:3.7.0"],\
@@ -4344,7 +4345,7 @@ const RAW_RUNTIME_STATE =
           ["@docusaurus/plugin-content-docs", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
           ["@docusaurus/plugin-content-pages", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
           ["@docusaurus/plugin-debug", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
-          ["@docusaurus/plugin-google-analytics", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
+          ["@docusaurus/plugin-google-analytics", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/plugin-google-gtag", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
           ["@docusaurus/plugin-google-tag-manager", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
           ["@docusaurus/plugin-sitemap", "virtual:e4d530bceb2a08a1c985292fed0633a43024c932753be5093db2e560b1b6eb8963b59470ffd899d06b1e9d853f3c33d645396baf6db48fc611faa2bbccffed14#npm:3.7.0"],\
@@ -17148,6 +17149,7 @@ const RAW_RUNTIME_STATE =
           ["@docusaurus/core", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/module-type-aliases", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/plugin-client-redirects", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
+          ["@docusaurus/plugin-google-analytics", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/preset-classic", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/types", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@mdx-js/react", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.1.0"],\
