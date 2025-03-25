@@ -46,4 +46,16 @@ tol:
     email: "mailto:mtol@wpi.edu"
     linkedin: canertol
 
+marcantonio:
+  name: Trey Marcantonio
+  title: WPI
+  url: "https://www.linkedin.com/in/trey-marcantonio-3746a6205/"
+  image_url: https://media.licdn.com/dms/image/v2/D4E03AQEGEPkA0AhTQg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692567279804?e=1748476800&v=beta&t=KSYISAkd_Da1hBLe_mEbarc_ktY-1zpsghYC0NAIfrg
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/trey-marcantonio'
+  socials:
+      linkedin: trey-marcantonio-3746a6205
+
+
   

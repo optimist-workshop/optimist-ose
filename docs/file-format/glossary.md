@@ -6,7 +6,7 @@ sidebar_position: 1
 This section enumerates and defines common terms related to the file format for traces of side-channel leakage.
 
 
-![Docusaurus logo](./img/file-format-figure1.png)
+![file-format](./img/file-format-figure1.png)
 
 *Figure 1: Common terms and their interconnections.*
 

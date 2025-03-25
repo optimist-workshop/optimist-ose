@@ -92,8 +92,8 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //  'https://github.com/optimist-workshop/optimist-ose/tree/dev/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -127,7 +127,9 @@ const config = {
             label: "About", // The main menu item
             position: "right",   // Adjust position in the navbar
             items: [
-              { label: "Organization", to: "/organization" },  // Page 1
+              { label: "Why OPTIMIST?", to: "/blog/open-source" },  // Page 1
+              { label: "Organization", to: "/organization" },  // Page 2
+              { label: "Timeline", to: "/timeline" },  // Page 3
             ],
           },
           {
@@ -136,7 +138,7 @@ const config = {
             position: 'right',
             label: 'Documentation',
           },
-          // {to: '/blog', label: 'Blog', position: 'right'},
+          {to: '/blog', label: 'Blog', position: 'right'},
           {
             label: "Workshops", // The main menu item
             position: "right",   // Adjust position in the navbar
