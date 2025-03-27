@@ -24,8 +24,8 @@ const FeatureList = [
     description: (
       <>
         <a href="/docs/pqc/intro"><strong>Testing Post-Quantum Cryptography Implementation Security</strong></a><br />
-        Plenary Meeting <br />
-        🗓️ Thursday, 27 March, at 3 PM GMT
+        Working Group Meeting 1<br />
+        🗓️ Thursday, 10 April, at 3 PM GMT<br />
         <a href="/meeting-invite/calendar.ics" style={{ textDecoration: "none" }}>
         <button style={{ 
             backgroundColor: "#007bff", 
@@ -103,7 +103,7 @@ const FeatureList = [
         Testing Post-Quantum Cryptography Implementation Security
         </a></h3>
       <ul>
-      🗓️27 March, 11 AM EDT (3PM GMT)
+      ✅27 March, 11 AM EDT (3PM GMT)
           {/* <li><strong>10 April</strong> - Working Group Meeting</li>
           <li><strong>24 April</strong> - Working Group Meeting</li>
           <li><strong>8 May</strong> - Working Group Meeting</li> */}
