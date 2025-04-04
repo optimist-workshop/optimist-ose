@@ -39,9 +39,9 @@ A collaborative discussion and brainstorming in an interactive group format.
 
 ## Working Group Meetings
 
-* 10 April, 3PM GMT (11AM EDT)- Working Group Meeting
-* 24 April, 3PM GMT (11AM EDT)- Working Group Meeting
-* 8 May, 3PM GMT (11AM EDT)- Working Group Meeting
+* 10 April, 3PM GMT (11AM EDT) - Working Group Meeting 1
+* 24 April, 3PM GMT (11AM EDT) - Working Group Meeting 2
+* 8 May, 3PM GMT (11AM EDT) - Working Group Meeting 3
 
 ---
 #### Interested in Joining or Giving Feedback?
