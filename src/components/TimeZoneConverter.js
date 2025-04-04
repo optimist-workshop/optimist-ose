@@ -5,8 +5,8 @@ const TimeZoneConverter = () => {
     PDT: "America/Los_Angeles",
     EDT: "America/New_York",
     ADT: "America/Halifax",
-    CET: "Europe/Berlin",
-    GMT: "Europe/London",
+    CEST: "Europe/Berlin",
+    BST: "Europe/London",
     IST: "Asia/Kolkata",
     SGT: "Asia/Singapore",
   };
@@ -20,7 +20,7 @@ const TimeZoneConverter = () => {
       return;
     }
 
-    const gmtTime = new Date(Date.UTC(2025, 2, 27, 15, 0, 0));
+    const gmtTime = new Date(Date.UTC(2025, 4, 10, 15, 0, 0));
     // gmtTime.setUTCHours(15, 0, 0, 0); // Set 3 PM GMT
 
     const converted = gmtTime.toLocaleTimeString([], {
