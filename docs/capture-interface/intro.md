@@ -11,7 +11,7 @@ sidebar_position: 1
   ```bibtex
   @misc{optimist2025,
     author = {Aydin Aysu and Gaetan Cassiers and Daniel Dinu and Anuj Dubey and Fatemeh Ganji and Benoît Gérard and Thomas Hiscock and Jens-Peter Kaps and Dev Mehta and Daniel Page and Markku-Juhani Saarinen and Patrick Schaumont and Mirjana Stojilović and Emanuele Strieder and Jean-Pierre Thibault and Caner Tol and Marc Witteman},
-    title = {Open Tools, Interfaces and Metrics for Implementation Security Testing: File Format for Traces - Requirements and Glossary},
+    title = {Open Tools, Interfaces and Metrics for Implementation Security Testing: Capture Interface for Side Channel and Fault Injection Setups},
     year = {2025},
     month = {March},
     day = {6},
