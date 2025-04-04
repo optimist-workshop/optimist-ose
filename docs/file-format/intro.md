@@ -87,9 +87,9 @@ We recommend joining the [Optimist OSE Discourse](https://discourse.optimist-ose
 
 ## Working Group Meetings
 
-- Thursday November 14th, 2024 (3 PM GMT) [[Slides](/pdf/trace-data-format-1.pdf)]
-- Thursday December 5th, 2024 (3 PM GMT) [[Slides](/pdf/trace-data-format-2.pdf)]
-- Thursday December 19th, 2024 (3 PM GMT) [[Slides](/pdf/trace-data-format-3.pdf)]
+- Thursday November 14th, 2024 (3 PM GMT) [[Slides](/pdf/trace-data-format-1.pdf)] - Working Group Meeting 1
+- Thursday December 5th, 2024 (3 PM GMT) [[Slides](/pdf/trace-data-format-2.pdf)] - Working Group Meeting 2
+- Thursday December 19th, 2024 (3 PM GMT) [[Slides](/pdf/trace-data-format-3.pdf)] - Working Group Meeting 3
 
 <!-- ## Organizers
 
