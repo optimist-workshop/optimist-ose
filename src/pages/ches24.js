@@ -19,7 +19,7 @@ const sessions = [
     { time: "14:45", title: "Karim Abdellatif", subtitle: "SCADL: A Side-Channel Attack Tool Based on Deep Learning" },
     { time: "15:00", title: "Coffee Break" },
     { time: "15:30", title: "Invited Talk: Gaëtan Cassiers", subtitle: "Verification and evaluation of open-source implementations: the SMAesH study case" },
-    { time: "16:00", title: "Panel Discussion", subtitle: "Open-Source Ecosystem for Implementation Security Testing" },
+    { time: "16:00", title: "Panel with Shivam Bhasin (NTU), Pascal Nasahl (LowRISC), Miguel Osorio (Google), Paul Scheidt (Synopsys), and Jasper van Woudenberg (Riscure)", subtitle: "Open-Source Ecosystem for Implementation Security Testing" },
     { time: "17:00", title: "Closing" }
   ];
 
@@ -133,15 +133,14 @@ const panelists = [
     bio: (
       <>
         <a
-          href="https://www.linkedin.com/in/shivam-bhasin-81901110"
+          href="https://nasahl.li/"
           target="_blank"
           rel="noopener noreferrer"
           style={{ fontWeight: "bold", fontSize: "1.2em" }}
         >
-          Shivam Bhasin
+          Pascal Nasahl
         </a>{" "}
-       is a Principal Research Scientist and Programme Manager for Cryptographic Engineering at the Centre for Hardware Assurance, Temasek Laboratories, Nanyang Technological University, Singapore. He earned a PhD in Electronics & Communication from Telecom Paristech (2011) and an Advanced Master in Security of Integrated Systems & Applications from Mines Saint-Etienne, France (2008). Prior to NTU, he was a Research Engineer at Institut Mines-Telecom, France, and a visiting researcher at UCL, Belgium (2011) and Kobe University (2013). His research focuses on embedded security, trusted computing, and secure designs. Bhasin has published extensively and contributed to the ISO/IEC 17825 standard.
-      </>
+         is a senior security engineer at lowRISC, where he does R&D to harden and analyze the security of OpenTitan. He obtained a PhD in hardware security from TU Graz, where his focus was on researching countermeasures against software and physical attacks. While with TU Graz, Pascal worked on fault attacks, countermeasures, and verification at Google, Intel Labs, and Riscure.      </>
     ),
   },
   {
