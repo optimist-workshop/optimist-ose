@@ -154,12 +154,11 @@ const config = {
             className: "navbar-button", // Apply custom class
             target: "_self", // Ensures it opens in the same tab
           },
-          
-          {
-            href: 'https://github.com/optimist-workshop',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/optimist-workshop',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
