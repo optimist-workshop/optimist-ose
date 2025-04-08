@@ -10,6 +10,21 @@
   overflow: hidden;
 }
 
+.heroMotto {
+  font-style: italic; /* Keep or remove as desired */
+  font-size: 1.0; /* Adjust as needed */
+  margin-top: -1.5rem;
+  margin-bottom: 2rem; 
+  color: inherit; /* Or white */
+  text-align: cente;
+
+  /* --- New/Adjusted Styles --- */
+  /* text-transform: uppercase; Optional: Makes it feel more like a banner motto */
+  letter-spacing: 1px; /* << ADJUST THIS VALUE SIGNIFICANTLY */ 
+  /* Try values like 2px, 4px, 0.2em, 0.3em etc. */
+  /* Find a value that makes it look wide enough without looking broken */
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
