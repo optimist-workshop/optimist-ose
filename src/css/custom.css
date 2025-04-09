@@ -94,3 +94,10 @@
   color: var(--ifm-color-primary-light);
   text-decoration: underline;
 }
+
+details.no-box {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+}
