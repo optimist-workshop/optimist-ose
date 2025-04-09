@@ -16,13 +16,16 @@ sidebar_position: 1
 **Patrick Schaumont**, Professor, Worcester Polytechnic Institute
 
 #### 11:05-11:15 AM — Side Channel and Fault Attack Testing of Cryptosystems in the view of Dr AI
-**Debdeep Mukhopadhyay**, Professor, Indian Institute of Technology Kharagpur
+**Debdeep Mukhopadhyay**, Professor, Indian Institute of Technology Kharagpur  
+**Abstract:** TBA
 
-#### 11:15-11:25 AM — TBD
-**Stjepan Picek**, Associate Professor, Radboud University
+#### 11:15-11:25 AM — Machine Learning-based Side-channel Analysis and Evaluation
+**Stjepan Picek**, Associate Professor, Radboud University  
+**Abstract:** Machine learning (and more recently, deep learning) showed significant potential for side-channel analysis (SCA). Indeed, such techniques can break protected targets while requiring minimal expert knowledge. However, different setups (targets, ciphers, countermeasures, acquisition setups, etc.) may easily necessitate different machine learning architectures or settings. In this talk, we will briefly discuss (potential) advantages of standard architectures and libraries and how those could further push state-of-the-art machine learning-based SCA.
 
 #### 11:25-11:35 AM — AI-accelerated Implementation Testing: Research vs Practice
-**Jakub Breier**, Senior Cyber Security Manager, TTControl GmbH
+**Jakub Breier**, Senior Cyber Security Manager, TTControl GmbH  
+**Abstract:** TBA
 
 #### 11:35-11:45 AM — Q&A
 
