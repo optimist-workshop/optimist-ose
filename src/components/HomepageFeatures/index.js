@@ -23,9 +23,9 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_meeting_dunc.svg').default,
     description: (
       <>
-        <a href="/docs/pqc/intro"><strong>Testing Post-Quantum Cryptography Implementation Security</strong></a><br />
-        Working Group Meeting 1<br />
-        🗓️ Thursday, 10 April, at 3 PM GMT<br />
+        <a href="/docs/ai/intro"><strong>Acceleration of AI for Implementation Security Testing</strong></a><br />
+        Plenary Kickoff Meeting<br />
+        🗓️ Thursday, 17 April, at 3 PM GMT<br />
         <a href="/meeting-invite/calendar.ics" style={{ textDecoration: "none" }}>
         <button style={{ 
             backgroundColor: "#007bff", 
