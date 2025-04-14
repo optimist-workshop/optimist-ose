@@ -17,7 +17,7 @@ sidebar_position: 1
 
 #### 11:05-11:15 AM — Side Channel and Fault Attack Testing of Cryptosystems in the view of Dr AI
 **Debdeep Mukhopadhyay**, Professor, Indian Institute of Technology Kharagpur  
-**Abstract:** TBA
+**Abstract:** Machine learning techniques offer promising tools for security evaluations of crypto-implementations. In this talk, we present two developments in this context: first, the evolution of machine learning architectures for performing efficient side channel attacks. Secondly, we discuss the relatively less explored field on developing machine learning based test methodologies for leakage assessment under fault attacks. Finally, we conclude with some general perspectives in making ML-accelerated testing of implementation based security of cryptosystems more effective.
 
 #### 11:15-11:25 AM — Machine Learning-based Side-channel Analysis and Evaluation
 **Stjepan Picek**, Associate Professor, Radboud University  
