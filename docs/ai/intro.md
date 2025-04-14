@@ -25,7 +25,7 @@ sidebar_position: 1
 
 #### 11:25-11:35 AM — AI-accelerated Implementation Testing: Research vs Practice
 **Jakub Breier**, Senior Cyber Security Manager, TTControl GmbH  
-**Abstract:** TBA
+**Abstract:** Leakage assessment plays an important role in evaluating cryptographic implementations in practice. Methods such as test vector leakage assessment (TVLA) have been utilized in the certification laboratories to check if side-channel leakage is present. This talk will outline the current efforts in deep learning-based leakage assessment research and discuss the challenges of using the developed methods in practice.
 
 #### 11:35-11:45 AM — Q&A
 
