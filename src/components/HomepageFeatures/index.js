@@ -86,18 +86,14 @@ const FeatureList = [
   Svg: require('@site/static/img/undraw_calendar_76t8.svg').default,
   description: (
     <>
-      <h3> <a href="/docs/file-format/intro" rel="noopener noreferrer">
-        File Format for Traces
-      </a></h3>
-      <ul>
-      ✅October 24, 11 AM EST (3 PM GMT)
-      </ul>
-
-      <h3> <a href="/docs/capture-interface/intro" rel="noopener noreferrer">
-        Capture Interface
+      <h3> <a href="/docs/ai/intro"  rel="noopener noreferrer">
+        Acceleration of AI for Implementation Security Testing
         </a></h3>
       <ul>
-      ✅January 23, 10 AM EST (3 PM GMT)
+      ✅17 April, 11 AM EDT (3PM GMT) 
+          {/* <li><strong>1 May</strong> - Working Group Meeting</li>
+          <li><strong>15 May</strong> - Working Group Meeting</li>
+          <li><strong>29 May</strong> - Working Group Meeting</li> */}
       </ul>
 
 
@@ -111,14 +107,18 @@ const FeatureList = [
           <li><strong>8 May</strong> - Working Group Meeting</li> */}
       </ul>
 
-      <h3> <a href="/docs/ai/intro"  rel="noopener noreferrer">
-        Acceleration of AI for Implementation Security Testing
+      <h3> <a href="/docs/capture-interface/intro" rel="noopener noreferrer">
+        Capture Interface
         </a></h3>
       <ul>
-      ✅17 April, 11 AM EDT (3PM GMT) 
-          {/* <li><strong>1 May</strong> - Working Group Meeting</li>
-          <li><strong>15 May</strong> - Working Group Meeting</li>
-          <li><strong>29 May</strong> - Working Group Meeting</li> */}
+      ✅January 23, 10 AM EST (3 PM GMT)
+      </ul>
+
+      <h3> <a href="/docs/file-format/intro" rel="noopener noreferrer">
+        File Format for Traces
+      </a></h3>
+      <ul>
+      ✅October 24, 11 AM EST (3 PM GMT)
       </ul>
 
       <a href="/timeline" style={{ textDecoration: "none" }}>
