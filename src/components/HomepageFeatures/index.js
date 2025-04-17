@@ -23,9 +23,11 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_meeting_dunc.svg').default,
     description: (
       <>
-        <a href="/docs/ai/intro"><strong>Acceleration of AI for Implementation Security Testing</strong></a><br />
-        Plenary Kickoff Meeting<br />
-        🗓️ Thursday, 17 April, at 3 PM GMT<br />
+        {/* <a href="/docs/ai/intro"><strong>Acceleration of AI for Implementation Security Testing</strong></a><br /> */}
+        <a href="/docs/pqc/intro"><strong>Testing Post-Quantum Cryptography Implementation Security</strong></a><br />
+        {/* Plenary Kickoff Meeting<br /> */}
+        Working Group Meeting 2<br />
+        🗓️ Thursday, 24 April, at 3 PM GMT<br />
         <a href="/meeting-invite/calendar.ics" style={{ textDecoration: "none" }}>
         <button style={{ 
             backgroundColor: "#007bff", 
@@ -113,7 +115,7 @@ const FeatureList = [
         Acceleration of AI for Implementation Security Testing
         </a></h3>
       <ul>
-      🗓️17 April, 11 AM EDT (3PM GMT) 
+      ✅17 April, 11 AM EDT (3PM GMT) 
           {/* <li><strong>1 May</strong> - Working Group Meeting</li>
           <li><strong>15 May</strong> - Working Group Meeting</li>
           <li><strong>29 May</strong> - Working Group Meeting</li> */}
