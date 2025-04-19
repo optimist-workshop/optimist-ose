@@ -38,7 +38,7 @@ sidebar_position: 1
 
   <li>
     <strong>Jakub Breier</strong>, Senior Cyber Security Manager, TTControl GmbH — <em>AI-accelerated Implementation Testing: Research vs Practice</em> 
-    <!-- <a href="/pdf/tvla-on-ntt.pdf" target="_blank" rel="noopener noreferrer">[Slides]</a> -->
+   <a href="/pdf/OPTIMIST_Breier.pdf" target="_blank" rel="noopener noreferrer">[Slides]</a>
     <details style={{ border: 'none', padding: 0, margin: '0.25em 0', background: 'transparent' }}>
       <summary style={{ fontWeight: 'bold', cursor: 'pointer', listStyle: 'none', marginLeft: '1em' }}>
         Abstract
