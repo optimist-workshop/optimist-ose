@@ -25,7 +25,7 @@ sidebar_position: 1
 
   <li>
     <strong>Stjepan Picek</strong>, Associate Professor, Radboud University — <em>Machine Learning-based Side-channel Analysis and Evaluation</em> 
-    <!-- <a href="/pdf/hardware-challenges-in-pqc.pdf" target="_blank" rel="noopener noreferrer">[Slides]</a> -->
+    <a href="/pdf/picek_slides.pdf" target="_blank" rel="noopener noreferrer">[Slides]</a>
     <details style={{ border: 'none', padding: 0, margin: '0.25em 0', background: 'transparent' }}>
       <summary style={{ fontWeight: 'bold', cursor: 'pointer', listStyle: 'none', marginLeft: '1em' }}>
         Abstract
