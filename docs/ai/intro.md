@@ -12,7 +12,7 @@ sidebar_position: 1
 <ul>
   <li>
     <strong>Debdeep Mukhopadhyay</strong>, Professor, Indian Institute of Technology Kharagpur — <em>Side Channel and Fault Attack Testing of Cryptosystems in the view of Dr AI</em> 
-    <!-- <a href="/pdf/how-to-do-dilithium-tvla.pdf" target="_blank" rel="noopener noreferrer">[Slides]</a> -->
+    <a href="/pdf/debdeep_slides.pptx" target="_blank" rel="noopener noreferrer">[Slides]</a>
     <details style={{ border: 'none', padding: 0, margin: '0.25em 0', background: 'transparent' }}>
       <summary style={{ fontWeight: 'bold', cursor: 'pointer', listStyle: 'none', marginLeft: '1em' }}>
         Abstract
