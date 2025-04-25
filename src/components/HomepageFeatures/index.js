@@ -24,7 +24,6 @@ const FeatureList = [
     description: (
       <>
         <a href="/docs/ai/intro"><strong>Acceleration of AI for Implementation Security Testing</strong></a><br /> 
-        // <a href="/docs/pqc/intro"><strong>Testing Post-Quantum Cryptography Implementation Security</strong></a><br />
         {/* Plenary Kickoff Meeting<br /> */}
         Working Group Meeting 1<br />
         🗓️ Thursday, 1 May, at 3 PM GMT<br />
