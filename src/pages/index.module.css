@@ -36,3 +36,27 @@
   align-items: center;
   justify-content: center;
 }
+
+
+.dacBanner {
+  background-color: #95959553; /* DAC color with transparency */
+  color: #000; /* High contrast for readability */
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  opacity: 0; /* Initially hide the banner */
+  transform: translateY(-100%); /* Initially position it off-screen at the top */
+  animation: slideDownFromUnder 0.5s ease-out forwards 1s;
+  position: relative; /* For potential z-index adjustments */
+}
+
+@keyframes slideDownFromUnder {
+  from { transform: translateY(-100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.heroBanner {
+  position: relative;
+  z-index: 1; /* Ensure it's above the initially hidden DAC banner */
+}
