@@ -36,7 +36,7 @@ const members = [
       name: 'Caner Tol',
       title: 'Research Associate, WPI',
       url: 'http://canertol.com/',
-      imageUrl: 'https://media.licdn.com/dms/image/v2/D4E03AQE0lhG6DQjNbQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1685420932222?e=1746662400&v=beta&t=N471nm-iuXEn4XG9gKSSBBawaW8uj6Z6G_5oRZRWWVQ',
+      imageUrl: '/img/people/caner.jpeg',
       permalink: '/caner-tol',
       email: 'mailto:mtol@wpi.edu',
       linkedin: 'https://www.linkedin.com/in/canertol/'
