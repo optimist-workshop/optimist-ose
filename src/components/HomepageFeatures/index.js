@@ -10,9 +10,9 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_google-docs_khfo.svg').default,
     description: (
       <>
-      <p>The OPTIMIST Hour meetings will be a place where citizens will be able to discuss, share, and debate ideas to address standard APIs and interoperability issues for trace data formats of side-channel data and other real-time measurements of implementation security. These meetings will be chaired by a member of the OPTIMIST Team and the primary discussion points will be compiled and shared within the OPTIMIST OSE.</p>
+      <p>The OPTIMIST Hour meetings are a place where citizens are able to discuss, share, and debate ideas to address standard APIs and interoperability issues for trace data formats of side-channel data and other real-time measurements of implementation security. These meetings are chaired by a member of the OPTIMIST Team and the primary discussion points are compiled and shared within the OPTIMIST OSE.</p>
 
-      <p>These meetings will address three main points brought up during the previous OPTIMIST Hour meeting, including, trace format requirements, keywords, and common APIs. Over the course of three meeting the goal will be to produce <a href="/docs/intro" target="_blank">documentation</a> that compiles requirements, common keywords and potential API solutions for trace data formats.</p>
+      <p>These meetings address three main points brought up during the previous OPTIMIST Hour meeting, including, trace format requirements, keywords, and common APIs. Over the course of three meetings, the goal is to produce documentation that compiles requirements, common keywords, and potential API solutions for trace data formats.</p>
       </>
       
     ),
