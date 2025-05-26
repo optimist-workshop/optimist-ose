@@ -2582,6 +2582,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@formspree/core@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "@formspree/core@npm:4.0.0"
+  dependencies:
+    "@stripe/stripe-js": "npm:^5.7.0"
+  checksum: 10c0/632f6f29d64a41c12918cf95700ae63b362f21975cfb42ac81ba8aa89e5dbaa7b528143635cabdb0df1a345f94202e9bd52321baf95f8033a2f427fc3c747743
+  languageName: node
+  linkType: hard
+
+"@formspree/react@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@formspree/react@npm:3.0.0"
+  dependencies:
+    "@formspree/core": "npm:^4.0.0"
+    "@stripe/react-stripe-js": "npm:^3.1.1"
+    "@stripe/stripe-js": "npm:^5.7.0"
+  peerDependencies:
+    react: ^16.8 || ^17.0 || ^18.0 || ^19.0
+    react-dom: ^16.8 || ^17.0 || ^18.0 || ^19.0
+  checksum: 10c0/b3426928f770a82ebfdae94bd33abb47f8589afb3b7ecdcb46739cc283459ca676be99251d5024c4c446a85b9e95826e1acafa2c532193559205950993edf561
+  languageName: node
+  linkType: hard
+
 "@hapi/hoek@npm:^9.0.0, @hapi/hoek@npm:^9.3.0":
   version: 9.3.0
   resolution: "@hapi/hoek@npm:9.3.0"
@@ -2889,6 +2912,26 @@ __metadata:
     micromark-util-character: "npm:^1.1.0"
     micromark-util-symbol: "npm:^1.0.1"
   checksum: 10c0/b8da9d8f560740959c421d3ce5be43952eace1c95cb65402d9473a15e66463346a37fb5f121a6b22a83af51e8845b0b4ff3c321f14ce31bd58fb126acf6c8ed9
+  languageName: node
+  linkType: hard
+
+"@stripe/react-stripe-js@npm:^3.1.1":
+  version: 3.7.0
+  resolution: "@stripe/react-stripe-js@npm:3.7.0"
+  dependencies:
+    prop-types: "npm:^15.7.2"
+  peerDependencies:
+    "@stripe/stripe-js": ">=1.44.1 <8.0.0"
+    react: ">=16.8.0 <20.0.0"
+    react-dom: ">=16.8.0 <20.0.0"
+  checksum: 10c0/663e9176b0a710632abe64bb7efca63a22d8cf690942a4507d57ba1d4fb6328cd08e3cf9040ea95348540c47ed8dbc5250982b150b38eb9564861dc0ecd83d72
+  languageName: node
+  linkType: hard
+
+"@stripe/stripe-js@npm:^5.7.0":
+  version: 5.10.0
+  resolution: "@stripe/stripe-js@npm:5.10.0"
+  checksum: 10c0/0309007baaf939931de0e18ec8230bdfa41b1644cd5f65d72168ef0a05ea4d14da9a95ff628c94f9f1e222577296369b7490534803ce1ce18d08a557ae562644
   languageName: node
   linkType: hard
 
@@ -12509,6 +12552,7 @@ __metadata:
     "@docusaurus/preset-classic": "npm:3.7.0"
     "@docusaurus/theme-search-algolia": "npm:^3.7.0"
     "@docusaurus/types": "npm:3.7.0"
+    "@formspree/react": "npm:^3.0.0"
     "@mdx-js/react": "npm:^3.0.0"
     clsx: "npm:^2.0.0"
     framer-motion: "npm:^12.5.0"

@@ -36,6 +36,7 @@ const RAW_RUNTIME_STATE =
           ["@docusaurus/preset-classic", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/theme-search-algolia", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/types", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
+          ["@formspree/react", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.0.0"],\
           ["@mdx-js/react", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.1.0"],\
           ["clsx", "npm:2.1.1"],\
           ["framer-motion", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:12.5.0"],\
@@ -4657,6 +4658,45 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@formspree/core", [\
+      ["npm:4.0.0", {\
+        "packageLocation": "../../../../../home/caner/.yarn/berry/cache/@formspree-core-npm-4.0.0-ac36e9def4-10c0.zip/node_modules/@formspree/core/",\
+        "packageDependencies": [\
+          ["@formspree/core", "npm:4.0.0"],\
+          ["@stripe/stripe-js", "npm:5.10.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@formspree/react", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../../../../home/caner/.yarn/berry/cache/@formspree-react-npm-3.0.0-6b80147e25-10c0.zip/node_modules/@formspree/react/",\
+        "packageDependencies": [\
+          ["@formspree/react", "npm:3.0.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/@formspree-react-virtual-8940d2c7c4/6/home/caner/.yarn/berry/cache/@formspree-react-npm-3.0.0-6b80147e25-10c0.zip/node_modules/@formspree/react/",\
+        "packageDependencies": [\
+          ["@formspree/react", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.0.0"],\
+          ["@formspree/core", "npm:4.0.0"],\
+          ["@stripe/react-stripe-js", "virtual:8940d2c7c411d27c713b2434836861c42d416788ad79b99f39095a3179f19a0c2d794098dd5436cb09b42b506a8f0d1d4166802f1869e0cc3d077cf6c6c7a896#npm:3.7.0"],\
+          ["@stripe/stripe-js", "npm:5.10.0"],\
+          ["@types/react", null],\
+          ["@types/react-dom", null],\
+          ["react", "npm:19.0.0"],\
+          ["react-dom", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:19.0.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@hapi/hoek", [\
       ["npm:9.3.0", {\
         "packageLocation": "../../../../../home/caner/.yarn/berry/cache/@hapi-hoek-npm-9.3.0-447eb8d274-10c0.zip/node_modules/@hapi/hoek/",\
@@ -5101,6 +5141,46 @@ const RAW_RUNTIME_STATE =
           ["micromark-factory-space", "npm:1.1.0"],\
           ["micromark-util-character", "npm:1.2.0"],\
           ["micromark-util-symbol", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stripe/react-stripe-js", [\
+      ["npm:3.7.0", {\
+        "packageLocation": "../../../../../home/caner/.yarn/berry/cache/@stripe-react-stripe-js-npm-3.7.0-2a53c94b40-10c0.zip/node_modules/@stripe/react-stripe-js/",\
+        "packageDependencies": [\
+          ["@stripe/react-stripe-js", "npm:3.7.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:8940d2c7c411d27c713b2434836861c42d416788ad79b99f39095a3179f19a0c2d794098dd5436cb09b42b506a8f0d1d4166802f1869e0cc3d077cf6c6c7a896#npm:3.7.0", {\
+        "packageLocation": "./.yarn/__virtual__/@stripe-react-stripe-js-virtual-1a95daf8c2/6/home/caner/.yarn/berry/cache/@stripe-react-stripe-js-npm-3.7.0-2a53c94b40-10c0.zip/node_modules/@stripe/react-stripe-js/",\
+        "packageDependencies": [\
+          ["@stripe/react-stripe-js", "virtual:8940d2c7c411d27c713b2434836861c42d416788ad79b99f39095a3179f19a0c2d794098dd5436cb09b42b506a8f0d1d4166802f1869e0cc3d077cf6c6c7a896#npm:3.7.0"],\
+          ["@stripe/stripe-js", "npm:5.10.0"],\
+          ["@types/react", null],\
+          ["@types/react-dom", null],\
+          ["@types/stripe__stripe-js", null],\
+          ["prop-types", "npm:15.8.1"],\
+          ["react", "npm:19.0.0"],\
+          ["react-dom", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:19.0.0"]\
+        ],\
+        "packagePeers": [\
+          "@stripe/stripe-js",\
+          "@types/react-dom",\
+          "@types/react",\
+          "@types/stripe__stripe-js",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stripe/stripe-js", [\
+      ["npm:5.10.0", {\
+        "packageLocation": "../../../../../home/caner/.yarn/berry/cache/@stripe-stripe-js-npm-5.10.0-ff23d8474a-10c0.zip/node_modules/@stripe/stripe-js/",\
+        "packageDependencies": [\
+          ["@stripe/stripe-js", "npm:5.10.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -17158,6 +17238,7 @@ const RAW_RUNTIME_STATE =
           ["@docusaurus/preset-classic", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/theme-search-algolia", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
           ["@docusaurus/types", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.7.0"],\
+          ["@formspree/react", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.0.0"],\
           ["@mdx-js/react", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:3.1.0"],\
           ["clsx", "npm:2.1.1"],\
           ["framer-motion", "virtual:8155a6cfbfdfb46993d4580fc21eff83d1d0b0104b30d90fc21cb3d1cb6af424a8c7374ff66963ea16d49d22220c7d865f663773d2ac91294d0e55ae2e9a274c#npm:12.5.0"],\

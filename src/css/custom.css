@@ -101,3 +101,69 @@ details.no-box {
   margin: 0;
   background: none;
 }
+/* src/css/custom.css or your global stylesheet */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem; /* Increased gap for better spacing */
+  max-width: 600px; /* Slightly wider for a more spacious feel */
+  margin: 2rem auto; /* Center the form on the page */
+  padding: 2rem;
+  background-color: #f9f9f9; /* Light background for the form area */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #333; /* Darker label color for better contrast */
+  font-size: 0.9rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem 1rem; /* Increased padding for a better feel */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: var(--ifm-color-primary, #007bff); /* Use Docusaurus primary color or a fallback */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Focus ring */
+  outline: none;
+}
+
+.form-button {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--ifm-color-primary, #007bff); /* Use Docusaurus primary color or a fallback */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  align-self: flex-start; /* Align button to the start if form groups are full width */
+}
+
+.form-button:hover {
+  background-color: var(--ifm-color-primary-dark, #0056b3); /* Darken on hover */
+}
+
+/* Optional: Add some responsive adjustments if needed */
+@media (max-width: 600px) {
+  .contact-form {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+}

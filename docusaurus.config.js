@@ -127,6 +127,7 @@ const config = {
               { label: "Why OPTIMIST?", to: "/blog/open-source" },  // Page 1
               { label: "Organization", to: "/organization" },  // Page 2
               { label: "Timeline", to: "/timeline" },  // Page 3
+              { label: "Contact", to: "/contact" },  // Page 4
             ],
           },
           {
@@ -189,6 +190,10 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/optimist-workshop/optimist-ose',
+              },
+              {
+                label: 'Contact Us',
+                to: '/contact',
               },
             ],
           },
