@@ -35,6 +35,9 @@ function CalendlyPopupButton() {
         return false;
       }}
       style={{
+        display: 'inline-flex', // Added for flex centering
+        alignItems: 'center',   // Added for vertical centering
+        justifyContent: 'center', // Added for horizontal centering
         backgroundColor: '#0069ff',
         color: '#ffffff',
         padding: '10px 15px',
