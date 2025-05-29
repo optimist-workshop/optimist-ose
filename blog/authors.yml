@@ -2,7 +2,7 @@ aysu:
   name: Aydin Aysu
   title: Associate Professor, NCSU
   url: https://ece.ncsu.edu/people/aaysu/
-  image_url: https://ece.ncsu.edu/wp-content/uploads/2018/05/Aydin-Aysu-500x500-1.jpg
+  image_url: /img/people/aaysu.jpg
   page:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/aydin-aysu'
@@ -14,7 +14,7 @@ ganji:
   name: Saba Ganji
   title: Assistant Professor, WPI
   url: https://www.wpi.edu/people/faculty/fganji
-  image_url: https://www.wpi.edu/sites/default/files/styles/1x_383x383/public/faculty-image/fganji.jpg
+  image_url: /img/people/fganji.jpg
   page:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/saba-ganji'
@@ -26,7 +26,7 @@ schaoumont:
   name: Patrick Schaumont
   title: Professor, WPI
   url: https://www.wpi.edu/people/faculty/pschaumont
-  image_url: https://www.wpi.edu/sites/default/files/styles/1x_383x383/public/faculty-image/Patrick_Headshot%20%281%29.jpg
+  image_url: /img/people/pschaumont.jpg
   page:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/patrick-schaumont'
@@ -50,7 +50,7 @@ marcantonio:
   name: Trey Marcantonio
   title: WPI
   url: "https://www.linkedin.com/in/trey-marcantonio-3746a6205/"
-  image_url: https://media.licdn.com/dms/image/v2/D4E03AQEGEPkA0AhTQg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692567279804?e=1748476800&v=beta&t=KSYISAkd_Da1hBLe_mEbarc_ktY-1zpsghYC0NAIfrg
+  image_url: /img/people/trey.jpg
   page:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/trey-marcantonio'
