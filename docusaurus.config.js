@@ -175,7 +175,7 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Discourse',
+                label: 'Forum',
                 href: 'https://discourse.optimist-ose.org/',
               },
             ],

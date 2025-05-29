@@ -1,0 +1,65 @@
+.popupContainer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--ifm-color-primary-darker); /* Using a Docusaurus theme variable */
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  z-index: 1000; /* Ensure it's above most other content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px; /* Slightly reduced gap for narrower box */
+  width: 250px; /* Adjust width as needed - made narrower */
+
+  /* Animation */
+  opacity: 0;
+  transform: translateY(100%); /* Start off-screen below */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  visibility: hidden; /* Hide when not visible to prevent interaction */
+}
+
+.popupContainerVisible {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.closeButton {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.6em;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+  line-height: 1;
+}
+
+.closeButton:hover {
+  color: var(--ifm-color-gray-300); /* Lighter color on hover */
+}
+
+.popupContainer h4 {
+  margin: 0;
+  color: white;
+  font-size: 1.25em;
+}
+
+.popupContainer p {
+  margin: 0 0 10px 0;
+  font-size: 0.95em;
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* Ensure the button fits well */
+.popupContainer .button--sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.9em;
+}
