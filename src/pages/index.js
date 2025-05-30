@@ -33,7 +33,7 @@ function HomepageHeader() {
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   const bannerRef = useRef(null);
-  const bannerLink = "/dac25";
+  const bannerLink = "/ches25"; // Changed to CHES 2025 page
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -54,16 +54,16 @@ export default function Home() {
       description="Open Tools, Interfaces and Metrics for Implementation Security Testing">
       <HomepageHeader />
 
-     {/* DAC Banner with Link always present */}
+     {/* CHES 2025 Banner */}
      <Link
         to={bannerLink}
         className={styles.dacBanner}
         ref={bannerRef}
         style={{ transform: 'translateY(-100%)', opacity: 0 }}
       >
-        🎉 <strong>OPTIMIST at DAC June 22–25, 2025</strong>
+        <strong>2nd OPTIMIST Workshop — September 14, 2025. Co-located with CHES 25.</strong>
         <br />
-        Visit Booth <strong>#1428</strong> — First Floor, Moscone West, San Francisco<br />
+        <a href="/ches25" style={{color: "#007bff", textDecoration: "underline"}}>Call for Contributions</a>
       </Link>
 
       <main>

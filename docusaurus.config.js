@@ -178,6 +178,10 @@ const config = {
                 label: 'Forum',
                 href: 'https://discourse.optimist-ose.org/',
               },
+              {
+                label: 'Subscribe to Mailing List',
+                to: '/join',
+              },
             ],
           },
           {

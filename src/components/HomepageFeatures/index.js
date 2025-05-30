@@ -19,66 +19,34 @@ const FeatureList = [
 
   },
   {
-    title: 'Next Meeting',
-    Svg: require('@site/static/img/undraw_meeting_dunc.svg').default,
+    title: 'Join OPTIMIST at DAC 2025!',
+    Svg: require('@site/static/img/undraw_voice-control_qghj.svg').default, // Changed to a more generic calendar/event SVG
     description: (
       <>
-        <a href="/docs/ai/intro"><strong>Acceleration of AI for Implementation Security Testing</strong></a><br /> 
-        {/* Plenary Kickoff Meeting<br /> */}
-        Working Group Meeting 3<br />
-        🗓️ Thursday, 29 May, at 3 PM GMT<br />
-        <a href="/meeting-invite/calendar.ics" style={{ textDecoration: "none" }}>
-        <button style={{ 
-            backgroundColor: "#007bff", 
-            color: "white", 
-            border: "none", 
-            padding: "10px 20px", 
-            fontSize: "16px", 
-            cursor: "pointer", 
-            borderRadius: "5px" 
-        }}>
-          Add to Calendar
-        </button>
-      </a>
-        <TimeZoneConverter />
-        <strong>Zoom link:</strong><br />
-        {/* Zoom Link Box */}
-        <div
-          style={{
-            padding: '12px',
-            border: '1px solid #ccc',
-            borderRadius: '8px',
-            backgroundColor: '#f8f9fa',
-            boxShadow: '2px 2px 10px rgba(0, 0, 0, 0.1)',
-            maxWidth: '300px',
-            margin: '10px auto', // Centers the box horizontally
-            textAlign: 'center', // Ensures content inside is centered
-            display: 'block',
-          }}
-        >
-          <a
-            href="https://wpi.zoom.us/j/91072710391"
-            style={{
-              color: '#007bff',
-              textDecoration: 'none',
-              wordBreak: 'break-all',
-              fontWeight: 'bold',
-            }}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            https://wpi.zoom.us/j/91072710391
-          </a>
-        </div>
-        {/* line */}
-      
-
-
+        {/* <a href="/dac25"><strong></strong></a><br /> */}
+        We are excited to announce that the OPTIMIST team will be attending the Design Automation Conference (DAC) 2025 in San Francisco! 
+        <br />
+        Come visit our exhibition booth to learn more about the OPTIMIST ecosystem.<br /><br />
+        <strong>📅 Dates:</strong> June 22–25, 2025<br />
+        <strong>📍 Location:</strong> Moscone West, San Francisco, CA<br />
+        <strong>🏢 Booth:</strong> #1428 (First Floor)
+        <br /><br />
+        <a href="/dac25" style={{ textDecoration: "none" }}>
+          <button style={{
+              backgroundColor: "#007bff", // You can adjust styling as needed
+              color: "white",
+              border: "none",
+              padding: "10px 20px",
+              fontSize: "16px",
+              cursor: "pointer",
+              borderRadius: "5px"
+          }}>
+            Learn More
+          </button>
+        </a>
       </>
     ),
   }
-  
-  
 ,
 {
   title: 'Timeline',
