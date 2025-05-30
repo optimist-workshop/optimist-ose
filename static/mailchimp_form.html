@@ -3,15 +3,80 @@
 
     <style type="text/css">
         #mc_embed_signup {
-            background: #fff;
-            /* false; */ /* Removed 'false;' as it's not valid CSS */
+            /* background: #fff; */ /* Overridden by new styles */
             clear: left;
             font: 14px Helvetica, Arial, sans-serif;
-            width: px;
+            /* width: px; */ /* Invalid, removed. Max-width will be used. */
+
+            /* Styles from .contact-form */
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem; /* Increased gap for better spacing */
+            max-width: 600px; /* Slightly wider for a more spacious feel */
+            margin: 2rem auto; /* Center the form on the page */
+            padding: 2rem;
+            background-color: #f9f9f9; /* Light background for the form area */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
         }
 
         /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
          We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+        /* Styles from .form-group, applied to .mc-field-group */
+        #mc_embed_signup .mc-field-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        /* Styles from .form-label, applied to labels within .mc-field-group */
+        #mc_embed_signup .mc-field-group label {
+            font-weight: bold;
+            color: #333; /* Darker label color for better contrast */
+            font-size: 0.9rem;
+        }
+
+        /* Styles from .form-input, applied to text and email inputs */
+        #mc_embed_signup .mc-field-group input.text,
+        #mc_embed_signup .mc-field-group input.email {
+            width: 100%;
+            padding: 0.75rem 1rem; /* Increased padding for a better feel */
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #mc_embed_signup .mc-field-group input.text:focus,
+        #mc_embed_signup .mc-field-group input.email:focus {
+            border-color: #007bff; /* Fallback for --ifm-color-primary */
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Focus ring */
+            outline: none;
+        }
+
+        /* Styles for .form-button, applied to the submit button */
+        #mc_embed_signup .button {
+            padding: 0.75rem 1.5rem;
+            background-color: #092470; /* Matching --ifm-color-primary from custom.css */
+            color: white !important; /* Important to override Mailchimp's default button text color */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            align-self: flex-start; /* Align button to the start */
+            width: auto; /* Ensure button is not full width by default from MC styles */
+            box-sizing: border-box; /* For consistent sizing model */
+            height: auto !important; /* Override Mailchimp's fixed height if any */
+            line-height: normal !important; /* Normalize line height */
+        }
+
+        #mc_embed_signup .button:hover {
+            background-color: #1fe076; /* Matching --ifm-color-primary-dark from custom.css */
+        }
     </style>
     <div id="mc_embed_signup">
         <form action="https://optimist-ose.us13.list-manage.com/subscribe/post?u=afa768d4389aaedf469e28b3a&amp;id=de082e2a4b&amp;f_id=00c200e9f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
