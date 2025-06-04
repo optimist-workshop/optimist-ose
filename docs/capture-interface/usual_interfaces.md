@@ -193,6 +193,7 @@ This section enumerates the interfaces that exist in typical side-channel and fa
     a.	**Purpose:** target control and data transfer. The communication module can be part of the components connected to one another, e.g., the control board can have an embedded communication module. 
 
     b.	**Data:** all necessary packets required for trigger, control/ data packets. 
+
     c.	**Features:** speed, bandwidth, throughput
 
     d.	**Logical layer:** packets format 
@@ -245,7 +246,7 @@ This section enumerates the interfaces that exist in typical side-channel and fa
 
 18.	**Clock ↔️ Target**
 
-    a.	**Purpose:** provide a reference clock to the target () or get the target clock to synchronize other components ().
+    a.	**Purpose:** provide a reference clock to the target (➡️) or get the target clock to synchronize other components (⬅️).
 
     b.	**Data:** analog clock signal.
 
@@ -255,7 +256,7 @@ This section enumerates the interfaces that exist in typical side-channel and fa
 
     e.	**Physical layer:** analog Data Transfer.
 
-    f.	**Example:** quartz on a board (), function generator connected to the target clock input (), internal clock exposed on a GPIO ().
+    f.	**Example:** quartz on a board (➡️), function generator connected to the target clock input (➡️), internal clock exposed on a GPIO (⬅️).
 
 19.	**Clock ➡️ Sampler**
 

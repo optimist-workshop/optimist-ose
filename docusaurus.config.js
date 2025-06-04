@@ -169,6 +169,10 @@ const config = {
                 label: 'Documentation',
                 to: '/docs/intro',
               },
+              {
+                label: 'Blog',
+                to: '/blog',
+              }
             ],
           },
           {
@@ -179,7 +183,7 @@ const config = {
                 href: 'https://discourse.optimist-ose.org/',
               },
               {
-                label: 'Subscribe to Mailing List',
+                label: 'Join our mailing list',
                 to: '/join',
               },
             ],
@@ -188,15 +192,11 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
                 href: 'https://github.com/optimist-workshop/optimist-ose',
               },
               {
-                label: 'Contact Us',
+                label: 'Contact us',
                 to: '/contact',
               },
             ],
