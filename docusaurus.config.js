@@ -59,6 +59,10 @@ const config = {
             from: '/docs/ai',  // When someone visits /docs/ai
             to: '/docs/ai/intro', // redirect them to /docs/ai/intro
           },
+          {
+            from: '/docs',  // When someone visits /docs
+            to: '/docs/intro', // redirect them to /docs/intro
+          },
 
         ],
       },
@@ -145,8 +149,9 @@ const config = {
               { label: "CHES 2024", to: "/ches24" },  // Page 2
             ],
           },
+          {to: 'https://discourse.optimist-ose.org/', label: 'Forum', position: 'right'},
           {
-            to: "https://discourse.optimist-ose.org/",
+            to: "/join",
             label: "Join",
             position: "right",
             className: "navbar-button", // Apply custom class
