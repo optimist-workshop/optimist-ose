@@ -57,7 +57,7 @@ const FeatureList = [
         Acceleration of AI for Implementation Security Testing
         </a></h3>
       <ul>
-      ✅17 April, 11 AM EDT (3PM GMT) 
+      ✅April 17, 11 AM EDT (3PM GMT) 
           {/* <li><strong>1 May</strong> - Working Group Meeting</li>
           <li><strong>15 May</strong> - Working Group Meeting</li>
           <li><strong>29 May</strong> - Working Group Meeting</li> */}
@@ -68,7 +68,7 @@ const FeatureList = [
         Testing Post-Quantum Cryptography Implementation Security
         </a></h3>
       <ul>
-      ✅27 March, 11 AM EDT (3PM GMT)
+      ✅March 27, 11 AM EDT (3PM GMT)
           {/* <li><strong>10 April</strong> - Working Group Meeting</li>
           <li><strong>24 April</strong> - Working Group Meeting</li>
           <li><strong>8 May</strong> - Working Group Meeting</li> */}
