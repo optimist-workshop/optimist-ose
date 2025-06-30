@@ -54,7 +54,8 @@ export default function Home() {
       description="Open Tools, Interfaces and Metrics for Implementation Security Testing">
       <HomepageHeader />
 
-     {/* CHES 2025 Banner */}
+      {/*  CHES 2025 Banner */}
+     {/*
      <Link
         to={bannerLink}
         className={styles.dacBanner}
@@ -64,7 +65,7 @@ export default function Home() {
         <strong>2nd OPTIMIST Workshop — September 14, 2025. Co-located with CHES 25.</strong>
         <br />
         <a href="/ches25" style={{color: "#007bff", textDecoration: "underline"}}>Call for Contributions</a>
-      </Link>
+      </Link> */}
 
       <main>
         <HomepageFeatures />

@@ -19,30 +19,28 @@ const FeatureList = [
 
   },
   {
-    title: 'Join OPTIMIST at DAC 2025!',
-    Svg: require('@site/static/img/undraw_voice-control_qghj.svg').default, // Changed to a more generic calendar/event SVG
+    title: '2nd OPTIMIST Workshop co-located with CHES 2025!',
+    Svg: require('@site/static/img/undraw_conference_3n82.svg').default, // Changed to a more generic calendar/event SVG
     description: (
       <>
-        {/* <a href="/dac25"><strong></strong></a><br /> */}
-        We are excited to announce that the OPTIMIST team will be attending the Design Automation Conference (DAC) 2025 in San Francisco! 
+        <p>
+          We are excited to announce that we will be hosting the 2nd OPTIMIST workshop! The OPTIMIST workshop is a forum to present and discuss new efforts that enable open and reproducible research in implementation security testing.
+        </p>
+        <strong>📅 Workshop date:</strong> September 14, 2025<br />
+        <strong>📍 Location:</strong> Kuala Lumpur, Malaysia<br />
         <br />
-        Come visit our exhibition booth to learn more about the OPTIMIST ecosystem.<br /><br />
-        <strong>📅 Dates:</strong> June 22–25, 2025<br />
-        <strong>📍 Location:</strong> Moscone West, San Francisco, CA<br />
-        <strong>🏢 Booth:</strong> #1428 (First Floor)
-        <br /><br />
-        <a href="/dac25" style={{ textDecoration: "none" }}>
-          <button style={{
-              backgroundColor: "#007bff", // You can adjust styling as needed
-              color: "white",
-              border: "none",
-              padding: "10px 20px",
-              fontSize: "16px",
-              cursor: "pointer",
-              borderRadius: "5px"
-          }}>
-            Learn More
-          </button>
+        <p style={{ marginBottom: 0 }}>
+          <strong>Call for Contributions is open!</strong>
+        </p>
+        <p style={{ marginTop: 0 }}>
+          We invite proposals for talks on topics like standard APIs, datasets, and evaluation tools.
+        </p>
+
+        <strong>⏰ Submission Deadline:</strong> July 14, 2025<br />
+       
+        <br />
+        <a className="button button--primary" href="/ches25">
+          Learn More & Submit a Proposal
         </a>
       </>
     ),
@@ -88,18 +86,8 @@ const FeatureList = [
       ✅October 24, 11 AM EST (3 PM GMT)
       </ul>
 
-      <a href="/timeline" style={{ textDecoration: "none" }}>
-        <button style={{ 
-            backgroundColor: "#007bff", 
-            color: "white", 
-            border: "none", 
-            padding: "10px 20px", 
-            fontSize: "16px", 
-            cursor: "pointer", 
-            borderRadius: "5px" 
-        }}>
-          Click to see the full timeline
-        </button>
+      <a className="button button--primary" href="/timeline">
+        Click to see the full timeline
       </a>
 
 
