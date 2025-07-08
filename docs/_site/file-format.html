@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>File Format | OPTIMIST</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="File Format" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Open Tools, Interfaces and Metrics for Implementation Security Testing." />
+<meta property="og:description" content="Open Tools, Interfaces and Metrics for Implementation Security Testing." />
+<link rel="canonical" href="http://0.0.0.0:4000/file-format.html" />
+<meta property="og:url" content="http://0.0.0.0:4000/file-format.html" />
+<meta property="og:site_name" content="OPTIMIST" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="File Format" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Open Tools, Interfaces and Metrics for Implementation Security Testing.","headline":"File Format","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://0.0.0.0:4000/assets/img/Logo_NSF_Before.jpeg"}},"url":"http://0.0.0.0:4000/file-format.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        
+          <img src="/assets/img/Logo_NSF_Before.jpeg" alt="Logo" />
+        
+
+        <p>Open Tools, Interfaces and Metrics for Implementation Security Testing </p>
+
+	<p>
+	  <B><a href="https://optimist-ose.org">OPTIMIST Hour</a></B><br>
+	  <BR>
+	  <a href="https://optimist-ose.org/optimist-hour-24"> File Format for Traces</a><br>
+	  <a href="https://optimist-ose.org/file-format"> File Format Index</a><br>
+	  <BR>
+	  <a href="https://optimist-ose.org/workshop-24"> OPTIMIST Workshop @CHES24</a><br>
+	  <BR>
+	  <a href="https://discourse.optimist-ose.org/">Optimist OSE Discourse</a>
+	</p>
+
+
+      </header>
+
+      <section>
+
+      <h1 id="file-format-index">File Format Index</h1>
+
+<p><strong>Existing File Formats</strong></p>
+
+<p>Below is a list of file formats relevant to trace storage. Numpy, TRS, SQLite, HDF5 and Zarr have been utilized in the community previously while Avro, Apache ORC and Parquet are all used in big data, but applications to SCA have not been explored.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>File Format</th>
+      <th>Links</th>
+      <th>Traditionally Used In SCA</th>
+      <th>Open Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Numpy (.npy)</td>
+      <td>https://github.com/numpy/numpy</td>
+      <td>Yes</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>TRS</td>
+      <td>https://github.com/Keysight/python-trsfile</td>
+      <td>Yes</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>SQLite</td>
+      <td>https://sqlite.org/</td>
+      <td>Somewhat</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>HDF5</td>
+      <td>https://github.com/HDFGroup/hdf5</td>
+      <td>Yes</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Zarr</td>
+      <td>https://github.com/zarr-developers/zarr-python</td>
+      <td>Somewhat</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Avro</td>
+      <td>https://github.com/apache/avro</td>
+      <td>No</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Apache ORC</td>
+      <td>https://github.com/apache/orc</td>
+      <td>No</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Parquet</td>
+      <td>https://parquet.apache.org/</td>
+      <td>No</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>JSON</td>
+      <td>https://www.json.org/json-en.html</td>
+      <td>No</td>
+      <td>Yes</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Frameworks Utilizing File Formats</strong>
+Below is a list of frameworks that currently exist and the underlying file formats that exist. If you know or find any additional frameworks please add it to the list.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Framework</th>
+      <th>Underlying File Format</th>
+      <th>Relavant Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SCARR</td>
+      <td>Zarr</td>
+      <td>https://github.com/decryptofy/scarr</td>
+    </tr>
+    <tr>
+      <td>SCARED</td>
+      <td>HDF5</td>
+      <td>https://github.com/eshard/scared</td>
+    </tr>
+    <tr>
+      <td>LASCAR</td>
+      <td>HDF5</td>
+      <td>https://github.com/Ledger-Donjon/lascar</td>
+    </tr>
+    <tr>
+      <td>Chip Whisperer</td>
+      <td>Numpy</td>
+      <td>https://github.com/newaetech/chipwhisperer</td>
+    </tr>
+    <tr>
+      <td>SCAPEgoat</td>
+      <td>Numpy/JSON</td>
+      <td>https://github.com/vernamlab/SCApeGoat</td>
+    </tr>
+    <tr>
+      <td>SCALib</td>
+      <td>Numpy</td>
+      <td>https://scalib.readthedocs.io/en/stable/</td>
+    </tr>
+    <tr>
+      <td>Sedpack/SCAAML</td>
+      <td>Varying with JSON wrapper</td>
+      <td>https://github.com/google/sedpack</td>
+    </tr>
+    <tr>
+      <td>RamDPA</td>
+      <td>Custom RamDPA format</td>
+      <td>https://github.com/fuentessec/RamDPA</td>
+    </tr>
+    <tr>
+      <td>Daredevil</td>
+      <td>Unclear</td>
+      <td>https://github.com/SideChannelMarvels/Daredevil?tab=readme-ov-file</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Relevant Papers/Resources</strong>
+Below is a list of papers published across varying mediums alongside varying resources that may be of some interest to those trying to develop or standardize a file format/framework for future use. If you know of a relevant paper please add it to the list below. File formats or frameworks should be added to their relevant lists as opposed to this one.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Paper Title/Resource</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Optimization of Pearson correlation coefficient calculation for DPA and comparison of different approaches</td>
+      <td>https://ieeexplore.ieee.org/document/7934563?signout=success</td>
+    </tr>
+    <tr>
+      <td>N5 Github</td>
+      <td>https://github.com/saalfeldlab/n5</td>
+    </tr>
+    <tr>
+      <td>Fast Leakage Assessment</td>
+      <td>https://eprint.iacr.org/2017/624</td>
+    </tr>
+    <tr>
+      <td>LZ4</td>
+      <td>https://lz4.org/</td>
+    </tr>
+    <tr>
+      <td>SCABench</td>
+      <td>https://github.com/cassiersg/SCABench</td>
+    </tr>
+    <tr>
+      <td>Benchmarking eSHARD SCA Solution</td>
+      <td>https://eshard.com/posts/benchmarking-side-channel-solutions</td>
+    </tr>
+    <tr>
+      <td>FOBOS 3: An Open-Source Platform for Side-Channel Analysis and Benchmarking</td>
+      <td>https://dl.acm.org/doi/pdf/10.1145/3605769.3623987</td>
+    </tr>
+    <tr>
+      <td>High-Performance Design Patterns and File Formats for Side-Channel Analysis</td>
+      <td>https://tches.iacr.org/index.php/TCHES/article/view/11446/10951</td>
+    </tr>
+    <tr>
+      <td>A Comparison of HDF5, Zarr, and netCDF4 in Performing Common I/O Operations</td>
+      <td>https://arxiv.org/pdf/2207.09503</td>
+    </tr>
+  </tbody>
+</table>
+
+
+      </section>
+      
+    <footer>
+	<p>
+	  <img src="/assets/img/nsf.png" width="100" height="100" alt="NSF" /><BR>
+	  <small>Supported in part by NSF POSE <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2346138&HistoricalAwards=false">Award 2346138</a></small> <BR>
+	  <small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small>
+	</p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>
