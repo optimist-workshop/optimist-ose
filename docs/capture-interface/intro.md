@@ -6,10 +6,10 @@ sidebar_position: 1
 
 ## **Latest version: [Capture Interface for Side Channel and Fault Injection Setups v0.5 (3/6/2025)](/pdf/OPTIMIST_OSE_API.pdf)**
 <details>
-  <summary>Click to view BibTeX</summary>
+  <summary>BibTex</summary>
 
   ```bibtex
-  @misc{optimist2025,
+  @misc{capture-interface-optimist2025,
     author = {Aydin Aysu and Gaetan Cassiers and Daniel Dinu and Anuj Dubey and Fatemeh Ganji and Benoît Gérard and Thomas Hiscock and Jens-Peter Kaps and Dev Mehta and Daniel Page and Markku-Juhani Saarinen and Patrick Schaumont and Mirjana Stojilović and Emanuele Strieder and Jean-Pierre Thibault and Caner Tol and Marc Witteman},
     title = {Open Tools, Interfaces and Metrics for Implementation Security Testing: Capture Interface for Side Channel and Fault Injection Setups},
     year = {2025},
@@ -44,11 +44,9 @@ Security Testing: File Format for Traces - Requirements and Glossary. [online] V
 
 ## Working Group Meetings
 
-- Thursday February 6th, 2025 (3 PM GMT) - Working Group Meeting 1
-
-- Thursday February 20th, 2025 (3 PM GMT) - Working Group Meeting 2
-
-- Thursday March 6th, 2025 (3 PM GMT) - Working Group Meeting 3
+- February 6, 2025 (3 PM GMT) - Working Group Meeting 1
+- February 20, 2025 (3 PM GMT) - Working Group Meeting 2
+- March 6, 2025 (3 PM GMT) - Working Group Meeting 3
 
 ---
 #### Interested in Joining or Giving Feedback?
@@ -68,6 +66,6 @@ Security Testing: File Format for Traces - Requirements and Glossary. [online] V
        minWidth: "150px",
        height: "48px",
      }}>
-    Join Discourse
+    Join Our Forum
   </a>
 </div>

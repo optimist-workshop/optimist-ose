@@ -6,6 +6,26 @@ sidebar_position: 1
 
 **OPTIMIST** (Open Tools, Interfaces, and Metrics for Implementation Security Testing) is an open-source initiative to improve standardization and interoperability in security testing for cryptographic implementations. As PQC schemes move toward real-world deployment, ensuring their resilience against implementation attacks is critical. This session will bring together researchers, industry professionals, and government stakeholders to discuss challenges, methodologies, and best practices for securing PQC implementations.  
 
+## **Latest version: [Testing Post-Quantum Cryptography Implementation Security v0.5 (7/8/2025)](/pdf/pqc05.pdf)**
+<details>
+  <summary>BibTex</summary>
+
+  ```bibtex
+  @misc{pqc-optimist2025,
+    author = {Aydin Aysu and Daniel Dinu and Kris Gaj and Fatemeh Ganji and Mona Hashemi and Renita J and Dev Mehta and Markku-Juhani O. Saarinen and Patrick Schaumont and Caner Tol},
+    title = {Open Tools, Interfaces and Metrics for Implementation Security Testing: Testing Post-Quantum Cryptography Implementation Security},
+    year = {2025},
+    month = {July},
+    day = {8},
+    version = {0.5},
+    note = {Working Document},
+    url = {https://optimist-ose.org/assets/files/pqc05-06308116ce3dcd2d2edd34255985f303.pdf},
+    institution = {Optimist OSE},
+    howpublished = {Online},
+  }
+  ```
+</details>
+
 ## Talks
 
 <ul>
@@ -46,11 +66,16 @@ sidebar_position: 1
   </li>
 </ul>
 
+## References
+
+1. The MITRE Corporation, Post-Quantum Cryptography (PQC) Migration Roadmap, 2025 
+[Online] [https://pqcc.org/wp-content/uploads/2025/05/PQC-Migration-Roadmap-PQCC-2.pdf](https://pqcc.org/wp-content/uploads/2025/05/PQC-Migration-Roadmap-PQCC-2.pdf)
+
 ## Working Group Meetings
 
-* 10 April, 3PM GMT (11AM EDT) - Working Group Meeting 1
-* 24 April, 3PM GMT (11AM EDT) - Working Group Meeting 2
-* 8 May, 3PM GMT (11AM EDT) - Working Group Meeting 3
+* April 10, 2025, 3PM GMT (11AM EDT) - Working Group Meeting 1
+* April 24, 2025, 3PM GMT (11AM EDT) - Working Group Meeting 2
+* May 8, 2025, 3PM GMT (11AM EDT) - Working Group Meeting 3
 
 ---
 
@@ -71,6 +96,6 @@ sidebar_position: 1
        minWidth: "150px",
        height: "48px",
      }}>
-    Join Discourse
+    Join Our Forum
   </a>
 </div>

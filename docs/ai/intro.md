@@ -52,9 +52,9 @@ sidebar_position: 1
 
 ## Working Group Meetings
 
-* 1 May, 3PM GMT (11AM EDT) - Working Group Meeting 1
-* 15 May, 3PM GMT (11AM EDT) - Working Group Meeting 2
-* 29 May, 3PM GMT (11AM EDT) - Working Group Meeting 3
+* May 1, 2025, 3PM GMT (11AM EDT) - Working Group Meeting 1
+* May 15, 2025, 3PM GMT (11AM EDT) - Working Group Meeting 2
+* May 29, 2025, 3PM GMT (11AM EDT) - Working Group Meeting 3
 
 ---
 
@@ -75,6 +75,6 @@ sidebar_position: 1
        minWidth: "150px",
        height: "48px",
      }}>
-    Join Discourse
+    Join Our Forum
   </a>
 </div>

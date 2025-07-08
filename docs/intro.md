@@ -31,6 +31,6 @@ Join us at Optimist Hour—we'd love to hear your ideas and work together to sha
        minWidth: "150px",
        height: "48px",
      }}>
-    Join Discourse
+    Join Our Forum
   </a>
 </div>

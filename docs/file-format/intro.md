@@ -8,10 +8,10 @@ We address standard APIs and interoperability issues for trace data formats of s
 
 ## **Latest version: [File Format for Traces v0.5 (1/6/2025)](/pdf/ffft05.pdf)**
 <details>
-  <summary>Click to view BibTeX</summary>
+  <summary>BibTex</summary>
 
   ```bibtex
-  @misc{optimist2025,
+  @misc{file-format-optimist2025,
     author = {Aydin Aysu and Gaetan Cassiers and Fatemeh Ganji and Vincent Immler and Jens-Peter Kaps and Trey Marcantonio and Jean-Michel Picod and Patrick Schaumont and Aurelien Vasselle},
     title = {Open Tools, Interfaces and Metrics for Implementation Security Testing: File Format for Traces - Requirements and Glossary},
     year = {2025},
@@ -87,9 +87,9 @@ We recommend joining the [Optimist OSE Discourse](https://discourse.optimist-ose
 
 ## Working Group Meetings
 
-- Thursday November 14th, 2024 (3 PM GMT) [[Slides](/pdf/trace-data-format-1.pdf)] - Working Group Meeting 1
-- Thursday December 5th, 2024 (3 PM GMT) [[Slides](/pdf/trace-data-format-2.pdf)] - Working Group Meeting 2
-- Thursday December 19th, 2024 (3 PM GMT) [[Slides](/pdf/trace-data-format-3.pdf)] - Working Group Meeting 3
+- November 14, 2024 (3 PM GMT) [[Slides](/pdf/trace-data-format-1.pdf)] - Working Group Meeting 1
+- December 5, 2024 (3 PM GMT) [[Slides](/pdf/trace-data-format-2.pdf)] - Working Group Meeting 2
+- December 19, 2024 (3 PM GMT) [[Slides](/pdf/trace-data-format-3.pdf)] - Working Group Meeting 3
 
 <!-- ## Organizers
 
@@ -115,7 +115,7 @@ We recommend joining the [Optimist OSE Discourse](https://discourse.optimist-ose
        minWidth: "150px",
        height: "48px",
      }}>
-    Join Discourse
+    Join Our Forum
   </a>
 </div>
 
