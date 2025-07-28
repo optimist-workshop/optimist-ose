@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Testing Post-Quantum Cryptography Implementation Security
 
-**OPTIMIST** (Open Tools, Interfaces, and Metrics for Implementation Security Testing) is an open-source initiative to improve standardization and interoperability in security testing for cryptographic implementations. As PQC schemes move toward real-world deployment, ensuring their resilience against implementation attacks is critical. This session will bring together researchers, industry professionals, and government stakeholders to discuss challenges, methodologies, and best practices for securing PQC implementations.  
+This document consolidates community-driven insights and recommendations for implementation security testing of post-quantum cryptography, detailing essential terminology, open-source tools, hardware/software implementations, and strategies for creating reproducible side-channel datasets tailored to the unique challenges of PQC algorithms.
 
 ## **Latest version: [Testing Post-Quantum Cryptography Implementation Security v0.5 (7/8/2025)](/pdf/pqc05.pdf)**
 <details>
@@ -26,7 +26,7 @@ sidebar_position: 1
   ```
 </details>
 
-## Talks
+## Opening Talks
 
 <ul>
   <li>

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # File Format for Traces
 
-We address standard APIs and interoperability issues for trace data formats of side-channel data and other real-time measurements of implementation security. We will host several invited speakers and have a discussion session. Our objective for this hour is to gather the community input and interest in the definition of a common API for Trace Data Formats.
+This document is a list of common terms and requirements relevantto a file format for measurement data from implementation security testing,with an emphasis on data that represents side-channel leakage.
 
 ## **Latest version: [File Format for Traces v0.5 (1/6/2025)](/pdf/ffft05.pdf)**
 <details>
@@ -28,7 +28,7 @@ We address standard APIs and interoperability issues for trace data formats of s
 
 ---
 
-## Talks
+## Opening Talks
 
 - Dev Mehta (WPI) — **Challenges with using open source SCL databases** [[Slides](/pdf/challenges_dataset.pdf)]
 - Marc Witteman (Riscure) — **Standard API for Trace Data Formats** [[Slides](/pdf/marc_witteman_riscure_slides_optimist_hour_1.pdf)]

@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Capture Interface for Side Channel and Fault Injection Setups
 
+This document provides information about existing capture interfaces to suggest evaluation criteria and recommended features useful for implementation security testing.
+
 ## **Latest version: [Capture Interface for Side Channel and Fault Injection Setups v0.5 (3/6/2025)](/pdf/OPTIMIST_OSE_API.pdf)**
 <details>
   <summary>BibTex</summary>
@@ -26,7 +28,7 @@ sidebar_position: 1
 
 ---
 
-## Talks
+## Opening Talks
 
 - Jean-Pierre Thibault (NewAE) — **Capture Interfaces in Chipwhisperer Family** [<a href="/pdf/thibault_cwinterfaces.pdf">Slides</a>]
 
