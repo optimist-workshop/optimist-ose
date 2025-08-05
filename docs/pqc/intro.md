@@ -6,7 +6,7 @@ sidebar_position: 1
 
 This document consolidates community-driven insights and recommendations for implementation security testing of post-quantum cryptography, detailing essential terminology, open-source tools, hardware/software implementations, and strategies for creating reproducible side-channel datasets tailored to the unique challenges of PQC algorithms.
 
-## **Latest version: [Testing Post-Quantum Cryptography Implementation Security v0.5 (7/8/2025)](/pdf/pqc05.pdf)**
+## **Latest version: [Testing Post-Quantum Cryptography Implementation Security v0.5 (6/4/2025)](/pdf/pqc05.pdf)**
 <details>
   <summary>BibTex</summary>
 
@@ -15,8 +15,8 @@ This document consolidates community-driven insights and recommendations for imp
     author = {Aydin Aysu and Daniel Dinu and Kris Gaj and Fatemeh Ganji and Mona Hashemi and Renita J and Dev Mehta and Markku-Juhani O. Saarinen and Patrick Schaumont and Caner Tol},
     title = {Open Tools, Interfaces and Metrics for Implementation Security Testing: Testing Post-Quantum Cryptography Implementation Security},
     year = {2025},
-    month = {July},
-    day = {8},
+    month = {June},
+    day = {4},
     version = {0.5},
     note = {Working Document},
     url = {https://optimist-ose.org/assets/files/pqc05-06308116ce3dcd2d2edd34255985f303.pdf},
