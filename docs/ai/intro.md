@@ -6,7 +6,7 @@ sidebar_position: 1
 
 This document reviews the state of open tools, data and methods related to the use of AI acceleration platforms and AI algorithms for implementation security testing. The document also identifies the key areas for improvements and potential for standardization. Previous OPTIMIST documents already discuss the file format for side-channel traces, the capture interface, and PQC testing methods for implementation security testing campaigns. 
 
-## **Latest version: [Acceleration of AI for Implementation Security Testing v0.5 (7/28/2025)](/pdf/ai05.pdf)**
+## **Latest version: [Acceleration of AI for Implementation Security Testing v0.5 (7/8/2025)](/pdf/ai05.pdf)**
 <details>
   <summary>BibTex</summary>
 
@@ -16,7 +16,7 @@ This document reviews the state of open tools, data and methods related to the u
     title = {Open Tools, Interfaces and Metrics for Implementation Security Testing: Acceleration of AI for Implementation Security Testing},
     year = {2025},
     month = {July},
-    day = {28},
+    day = {8},
     version = {0.5},
     note = {Working Document},
     url = {https://optimist-ose.org/assets/files/ai05-2c91cc286b4872a73c3d434b010ee7df.pdf},
