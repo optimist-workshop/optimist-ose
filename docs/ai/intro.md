@@ -19,7 +19,7 @@ This document reviews the state of open tools, data and methods related to the u
     day = {28},
     version = {0.5},
     note = {Working Document},
-    url = {https://optimist-ose.org/assets/files/ai05-5ef7ca249cd5b755da08970b9f8f7d0d.pdf},
+    url = {https://optimist-ose.org/assets/files/ai05-2c91cc286b4872a73c3d434b010ee7df.pdf},
     institution = {Optimist OSE},
     howpublished = {Online},
   }
