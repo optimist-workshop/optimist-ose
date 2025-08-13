@@ -19,7 +19,11 @@ const FeatureList = [
 
   },
   {
-    title: '2nd OPTIMIST Workshop co-located with CHES 2025!',
+    title: (
+      <a href="/ches25" rel="noopener noreferrer">
+        2nd OPTIMIST Workshop co-located with CHES 2025!
+      </a>
+    ),
     Svg: require('@site/static/img/undraw_conference_3n82.svg').default, // Changed to a more generic calendar/event SVG
     description: (
       <>
@@ -29,18 +33,12 @@ const FeatureList = [
         <strong>📅 Workshop date:</strong> September 14, 2025<br />
         <strong>📍 Location:</strong> Kuala Lumpur, Malaysia<br />
         <br />
-        <p style={{ marginBottom: 0 }}>
-          <strong>Call for Contributions is open!</strong>
-        </p>
         <p style={{ marginTop: 0 }}>
-          We invite proposals for talks on topics like standard APIs, datasets, and evaluation tools.
+          🚨 Tentative workshop program is now available!
         </p>
-
-        <strong>⏰ Submission Deadline:</strong> July 14, 2025<br />
        
-        <br />
         <a className="button button--primary" href="/ches25">
-          Learn More & Submit a Proposal
+          Learn More
         </a>
       </>
     ),
