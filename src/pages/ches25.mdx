@@ -36,7 +36,21 @@ The OPTIMIST workshop is a forum to present and discuss new efforts that enable 
 
 ### mlkem-native & mldsa-native: Open-source High-Speed High-Assurance PQC
 
+In this talk, I will describe mlkem-native and mldsa-native, C/Assembly implementations of the ML-KEM and ML-DSA post-quantum cryptography standards. Both implementations are developed in collaboration with Amazon Web Services and belong to the Post-Quantum Code Package - a sub-project of the Post-Quantum Cryptography Alliance. mlkem-native and mldsa-native prioritize both performance and trustworthiness. For performance, we employ (super-)optimized assembly in performance-critical components - mlkem-native achieves state-of-the-art performance on Arm64 and x86_64 platforms, while mldsa-native is under active development. For trustworthiness, we apply formal verification: All C code is proved memory-safe and type-safe using CBMC, and AArch64 assembly in mlkem-native is proved functionally correct using HOL-Light. Additionally, we ensure protection against timing side-channels through extensive constant-time testing using Valgrind (including a patch allowing detection of secret-dependent divisions from the KyberSlash paper), fully integrated into our CI pipeline. Through formal verification and rigorous testing, these implementations enable the confident adoption of highly complex code that would otherwise be difficult to gain trust in.
+
 <div>
+  <img
+    src="/img/people/matthias-kannwischer.jpg"
+    alt="Matthias Kannwischer"
+    style={{
+      width: '160px',
+      borderRadius: '12px',
+      float: 'left',
+      marginRight: '24px',
+      marginBottom: '8px',
+    }}
+  />
+
   <p style={{ marginTop: 0 }}>
     <a href="https://kannwischer.eu/" 
   style={{
@@ -44,7 +58,8 @@ The OPTIMIST workshop is a forum to present and discuss new efforts that enable 
     fontWeight: 'bold', 
     fontSize: '1.2em', 
     textDecoration: 'none'
-  }}> Matthias Kannwischer </a>
+  }}> Matthias Kannwischer </a> is the research director at the Taipei-based quantum-safe cryptography startup Chelpis Quantum Corp. His group works on high-speed & high-assurance implementations of cryptography with a focus on quantum-safe constructions. Matthias has authored over 20 publications on quantum-safe cryptography implementations. In 2022, he obtained a PhD in post-quantum cryptography implementations from Radboud University, The Netherlands where he was supervised by Peter Schwabe. Prior to joining Chelpis, Matthias was a postdoctoral researcher at Academia Sinica, Taiwan, and a researcher at the Max Planck Institute for Security and Privacy, Germany. Matthias contributes to open-source cryptographic software and is currently a maintainer of mlkem-native, mldsa-native, PQClean, and pqm4. He is also part of the design teams of the two promising quantum-safe signature schemes UOV and MAYO that have been shortlisted by NIST as promising round-2 candidates.
+
   </p>
 </div>
 
