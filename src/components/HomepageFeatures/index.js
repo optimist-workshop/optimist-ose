@@ -34,7 +34,7 @@ const FeatureList = [
         <strong>📍 Location:</strong> Kuala Lumpur, Malaysia<br />
         <br />
         <p style={{ marginTop: 0 }}>
-          🚨 Tentative workshop program is now available!
+          🚨 Workshop slides are now available!
         </p>
        
         <a className="button button--primary" href="/ches25">
