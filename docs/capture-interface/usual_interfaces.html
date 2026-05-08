@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-capture-interface/usual_interfaces" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.10.1">
+<title data-rh="true">Usual Interfaces in Practice | OPTIMIST</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://optimist-ose.org/img/logo.jpeg"><meta data-rh="true" name="twitter:image" content="https://optimist-ose.org/img/logo.jpeg"><meta data-rh="true" property="og:url" content="https://optimist-ose.org/docs/capture-interface/usual_interfaces"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Usual Interfaces in Practice | OPTIMIST"><meta data-rh="true" name="description" content="This section enumerates the interfaces that exist in typical side-channel and fault analysis setups."><meta data-rh="true" property="og:description" content="This section enumerates the interfaces that exist in typical side-channel and fault analysis setups."><link data-rh="true" rel="icon" href="/img/optimist_logo.ico"><link data-rh="true" rel="canonical" href="https://optimist-ose.org/docs/capture-interface/usual_interfaces"><link data-rh="true" rel="alternate" href="https://optimist-ose.org/docs/capture-interface/usual_interfaces" hreflang="en"><link data-rh="true" rel="alternate" href="https://optimist-ose.org/docs/capture-interface/usual_interfaces" hreflang="x-default"><link data-rh="true" rel="preconnect" href="https://LZENGH3F53-dsn.algolia.net" crossorigin="anonymous"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Capture Interface","item":"https://optimist-ose.org/docs/capture-interface/intro"},{"@type":"ListItem","position":2,"name":"Usual Interfaces in Practice","item":"https://optimist-ose.org/docs/capture-interface/usual_interfaces"}]}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="OPTIMIST RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="OPTIMIST Atom Feed">
+
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4M5R7RKYZF"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-4M5R7RKYZF",{anonymize_ip:!0})</script>
+
+
+
+<link rel="search" type="application/opensearchdescription+xml" title="OPTIMIST" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.4bb68718.css">
+<script src="/assets/js/runtime~main.2b57dcb6.js" defer="defer"></script>
+<script src="/assets/js/main.dac34aff.js" defer="defer"></script>
+</head>
+<body>
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/logo.jpeg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.jpeg" alt="OPTIMIST Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/logo.jpeg" alt="OPTIMIST Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate"></b></a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">About</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/blog/open-source">Why OPTIMIST?</a></li><li><a class="dropdown__link" href="/organization">Organization</a></li><li><a class="dropdown__link" href="/timeline">Timeline</a></li><li><a class="dropdown__link" href="/contact">Contact</a></li></ul></div><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/intro">Documentation</a><a class="navbar__item navbar__link" href="/blog">Blog</a><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Workshops</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/ches25">CHES 2025</a></li><li><a class="dropdown__link" href="/ches24">CHES 2024</a></li></ul></div><a href="https://discourse.optimist-ose.org/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Forum</a><a class="navbar__item navbar__link navbar-button" target="_self" href="/join">Join</a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><button type="button" class="DocSearch DocSearch-Button" aria-label="Search (Meta+k)" aria-keyshortcuts="Meta+k"><span class="DocSearch-Button-Container"><svg width="20" height="20" class="DocSearch-Search-Icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8" stroke="currentColor" fill="none" stroke-width="1.4"></circle><path d="m21 21-4.3-4.3" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="DocSearch-Button-Placeholder">Search</span></span><span class="DocSearch-Button-Keys"></span></button></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/intro"><span title="Introduction" class="linkLabel_WmDU">Introduction</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/docs/file-format/intro"><span title="File Format" class="categoryLinkLabel_W154">File Format</span></a><button aria-label="Expand sidebar category &#x27;File Format&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/docs/capture-interface/intro"><span title="Capture Interface" class="categoryLinkLabel_W154">Capture Interface</span></a><button aria-label="Collapse sidebar category &#x27;Capture Interface&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/capture-interface/glossary"><span title="Glossary" class="linkLabel_WmDU">Glossary</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/capture-interface/components"><span title="Components" class="linkLabel_WmDU">Components</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/capture-interface/usual_interfaces"><span title="Usual Interfaces in Practice" class="linkLabel_WmDU">Usual Interfaces in Practice</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/capture-interface/evaluation_criteria"><span title="Evaluation Criteria for APIs" class="linkLabel_WmDU">Evaluation Criteria for APIs</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/capture-interface/examples"><span title="Examples" class="linkLabel_WmDU">Examples</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/capture-interface/frameworks"><span title="Open-source Capture Interface" class="linkLabel_WmDU">Open-source Capture Interface</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/docs/pqc/intro"><span title="Testing PQC" class="categoryLinkLabel_W154">Testing PQC</span></a><button aria-label="Expand sidebar category &#x27;Testing PQC&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/docs/ai/intro"><span title="AI" class="categoryLinkLabel_W154">AI</span></a><button aria-label="Expand sidebar category &#x27;AI&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/docs/capture-interface/intro"><span>Capture Interface</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Usual Interfaces in Practice</span></li></ul></nav><div class="theme-doc-markdown markdown"><header><h1>Usual Interfaces in Practice</h1></header>
+<p>This section enumerates the interfaces that exist in typical side-channel and fault analysis setups.</p>
+<ol>
+<li class="">
+<p><strong>User Computer ↔️ Workstation</strong></p>
+<p>a.	<strong>Purpose:</strong> the User Computer provides a human interface to the measurement setup, including control of the workstation, and visualization and analysis of measurement data.</p>
+<p>b.	<strong>Data:</strong> session control, configuration of workstation, transfer of formatted payloads (target firmware, target bitstream, target test vectors, measured data).</p>
+<p>c.	<strong>Features:</strong> bandwidth, latency, real-time response.</p>
+<p>d.	<strong>Logical layer:</strong> API for Session Control, API for Payload Formatting.</p>
+<p>e.	<strong>Physical layer:</strong> digital Data Transfer.</p>
+<p>f.	<strong>Example:</strong> USB, Ethernet.</p>
+</li>
+<li class="">
+<p><strong>Workstation ↔️ Control Board</strong></p>
+<p>a.	<strong>Purpose:</strong> allows sending/receiving information (e.g., configuration, state, plaintexts, ciphertexts, number of repetitions) to the Target, executing one or multiple operations with/without repeatedly sending all the inputs from the Workstation to the Target each time. In some setups, the Control Board may not be present as the Workstation is directly connected to the Target. In some instances, the communication of inputs and/or outputs can be handled for efficiency reasons by the Communication (see Interface 14) instead of the Control Board. In other cases, the Control Board can be merged with the Target.</p>
+<p>b.	<strong>Data:</strong> test vectors (e.g., inputs, expected outputs) and commands (e.g., execute a specific operation) from the Workstation to the Control Board, which are forwarded, as they are or in a different form, to the Target. The control board responds to the commands from the workstation, which may include status and outputs received by the control board from the target.</p>
+<p>c.	<strong>Features:</strong> bandwidth, latency, signaling, and communication protocols.</p>
+<p>d.	<strong>Logical layer:</strong> usually a user-defined API/protocol for control/data formatting.</p>
+<p>e.	<strong>Physical layer:</strong> digital data transfer.</p>
+<p>f.	<strong>Example:</strong> USB, UART, Ethernet.</p>
+</li>
+<li class="">
+<p><strong>Workstation</strong> ↔️ <strong>Target</strong> (if directly connected)</p>
+<p>a.	<strong>Purpose:</strong> configuring the target prior to measurements, controlling the operation of the target before and during measurements, resetting/restarting the target (if unresponsive), and receiving data from the target (if applicable).</p>
+<p>b.	<strong>Data:</strong> configuration of the target (e.g., FPGA configuration file if the target is to be programmed), inputs (e.g., plaintexts on which the target cryptographic algorithm operates), operation mode (in case the target supports several operation or configuration modes, e.g., number of encryptions, frequency, enabling target operation (e.g., enabling the clock).</p>
+<p>c.	<strong>Features:</strong> bandwidth, voltage levels, signaling, and communication protocol.</p>
+<p>d.	<strong>Logical layer:</strong> file formats and corresponding drivers for communication protocols with the targets.</p>
+<p>e.	<strong>Physical layer:</strong> digital data transfer.</p>
+<p>f.	<strong>Example:</strong> USB, UART, Ethernet, PCIe.</p>
+</li>
+<li class="">
+<p><strong>Sensor</strong> ➡️ <strong>Signal conditioner</strong></p>
+<p>a.	<strong>Purpose:</strong> transport of measured analog data to an analog conditioner, improving the signal.</p>
+<p>b.	<strong>Data:</strong> analog signal.</p>
+<p>c.	<strong>Features:</strong> impedance characteristics, bandwidth</p>
+<p>d.	<strong>Logical layer:</strong> NA</p>
+<p>e.	<strong>Physical layer:</strong> analog data transfer.</p>
+<p>f.	<strong>Example:</strong> cable connections (BNC, SMA...).</p>
+</li>
+<li class="">
+<p><strong>Signal conditioner</strong> ➡️ <strong>Sampler</strong></p>
+<p>a.	<strong>Purpose:</strong> ADC, Analysis</p>
+<p>b.	<strong>Data:</strong> analog signal captured from the sensor</p>
+<p>c.	<strong>Features:</strong> Filtering, DC block</p>
+<p>d.	<strong>Logical layer:</strong> NA</p>
+<p>e.	<strong>Physical layer:</strong> electrical connection.</p>
+<p>f.	<strong>Example:</strong> BNC, SMA, etc.</p>
+</li>
+<li class="">
+<p><strong>Signal conditioner</strong> ➡️ <strong>Trigger</strong></p>
+<p>a.	<strong>Purpose:</strong> synchronization between target and sampler.</p>
+<p>b.	<strong>Data:</strong> soft trigger signal, e.g., generated by analysis of signal vs. explicit generation by target.</p>
+<p>c.	<strong>Features:</strong> filtering and amplifying.</p>
+<p>d.	<strong>Logical layer:</strong> none.</p>
+<p>e.	<strong>Physical layer:</strong> electrical connection carrying digital signal (positive edge = start trigger, negative edge = end trigger)</p>
+<p>f.	<strong>Example:</strong> the signal conditioning module of an oscilloscope being connected to the power line of the target.</p>
+</li>
+<li class="">
+<p><strong>Trigger</strong> ↔️ <strong>Target</strong> (unidirectional, can be <strong>Trigger</strong> ➡️ <strong>Target</strong> or <strong>Target</strong> ➡️ <strong>Trigger</strong>)</p>
+<p>a.	<strong>Purpose:</strong> timing synchronization between target and controller/sampler ensures alignment of traces.</p>
+<p>b.	<strong>Data:</strong> timing information signals the start of an execution.</p>
+<p>c.	<strong>Features:</strong> timing accuracy, jitter, rise time.</p>
+<p>d.	<strong>Logical layer:</strong> repeated events with accurate timing.</p>
+<p>e.	<strong>Physical layer:</strong> voltage edge over a single wire (typ. 3.3V or 5V).</p>
+<p>f.	<strong>Example:</strong> an oscilloscope’s waveform generator.</p>
+</li>
+<li class="">
+<p><strong>Trigger</strong> ➡️ <strong>Sampler</strong></p>
+<p>a.	<strong>Purpose:</strong> analysis, configuration.</p>
+<p>b.	<strong>Data:</strong> signals from trigger to sampler.</p>
+<p>c.	<strong>Features:</strong> bandwidth, speed, communication protocol, and its means.</p>
+<p>d.	<strong>Logical layer:</strong> API for handling control, configuration, synchronization, and error handling.</p>
+<p>e.	<strong>Physical layer:</strong> electrical connection.</p>
+<p>f.	<strong>Example:</strong> ethernet, serial, USB.</p>
+</li>
+<li class="">
+<p><strong>Control ➡️ Trigger</strong></p>
+<p>a.	<strong>Purpose:</strong> analysis, configuration.</p>
+<p>b.	<strong>Data:</strong> signals from trigger to sampler.</p>
+<p>c.	<strong>Features:</strong> bandwidth, speed, communication protocol, and its means.</p>
+<p>d.	<strong>Logical layer:</strong> API that is responsible for managing the communication, synchronization, and control between the control and trigger components.</p>
+<p>e.	<strong>Physical layer:</strong> electrical connection.</p>
+<p>f.	<strong>Example:</strong> ethernet, serial, USB.</p>
+</li>
+<li class="">
+<p><strong>Power supply ➡️ Target</strong></p>
+<p>a.	<strong>Purpose:</strong> powering on/off the target, force restart.</p>
+<p>b.	<strong>Data:</strong> none.</p>
+<p>c.	<strong>Features:</strong> low-noise, voltage levels.</p>
+<p>d.	<strong>Logical layer:</strong> none.</p>
+<p>e.	<strong>Physical layer:</strong> electrical connection.</p>
+<p>f.	<strong>Example:</strong> USB.</p>
+</li>
+<li class="">
+<p><strong>Target ➡️ Sensor</strong></p>
+<p>a.	<strong>Purpose:</strong> It ensures that the sensor captures relevant signals that can be analyzed to extract sensitive information (e.g., cryptographic keys) or study vulnerabilities in the target device’s operation.</p>
+<p>b.	<strong>Data:</strong> outputs of the target operation.</p>
+<p>c.	<strong>Features:</strong> sampling rate, trigger conditions, and other acquisition parameters to fine-tune the data capture.</p>
+<p>d.	<strong>Logical layer:</strong> API with commands that allow for configuring the sensor (sampling rate, trigger conditions), initiating and stopping captures, and handling the data after capture.</p>
+<p>e.	<strong>Physical layer:</strong> interface with the target device, including the physical connections, such as cables and pins.</p>
+<p>f.	<strong>Example:</strong> an oscilloscope probe attached to power or signal lines.</p>
+</li>
+<li class="">
+<p><strong>Target ↔️ Communication</strong></p>
+<p>a.	<strong>Purpose:</strong> target control; obtain and/or verify target result.</p>
+<p>b.	<strong>Data:</strong> inputs and outputs of the target operation (e.g., key, plaintext, ciphertext...)</p>
+<p>c.	<strong>Features:</strong> allow for different sizes</p>
+<p>d.	<strong>Logical layer:</strong> some protocol is needed (e.g., CW simple serial)</p>
+<p>e.	<strong>Physical layer:</strong> electrical connection</p>
+<p>f.	<strong>Example:</strong> UART, ethernet</p>
+</li>
+<li class="">
+<p><strong>Control Board ➡️ Target</strong></p>
+<p>a.	<strong>Purpose:</strong> Controlling the target.</p>
+<p>b.	<strong>Data:</strong> Control signal.</p>
+<p>c.	<strong>Features:</strong> timing, bit-width.</p>
+<p>d.	<strong>Logical layer:</strong> direct connections.</p>
+<p>e.	<strong>Physical layer:</strong> signal wires.</p>
+<p>f.	<strong>Example:</strong> wires.</p>
+</li>
+<li class="">
+<p><strong>Communication ↔️ Workstation</strong></p>
+<p>a.	<strong>Purpose:</strong> target control and data transfer. The communication module can be part of the components connected to one another, e.g., the control board can have an embedded communication module.</p>
+<p>b.	<strong>Data:</strong> all necessary packets required for trigger, control/ data packets.</p>
+<p>c.	<strong>Features:</strong> speed, bandwidth, throughput</p>
+<p>d.	<strong>Logical layer:</strong> packets format</p>
+<p>e.	<strong>Physical layer:</strong> USB</p>
+<p>f.	<strong>Example:</strong> USB, UART, ethernet</p>
+</li>
+<li class="">
+<p><strong>Workstation ➡️ Fault generator</strong></p>
+<p>a.	<strong>Purpose:</strong> configure the fault generator.</p>
+<p>b.	<strong>Data:</strong> characteristics of the fault (e.g., for a clock glitch: offset, period, etc.); perhaps enable (or arm) and/or disable (or disarm) signal</p>
+<p>c.	<strong>Features:</strong> resolution, bandwidth, speed, communication protocol, and its means.</p>
+<p>d.	<strong>Logical layer:</strong> API that abstracts communication protocol.</p>
+<p>e.	<strong>Physical layer:</strong> electrical connection.</p>
+<p>f.	<strong>Example:</strong> ethernet, serial, USB</p>
+</li>
+<li class="">
+<p><strong>Workstation ↔️ Sampler</strong></p>
+<p>a.	<strong>Purpose:</strong> analysis, configuration.</p>
+<p>b.	<strong>Data:</strong> configuration information going to the sampler, traces coming from the workstation.</p>
+<p>c.	<strong>Features:</strong> resolution, bandwidth, speed, communication protocol, and its means.</p>
+<p>d.	<strong>Logical layer:</strong> data formatted according to the API.</p>
+<p>e.	<strong>Physical layer:</strong> digital data transfer.</p>
+<p>f.	<strong>Example:</strong> ethernet, serial, USB.</p>
+</li>
+<li class="">
+<p><strong>Workstation ➡️ Clock</strong></p>
+<p>a.	<strong>Purpose:</strong> configure the clock signal to be supplied by the Clock to the Target and Fault Generator.</p>
+<p>b.	<strong>Data:</strong> configuration information (e.g., frequency, amplitude, width, duty cycle, rise time, fall time) from the Workstation to the Clock, which generates the clock signal used by the Target and Fault Generator.</p>
+<p>c.	<strong>Features:</strong> bandwidth, latency, characteristics of the communication protocol/API supported by the Clock.</p>
+<p>d.	<strong>Logical layer:</strong> data formatted according to the API of the clock generator</p>
+<p>e.	<strong>Physical layer:</strong> digital data transfer.</p>
+<p>f.	<strong>Example:</strong> USB, Ethernet.</p>
+</li>
+<li class="">
+<p><strong>Clock ↔️ Target</strong></p>
+<p>a.	<strong>Purpose:</strong> provide a reference clock to the target (➡️) or get the target clock to synchronize other components (⬅️).</p>
+<p>b.	<strong>Data:</strong> analog clock signal.</p>
+<p>c.	<strong>Features:</strong> impedance characteristics, voltage levels, frequency.</p>
+<p>d.	<strong>Logical layer:</strong> None.</p>
+<p>e.	<strong>Physical layer:</strong> analog Data Transfer.</p>
+<p>f.	<strong>Example:</strong> quartz on a board (➡️), function generator connected to the target clock input (➡️), internal clock exposed on a GPIO (⬅️).</p>
+</li>
+<li class="">
+<p><strong>Clock ➡️ Sampler</strong></p>
+<p>a.	<strong>Purpose:</strong> synchronizing the sampler with the target.</p>
+<p>b.	<strong>Data:</strong> clock signal(s) directly or indirectly clock-related information such as frequency or phase.</p>
+<p>c.	<strong>Features:</strong> frequency, voltage levels, phase with respect to a reference.</p>
+<p>d.	<strong>Logical layer:</strong> API for clock-specific information (frequency, phase) or none.</p>
+<p>e.	<strong>Physical layer:</strong> digital signal or digital data transfer.</p>
+<p>f.	<strong>Example:</strong> high bandwidth interfaces (SMA, BNC) or digital communication interfaces (UART, USB).</p>
+</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="interfaces" src="/assets/images/fig1-1c7ca6b3fe986865e851c47e75b257f5.png" width="1100" height="718" class="img_ev3q"></p>
+<p><em>Figure 1: Interfaces in a side-channel/fault analysis setup.</em></p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/capture-interface/components"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Components</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/capture-interface/evaluation_criteria"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Evaluation Criteria for APIs</div></a></nav></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/intro">Documentation</a></li><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discourse.optimist-ose.org/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Forum<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/join">Join our mailing list</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/optimist-workshop/optimist-ose" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/contact">Contact us</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright"><img src="/img/nsf_logo.svg" alt="NSF Logo" style="height: 50px; vertical-align: middle; margin-left: 5px;"> Supported in part by NSF POSE <a class="award-link" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2346138&HistoricalAwards=false" target="_blank" rel="noopener noreferrer">Award 2346138</a>. <br> Copyright © 2026 OPTIMIST. </div></div></div></footer><div class="popupContainer_sIzL"><button class="closeButton_BieS" aria-label="Close mailing list popup">×</button><h4>Stay Updated!</h4><p>Join our mailing list for <br>the latest news.</p><a class="button button--primary button--sm" href="/join">Join Now</a></div> </div>
+</body>
+</html>
