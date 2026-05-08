@@ -33,7 +33,7 @@ function HomepageHeader() {
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   const bannerRef = useRef(null);
-  const bannerLink = "/ches25"; // Changed to CHES 2025 page
+  const bannerLink = "/ches26"; // Changed to CHES 2025 page
 
   useEffect(() => {
     const timer = setTimeout(() => {

@@ -20,24 +20,21 @@ const FeatureList = [
   },
   {
     title: (
-      <a href="/ches25" rel="noopener noreferrer">
-        2nd OPTIMIST Workshop co-located with CHES 2025!
+      <a href="/ches26" rel="noopener noreferrer">
+        3rd OPTIMIST Workshop co-located with CHES 2026!
       </a>
     ),
     Svg: require('@site/static/img/undraw_conference_3n82.svg').default, // Changed to a more generic calendar/event SVG
     description: (
       <>
         <p>
-          We are excited to announce that we will be hosting the 2nd OPTIMIST workshop! The OPTIMIST workshop is a forum to present and discuss new efforts that enable open and reproducible research in implementation security testing.
+            The 3rd OPTIMIST workshop will be co-located with CHES 2026! The OPTIMIST workshop a forum to present and discuss new efforts that enable open and reproducible research in implementation security testing.
         </p>
-        <strong>📅 Workshop date:</strong> September 14, 2025<br />
-        <strong>📍 Location:</strong> Kuala Lumpur, Malaysia<br />
+        <strong>📅 Workshop date:</strong> October 11, 2026<br />
+            <strong>🌍 Location:</strong> Antalya, Turkey<br />
         <br />
-        <p style={{ marginTop: 0 }}>
-          🚨 Workshop slides are now available!
-        </p>
        
-        <a className="button button--primary" href="/ches25">
+        <a className="button button--primary" href="/ches26">
           Learn More
         </a>
       </>
