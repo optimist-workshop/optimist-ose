@@ -22,7 +22,7 @@ const members = [
       linkedin: 'https://www.linkedin.com/in/fatemeh-saba-ganji-335a68b4/'
     },
     {
-      id: 'schaoumont',
+      id: 'schaumont',
       name: 'Patrick Schaumont',
       title: 'Professor, WPI',
       url: 'https://www.wpi.edu/people/faculty/pschaumont',
@@ -40,6 +40,16 @@ const members = [
       permalink: '/caner-tol',
       email: 'mailto:mtol@wpi.edu',
       linkedin: 'https://www.linkedin.com/in/canertol/'
+    },
+    {
+      id: 'nour',
+      name: 'Mohammad Nour',
+      title: 'PhD Student, WPI',
+      url: 'https://www.linkedin.com/in/mnourani/',
+      imageUrl: '/img/people/mohammad.jpeg',
+      permalink: '/mohammad-nour',
+      email: 'mailto:snouraniboosjin@wpi.edu',
+      linkedin: 'https://www.linkedin.com/in/mnourani/'
     }
   ];
   
