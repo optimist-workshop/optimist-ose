@@ -6,13 +6,14 @@ import TimeZoneConverter from "@site/src/components/TimeZoneConverter";
 
 const FeatureList = [
   {
-    title: 'OPTIMIST Hours',
+    title: 'OPTIMIST',
     Svg: require('@site/static/img/undraw_google-docs_khfo.svg').default,
     description: (
       <>
-      <p>The OPTIMIST Hour meetings are a place where citizens are able to discuss, share, and debate ideas to address standard APIs and interoperability issues for trace data formats of side-channel data and other real-time measurements of implementation security. These meetings are chaired by a member of the OPTIMIST Team and the primary discussion points are compiled and shared within the OPTIMIST OSE.</p>
+	    <p>OPTIMIST is a forum for open, reproducible, and community-driven work in implementation security. We aim to make security evaluation more measurable, reusable, and comparable by gathering researchers, practitioners, tool developers, dataset creators, evaluators, and standardization stakeholders in a single forum.</p>
 
-      <p>These meetings address three main points brought up during the previous OPTIMIST Hour meeting, including, trace format requirements, keywords, and common APIs. Over the course of three meetings, the goal is to produce documentation that compiles requirements, common keywords, and potential API solutions for trace data formats.</p>
+            <p>We organize various activities to network people around the topic of open-source implementation security testing. The OPTIMIST HOUR is a one-hour online meetings around a focused topic. The OPTIMIST WORKSHOP is organized yearly as a co-located event with CHES. Recently, we also started an OPTIMIST PHD Forum to bring new researchers into the field.
+</p>
       </>
       
     ),
@@ -46,40 +47,31 @@ const FeatureList = [
   Svg: require('@site/static/img/undraw_calendar_76t8.svg').default,
   description: (
     <>
-      <h3> <a href="/docs/ai/intro"  rel="noopener noreferrer">
-        Acceleration of AI for Implementation Security Testing
-        </a></h3>
-      <ul>
-      ✅April 17, 11 AM EDT (3PM GMT) 
-          {/* <li><strong>1 May</strong> - Working Group Meeting</li>
-          <li><strong>15 May</strong> - Working Group Meeting</li>
-          <li><strong>29 May</strong> - Working Group Meeting</li> */}
-      </ul>
 
+     <h3> <a href="/docs/phd/intro"  rel="noopener noreferrer">
+          PhD Forum: AI and side-channel analysis
+      </a></h3> 
+      ✅April 16, 2026
+      ✅April 30, 2026
+      ✅May 14, 2026
+      
+
+     <h3> <a href="/docs/ai/intro"  rel="noopener noreferrer">
+        Acceleration of AI for Implementation Security Testing
+      </a> </h3>
+      ✅April 17, 2025
+      ✅May 1, 2025
+      ✅May 15, 2025
+      ✅May 29, 2025
 
       <h3> <a href="/docs/pqc/intro" rel="noopener noreferrer">
         Testing Post-Quantum Cryptography Implementation Security
-        </a></h3>
-      <ul>
-      ✅March 27, 11 AM EDT (3PM GMT)
-          {/* <li><strong>10 April</strong> - Working Group Meeting</li>
-          <li><strong>24 April</strong> - Working Group Meeting</li>
-          <li><strong>8 May</strong> - Working Group Meeting</li> */}
-      </ul>
-
-      <h3> <a href="/docs/capture-interface/intro" rel="noopener noreferrer">
-        Capture Interface
-        </a></h3>
-      <ul>
-      ✅January 23, 10 AM EST (3 PM GMT)
-      </ul>
-
-      <h3> <a href="/docs/file-format/intro" rel="noopener noreferrer">
-        File Format for Traces
       </a></h3>
-      <ul>
-      ✅October 24, 11 AM EST (3 PM GMT)
-      </ul>
+      ✅March 27, 2025
+      ✅April 10, 2025
+      ✅April 24, 2025
+      ✅May 8, 2025
+
 
       <a className="button button--primary" href="/timeline">
         Click to see the full timeline
