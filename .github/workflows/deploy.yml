@@ -1,10 +1,8 @@
 name: Deploy to GitHub Pages
-
 on:
   push:
     branches:
       - dev
-
 jobs:
   build:
     name: Build Docusaurus
@@ -17,47 +15,25 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
-
-      - name: Enable Corepack
-        run: corepack enable
-
-      - name: Set Yarn to the correct version
-        run: corepack prepare yarn@4.7.0 --activate
-
-      - name: Restore Yarn Cache
-        uses: actions/cache@v3
-        with:
-          path: |
-            .yarn/cache
-            .yarn/unplugged
-          key: yarn-cache-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            yarn-cache-${{ runner.os }}-
-
+          node-version: 20
+          cache: npm
       - name: Install dependencies
-        run: yarn install --immutable
-
+        run: npm ci
       - name: Build website
-        run: yarn build
-
+        run: npm run build
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: build
-
   deploy:
     name: Deploy to GitHub Pages
     needs: build
-
     permissions:
       pages: write
       id-token: write
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
