@@ -150,14 +150,6 @@ const config = {
               { label: "CHES 2024", to: "/ches24" },  // Page 2
             ],
           },
-          {to: 'https://discourse.optimist-ose.org/', label: 'Forum', position: 'right'},
-          {
-            to: "/join",
-            label: "Join",
-            position: "right",
-            className: "navbar-button", // Apply custom class
-            target: "_self", // Ensures it opens in the same tab
-          },
           // {
           //   href: 'https://github.com/optimist-workshop',
           //   label: 'GitHub',
@@ -184,10 +176,6 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Forum',
-                href: 'https://discourse.optimist-ose.org/',
-              },
               {
                 label: 'Join our mailing list',
                 to: '/join',
