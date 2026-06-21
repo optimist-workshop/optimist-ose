@@ -31,6 +31,7 @@ const FeatureList = [
         <p>
             The 3rd OPTIMIST workshop will be co-located with CHES 2026! The OPTIMIST workshop a forum to present and discuss new efforts that enable open and reproducible research in implementation security testing.
         </p>
+            <strong>📢 Extended Submission Deadline: </strong>: <br /> <span style={{color: 'red'}}><strong>July 15, 2026</strong></span><br />
         <strong>📅 Workshop date:</strong> October 11, 2026<br />
             <strong>🌍 Location:</strong> Antalya, Turkey<br />
         <br />
